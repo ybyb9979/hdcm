@@ -1,0 +1,113 @@
+/* 영문 카드신청 */
+html[lang="en"] .p0 {padding: 0 !important;}
+html[lang="en"] .pd_x0{padding-left: 0px !important;padding-right: 0px !important;}.pd_x12{padding-left:12px !important;padding-right:12px !important;}.pd_x16{padding-left:16px !important;padding-right:16px !important;}.pd_x24{padding-left:24px !important;padding-right:24px !important;}
+html[lang="en"] .pd_wrap {padding: 15px 12px 17px 12px !important;}
+html[lang="en"] .w100 {width:100% !important;}
+html[lang="en"] .img_w100 img {width: 100px !important;}
+.mt2 {margin-top:2px !important;}
+
+html[lang="en"].sub_card .ico_tip2.w24 {background: url(/docfiles/resources/mo/images/com/icon/w24/ico_tip.png) no-repeat 50% 50%;}
+
+html[lang="en"] .form_items.en_card { margin-top: 0; }
+html[lang="en"] .form_items.en_card .cert { margin-top: 0; }
+
+html[lang="en"] .input_cell_box.full > .input_cell { width: 100%; white-space: nowrap; }
+html[lang="en"] .input_cell_box.full.focused > .input_cell { width: 48%; }
+html[lang="en"] .input_cell_box.full.focused > .has_dash { width: 4%; }
+html[lang="en"] .input_cell_box.full .input_cell + .input_cell,
+html[lang="en"] .input_cell_box.full .input_cell + .input_cell + .input_cell { opacity: 0; }
+html[lang="en"] .input_cell_box.full.focused .input_cell + .input_cell,
+html[lang="en"] .input_cell_box.full.focused .input_cell + .input_cell + .input_cell,
+html[lang="en"] .input_cell_box.full.completed .input_cell + .input_cell,
+html[lang="en"] .input_cell_box.full.completed .input_cell + .input_cell + .input_cell { opacity: 1; }
+
+html[lang="en"] .box_terms_wrap.error .agree_wrap [class*="box_chk"] .check_label { color: #f00; }
+html[lang="en"] .box_terms_wrap.error .agree_wrap [class*="box_chk"] .check_input + .check_label::before { background-image: url(/docfiles/resources/mo/images/com/icon/w32/ico_check_b_red.png); opacity: 1; }
+
+html[lang="en"] .box_select.error { border-color: #f00; }
+html[lang="en"] .box_select.error select { color: #f00; }
+html[lang="en"] .box_select.error + .p3_m_lt_1ln { margin: 6px 0 0; }
+
+/* html[lang="en"] .en_type .plt_con { background-color: #eef2f4; } */  /* Q10582: 22.01.22 해당 스타일 비활성화 */
+html[lang="en"] .card_plt.en_type .form_items h3 { color: inherit; }
+html[lang="en"] .en_type .plt_con .input_cell input, .en_type .plt_con .box_select select { color: inherit; }
+
+html[lang="en"] .box_content.eng .headline { padding: 16px 24px; }
+
+html[lang="en"] .card_sel_nodata { padding: 40px 0; }
+
+html[lang="en"] .en_car .dt_lover { display: flex; justify-content: space-between; align-items: flex-start; }
+
+html[lang="en"] .en_car .error + [class*="_m_lt"][class*="ln"] { color: #f00; margin-top: 6px; }
+
+html[lang="en"] .sub_card.en_car .list02 li:not(.bg) { align-items: flex-start; }
+html[lang="en"] .en_car .list02.rbico li [class^="textbico"][class*="_mide"] { text-align: right; background-position: 100% -1px; }
+
+html[lang="en"] .en_car .apt_addr_list .last strong { width: 64px; font-size: 10px; font-weight: 700; }
+html[lang="en"] .en_car .apt_addr_cont > h3 { padding-top: 24px; border-top: 1px solid #f5f5f5; }
+html[lang="en"] .popup_agree.en_car .layer_head { padding-top: 20px; }
+
+html[lang="en"] .box_card_type ul > li.center { align-items: center; }
+html[lang="en"] .card_detail_view .detail_top.type_card .info_area .cont_wrap .membership_fee .membership_brand li .txt { align-items: flex-end; }
+html[lang="en"] .box_card_type.small_type .item_wrap .item { min-height: auto; }
+html[lang="en"] .box_card_type.small_type .item_wrap .item ul { margin-top: 0; }
+html[lang="en"] .box_card_type.small_type .item_wrap .item .item_tit + ul { margin-top: 24px; }
+html[lang="en"] .box_card_type.ico_list .save_icon ul { margin-top: 28px; } 
+html[lang="en"] .box_card_type.ico_list .save_icon ul li { display: flex; }
+html[lang="en"] .box_card_type.ico_list .save_icon ul:not([class*="_list03"]) > li + li { margin-top: 24px; }
+html[lang="en"] .box_card_type.ico_list.type2 .save_icon ul li { align-items: center; }
+html[lang="en"] .box_card_type.ico_list .save_icon ul li .img { width: 48px; height: 48px; flex: 0 0 48px; margin-right: 12px; }
+html[lang="en"] .box_card_type.ico_list .save_icon ul li .img .svg { width: 48px; height: 48px; }  
+html[lang="en"] .box_card_type.line_type .line_box { margin-top: 24px; }
+html[lang="en"] .box_card_type.line_type .line_box + .line_box { border-top: 1px solid rgba(0,0,0,0.12); padding-top: 24px; }
+html[lang="en"] .box_card_type.line_type .line_box > ul { margin-top: 24px; }
+html[lang="en"] .box_card_type.line_type .line_box > ul > li + li { margin-top: 18px; }
+html[lang="en"] .box_card_type.line_type.amex .line_box:last-child > ul { margin-top: 0; }
+html[lang="en"] .box_card_type.line_type.amex .line_box:last-child > ul li + li { margin-top: 6px; }
+html[lang="en"] .box_card_type.line_type.amex .line_box:last-child .box_btn p { letter-spacing: -0.5px; }
+html[lang="en"] .box_card_type ul[class*="_list02"] li + li { margin-top: 6px; }
+html[lang="en"] .box_card_type ul[class*="_list03"] li + li { margin-top: 8px; }
+html[lang="en"] .box_card_type .box_row_txt { padding: 0 24px; }
+html[lang="en"] .card_detail_view .detail_top.type_card.type02 .info_area .cont_wrap .card_tit_wrap + .membership_fee.type2 { margin-bottom: 0; }
+html[lang="en"] .card_detail_view .detail_top.type_card.type02 .info_area .cont_wrap .card_tit_wrap + .membership_fee + ul { margin-bottom: 56px; padding: 0 24px; }
+
+html[lang="en"] .detail_top  + .section { margin-top: 80px; }
+html[lang="en"] .box_card_type.premium .item { background-color: #333; color: #fff; }
+html[lang="en"] .box_card_type.premium .item .img_area { width: 80px; height: 80px; }
+html[lang="en"] .box_card_type.premium .item .img_area .svg { width: 80px; height: 80px; }
+html[lang="en"] .box_card_type.premium .item .img_area .svg * { fill: #949494; }
+html[lang="en"] .svg.plt_pink_en * { fill: #e4007f; }
+
+html[lang="en"] .tab_default.active { flex-wrap: wrap; padding: 8px 56px 8px 16px; }
+html[lang="en"] .tab_default.active a { margin-top: 8px; }
+
+html[lang="en"] .step_cont { margin: 24px -24px; padding: 24px 24px 51px; background-color: #f5f5f5; }
+html[lang="en"] .step_cont .ment_box li span { font-size: 12px; white-space: nowrap; transform: translateY(44px); letter-spacing: -0.5px; }
+html[lang="en"] .step_cont .ment_box li span.on { transform: translateY(0); }
+html[lang="en"] .step_cont .ment_box li span.on::after { z-index: -1; }
+html[lang="en"] .step_cont .color_box { margin-top: 12px; }
+html[lang="en"] .step_cont .color_box li + li { border-left: 1px solid #fff; }
+
+html[lang="en"] .terms_table col:first-child { width: 35% !important; }
+
+html[lang="en"] .check_alert {width:80px; height:80px; margin:0 auto; text-align:center;}
+html[lang="en"] .check_alert img {width:100%;}
+
+
+/* 카드상세 - 연회비팝업 Q10510 */
+html[lang="en"] .membership_fee .btn_pop_arrow {display: inline-block; position: absolute; top: 16px; right: 15px; z-index: 2; width: 24px; height: 24px; background: url(/docfiles/resources/mo/images/com/icon/w24/ico_arrowB_forward.png) no-repeat 50% 50%; background-size: 24px 24px;}
+html[lang="en"] .membership_fee .btn_pop_arrow + .membership_brand {margin-top: 15px;}
+html[lang="en"] .modal_pop.card_fee_pop .card_fee_wrap .card_fee_list li { padding: 16px 0; position: relative; border-top: 1px solid rgba(0,0,0,0.04);}
+html[lang="en"] .modal_pop.card_fee_pop .card_fee_wrap .card_fee_list li:first-child { border-top: none; }
+html[lang="en"] .modal_pop.card_fee_pop .card_fee_wrap .card_fee_list li .fee_maintext {display: flex; /*align-items: center;*/ }
+html[lang="en"] .modal_pop.card_fee_pop .layer_body {padding: 0 24px 24px 24px}
+html[lang="en"] .modal_pop.card_fee_pop .card_fee_wrap .card_fee_list li .fee_maintext > span {width: 55%; }
+html[lang="en"] .modal_pop.card_fee_pop .card_fee_wrap .card_fee_list li .fee_maintext > span:last-child {width: calc(45% - 46px); margin-left: 46px;}
+
+/* 카드상세 Q10582: 22.02.10 */ 
+html[lang="en"] .card_detail_view .detail_top .info_area .cont_wrap .membership_fee .membership_brand li .txt > p {opacity: .64;width: 145px;word-break: break-all;}
+
+
+/* 카드신청 - 2단계(신분증확인) Q10582 */
+.new_bottom_sheet .new_bottom_sheet_title.type01{font-size:22px;padding:24px 50px 20px 24px;border-bottom:1px solid #e5e5e5;}
+.new_bottom_sheet .new_bottom_sheet_title.type01 b{display:block;width:100%;white-space:nowrap;text-overflow:ellipsis;font-weight:bold;overflow:hidden;}

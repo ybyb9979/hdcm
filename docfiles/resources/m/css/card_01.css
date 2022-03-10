@@ -1,0 +1,1109 @@
+@charset "UTF-8";
+
+/* 카드 상세 공통 */
+.dropdown_container{position:fixed;top:47px;left:0;z-index:1002;width:100%; height:auto; display:none; pointer-events:none; background-color:#fff; }
+.dropdown_container .scroll_wrap { position:relative; width:100%; max-height:300px; overflow-y:auto; pointer-events:auto; }
+.dropdown_container ul{position:relative;padding:12px 24px;}
+.dropdown_container li{ border-top:1px solid #ebebeb}
+.dropdown_container li:first-child { border-top:0; }
+.dropdown_container li a {display:block;padding:12px 0; font-size:14px;color:#858585;line-height:24px;}
+.dropdown_container li:last-child a {padding-bottom:14px}
+.dropdown_container li.current a{color:#000;font-weight:700;}
+
+.sub_card_detail .section { padding:0 8px}
+img {width:100%;}
+.svg {width:100%; height:100%}
+
+.fc_blk, .fc_blk li {color:#000 !important;}
+
+/* link tag 추가 */
+a.link { display: flex; justify-content: center; align-items: center; font-size: 0; color: transparent; position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+/* 카드 기본정보 */
+.card_detail_view .detail_top .info_area { padding: 0 16px; }
+.card_detail_view .detail_top .info_area .img_wrap { width: 130px; height: 206px; margin: 34px auto 46px; display: flex; justify-content: center; align-items: center; border-radius:6px; box-shadow: 0 16px 28px rgb(0 0 0 / 16%);}
+.card_detail_view .detail_top .info_area .img_wrap.horizontal { width: 206px; height:130px; margin:72px auto 84px}
+/* .card_detail_view .detail_top .info_area .img_wrap img { width: 100%; box-shadow: 0 20px 40px rgba(0,0,0,0.08); } */
+.card_detail_view .detail_top .info_area .img_wrap img { width: 100%; }
+.card_detail_view .detail_top .info_area .cont_wrap .card_tit_wrap { padding: 0 8px; }
+.card_detail_view .detail_top .info_area .cont_wrap .card_tit_wrap span {}
+.card_detail_view .detail_top .info_area .cont_wrap .card_tit_wrap h2 {margin-top:4px}
+.card_detail_view .detail_top .info_area .cont_wrap .card_tit_wrap ul { margin-top: 24px; }
+.card_detail_view .detail_top .info_area .cont_wrap .card_tit_wrap ul li ~ li { margin-top: 8px; }
+/* .card_detail_view .detail_top .info_area .cont_wrap .card_tit_wrap + .membership_fee {margin-top:40px;} */
+.card_detail_view .detail_top .info_area .cont_wrap .card_tit_wrap {margin-bottom:40px;} /* 발급중단 문구 없을 때 연회비와 간격 40px */
+/* 발급중단 메세지 */
+/* 이전 마크업 css*/
+.card_detail_view .detail_top .info_area .cont_wrap .apply_message { position: relative; margin-top: 42px; display: flex; }
+.card_detail_view .detail_top .info_area .cont_wrap .apply_message > a { display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 0 8px 0 28px; background: url(/docfiles/resources/mo/images/com/icon/w16/ico_alert_red.png) no-repeat 8px 2px; background-size: 16px; }
+.card_detail_view .detail_top .info_area .cont_wrap .apply_message > a > i { position:relative; display:inline-block; font-size:0; width:40px; height:40px; background:none; mask-image:none; -webkit-mask-image:none; }
+.card_detail_view .detail_top .info_area .cont_wrap .apply_message > a > i:after { position:absolute; top:0; left:50%; width:24px; height:24px; transform:translateX(-50%); background-color:rgba(0,0,0,0.64); mask-image:url(/docfiles/resources/mo/images/com/icon/w24/ico_tip_line.svg); -webkit-mask-image:url(/docfiles/resources/mo/images/com/icon/w24/ico_tip_line.svg); mask-size:24px 24px; -webkit-mask-size:24px 24px; content:'';}
+.card_detail_view .detail_top .info_area .cont_wrap .apply_message > a + .box_tooltip { width: 249px; padding: 15px; }
+/* //이전 마크업 css*/
+
+/* 확정 마크업 css*/
+.card_detail_view .detail_top .info_area .cont_wrap .apply_message {position:relative; margin-top:42px; display:flex; justify-content:space-between;}
+.card_detail_view .detail_top .info_area .cont_wrap .apply_message > p {padding-left:28px; background:url(/docfiles/resources/mo/images/com/icon/w16/ico_alert_red.png) no-repeat 8px 2px; background-size:16px;}
+.card_detail_view .detail_top .info_area .cont_wrap .apply_message .wrap_tooltip {margin-left:12px; margin-top:-8px; margin-bottom:-10px;}
+.card_detail_view .detail_top .info_area .cont_wrap .apply_message .wrap_tooltip .btn_tooltip01 i {position:relative; display:inline-block; font-size:0; width:40px; height:40px; background:none; mask-image:none; -webkit-mask-image:none; }
+.card_detail_view .detail_top .info_area .cont_wrap .apply_message .wrap_tooltip .btn_tooltip01 i:after { position:absolute; top:5px; left:50%; width:24px; height:24px; transform:translateX(-50%); background-color:rgba(0,0,0,0.64); mask-image:url(/docfiles/resources/mo/images/com/icon/w24/ico_tip_line.svg); -webkit-mask-image:url(/docfiles/resources/mo/images/com/icon/w24/ico_tip_line.svg); mask-size:24px 24px; -webkit-mask-size:24px 24px; content:'';}
+.card_detail_view .detail_top .info_area .cont_wrap .apply_message .wrap_tooltip .box_tooltip {width:calc(100vw - 34vw); padding:15px 46px 15px 16px; right:-8px; background:#fff url(/docfiles/resources/mo/images/com/btnicon/ico_light_normal.png) calc(100% - 15px) 15px no-repeat; background-size:20px 20px;}
+/* //확정 마크업 css*/
+
+
+.card_detail_view .detail_top .info_area .cont_wrap .membership_fee { position: relative; border-radius: 16px; padding: 16px; box-shadow: 0 0 1px rgba(0,0,0,0.5); margin: 12px auto 0; }
+.card_detail_view .detail_top .info_area .cont_wrap .membership_fee > p + ul { margin-top: 16px; }
+.card_detail_view .detail_top .info_area .cont_wrap .membership_fee .membership_brand { display: flex; flex-direction: column; }
+.card_detail_view .detail_top .info_area .cont_wrap .membership_fee .membership_brand li { display: flex;  }
+.card_detail_view .detail_top .info_area .cont_wrap .membership_fee .membership_brand li + li { margin-top: 12px; }
+/* 211207 Q10337 : 연회비 디자인 수정에 따른 삭제 */
+/* .card_detail_view .detail_top .info_area .cont_wrap .membership_fee .membership_brand li .img { width: 42px; height: 22px; }
+.card_detail_view .detail_top .info_area .cont_wrap .membership_fee .membership_brand li .img img { width: 100%; max-width: 100%; } */
+.card_detail_view .detail_top .info_area .cont_wrap .membership_fee .membership_brand li .txt { display: flex; justify-content: space-between; flex: 1; }
+.card_detail_view .detail_top .info_area .cont_wrap .membership_fee .membership_brand li .txt > p { opacity: .64; width:35%; word-break:break-all;}
+.card_detail_view .detail_top .info_area .cont_wrap .membership_fee .membership_brand li .txt > span {display:inline-block; width:calc(65% - 20px); margin-left:20px; text-align:right}
+/* 연회비 하단에 붙는 텍스트 */
+.card_detail_view .detail_top .info_area .cont_wrap .membership_fee + .bul_txt02 {margin-top:12px; color:#858585;}
+
+.card_detail_view .detail_top .info_area .cont_wrap .membership_fee2 { position: relative; border-radius: 16px; padding: 16px; box-shadow: 0 0 1px rgba(0,0,0,0.5); margin: 12px auto 0px; }
+.card_detail_view .detail_top .info_area .cont_wrap .membership_fee2 > p + ul { margin-top: 16px; }
+.card_detail_view .detail_top .info_area .cont_wrap .membership_fee2 + .bul_txt02 {width: 334px; margin: 12px 0 56px 24px}
+.card_detail_view .detail_top .info_area .cont_wrap .membership_fee2 .membership_brand { display: flex; flex-direction: column; }
+.card_detail_view .detail_top .info_area .cont_wrap .membership_fee2 .membership_brand li { display: flex;  }
+.card_detail_view .detail_top .info_area .cont_wrap .membership_fee2 .membership_brand li + li { margin-top: 12px; }
+.card_detail_view .detail_top .info_area .cont_wrap .membership_fee2 .membership_brand li .img { width: 42px; height: 22px; }
+.card_detail_view .detail_top .info_area .cont_wrap .membership_fee2 .membership_brand li .img img { width: 100%; max-width: 100%; }
+.card_detail_view .detail_top .info_area .cont_wrap .membership_fee2 .membership_brand li .txt { display: flex; justify-content: space-between; align-items: center; flex: 1; }
+.card_detail_view .detail_top .info_area .cont_wrap .membership_fee2 .membership_brand li .txt > p { opacity: .64; }
+
+/* B타입 상단 이미지 영역 */
+.card_detail_view .detail_top.type02 .info_area {padding:0;}
+.card_detail_view .detail_top.type02 .info_area .img_wrap {width:100%; height:auto; margin:0 0 36px; box-shadow:none;}
+.card_detail_view .detail_top.type02 .info_area .img_wrap img {box-shadow:none;}
+.card_detail_view .detail_top.type02 .info_area .cont_wrap {padding:0 16px}
+.card_detail_view .detail_top.type02 .info_area .cont_wrap .membership_fee {margin-top: 40px;}
+
+/* 발급 중단 카드 */
+.card_detail_view .detail_top.stop_issued .cont_wrap .card_tit_wrap > span[class*="p1"] { display: none; }
+
+/* ------------------------- Q10337 ------------------------------- */
+/* 라인배너 */
+.card_detail_view .line_banner {margin-top:56px; }
+/* 2021-12-16 Q10071: 다중 셀럭트 줄이기 */
+.line_banner-image a {display:flex; display:-webkit-flex; align-items:center; width:100%; height:104px; padding:0 24px 0 77px; background-repeat:no-repeat; background-position:0 0; background-size:cover; }
+.line_banner-image a img { width:100%; height:104px;}
+.line_banner-image .txt {color:#fff}
+.line_banner-cashback { position:relative; margin-top:40px; padding-right:16px; padding-left:28px; width:100%; }
+.line_banner-cashback > p { padding-right:87px; height:26px; overflow:hidden; }
+.line_banner-cashback:after { position:absolute; top:0; right:16px; width:71px; height:71px; background:url(/docfiles//publish//resources/mo/images/com/icon/others/ico_cash_back.png) no-repeat; background-size:71px 71px; content:''; }
+.line_banner-cashback .cashback_link { margin-top:8px; padding-right:50px; }
+.line_banner-cashback .cashback_link a { display:inline-block; margin-right:12px; }
+.line_banner-cashback .cashback_link a:last-child { margin-right:0; }
+
+/* 라인배너 색상 */
+/* 2021-12-16 Q10071: 통이미지로 Admin에 들어가 주석처리
+.card_detail_view.tpme3 .line_banner,
+.card_detail_view.tpe3 .line_banner {background:linear-gradient(90deg , #6d218c , #300940);}
+.card_detail_view.red4 .line_banner {background:linear-gradient(180deg , #a61b1e, #7d1a1d);}
+.card_detail_view.tg .line_banner,
+.card_detail_view.tge2 .line_banner {background:linear-gradient(90deg , #007e00 , #005901);}
+.card_detail_view.x .line_banner {background:linear-gradient(90deg , #f28e66 , #bd3316);}
+.card_detail_view.z .line_banner {background:#767570;}
+*/
+
+/* 프리미엄 카드 공통 */
+/* 혜택 */
+.card_benefit {padding: 80px 24px;}
+.card_benefit .ben_top p {margin-top:16px}
+.card_benefit .cont {margin-top:52px}
+.card_benefit .cont dl { margin-top: 40px; }
+.card_benefit .cont dl ~ dl {margin-top: 28px;}
+.card_detail_view .card_benefit + .card_design_wrap {margin-top: 104px;}
+
+.card_benefit .ben_top {text-align:center;}
+.card_benefit .ben_top .img {height: 216px; background-repeat:no-repeat}
+.card_benefit .ben_top .img.horizon {width:216px; height:auto; margin:0 auto}
+.card_benefit .ben_top a {display:inline-block; margin-top:16px}
+/* .card_benefit .ben_top .img::before,
+.card_benefit .ben_top .img::after { content: ""; display: inline-flex; width: 28px; height: 28px; background-color: inherit; border-radius: 50%; position: absolute; left: 50%; transform: translateX(-50%); }
+.card_benefit .ben_top .img::before { top: -14px; }
+.card_benefit .ben_top .img::after { bottom: -14px; } */
+.card_benefit .ben_top .img img {width:auto; height:100%;}
+.card_benefit .ben_top .img.horizon img {width:100%; height:auto}
+
+/* 바우처 */
+.card_voucher .cont {margin:0 24px 56px; padding-bottom:56px; border-bottom:1px solid rgba(0,0,0,0.12);}
+.card_voucher .cont em {display: block; margin-bottom: 8px;}
+.card_voucher .cont .voucher_list,
+.card_voucher .cont .concierge_list,
+.card_voucher .cont .reward_list {margin-top:40px}
+.card_voucher .cont .voucher_list dl ~ dl {margin-top:24px;}
+.card_voucher .cont .voucher_list dl dt {margin-bottom:4px}
+.card_voucher .cont .voucher_list dl dd ~ dd {margin-top:6px}
+.card_voucher .cont .concierge_list dl,
+.card_voucher .cont .reward_list {position:relative; padding-left:68px;}
+.card_voucher .cont .svg {position:absolute; top:0; left:0; width:56px; height:56px}
+.card_voucher .cont .concierge_list dl dd,
+.card_voucher .cont .reward_list dl dd {margin-top:4px}
+.card_voucher .cont .concierge_list dl ~ dl {margin-top:20px}
+
+
+.card_voucher .cont .link {margin-top:40px}
+.card_voucher.type02 .cont {margin-top: 40px;}
+.voucher .item .img_area .svg.plt_xero_m {opacity:0.8} /*22-01-07 Q10294: 바우처 svg아이콘 투명도 추가 */
+
+/* the pink */
+.tpi .card_voucher .cont .voucher_list dl + dl {margin-top:40px;}
+.tpi .card_voucher .cont .voucher_list .link {margin-top:20px;}
+
+
+/* 카드 적립 및 사용 */
+.card_usepoint {margin-top:80px; padding:80px 24px; color:#fff; background:#000}
+.card_usepoint .section { padding:0}
+.card_usepoint p + h3 {margin-top:4px;}
+.card_usepoint ul {margin-top:40px}
+.card_usepoint ul li a { color:#fff}
+.card_usepoint ul li p {margin-top:12px}
+.card_usepoint ul li ~ li {margin-top:32px}
+.card_usepoint + .section {margin-top:80px}
+
+
+.tb .card_voucher .vou_top + .cont {margin-top:40px}
+.tb .card_voucher:nth-of-type(4) .cont {border-bottom:0; padding-bottom:0; margin-bottom:0}
+.tbe3 .card_voucher .cont .link {margin-top:56px}
+
+.tpme3 .card_benefit,
+.tpe3 .card_benefit,
+.tpe2 .card_benefit,
+.tp .card_benefit {background-color:#fdf8ff;}
+.tg .card_benefit,
+.tge2 .card_benefit {background-color:#f1f8f4;}
+.tre2 .card_benefit,
+.tre4 .card_benefit,
+.tre3 .card_benefit,
+.tre5 .card_benefit {background-color:#f8f4f4;}
+.tbe3 .card_benefit,
+.tb .card_benefit {background-color:#f5f7f9}
+.tpi .card_benefit {background-color:#faeff5}
+
+.tpme3 .card_benefit .p2_eb_1,
+.tpe3 .card_benefit .p2_eb_1 {color:#5c325e}
+.tg .card_benefit .p2_eb_1,
+.tge2 .card_benefit .p2_eb_1 {color:#008c15}
+.tre3 .card_benefit .p2_eb_1,
+.tre4 .card_benefit .p2_eb_1,
+.tre5 .card_benefit .p2_eb_1 {color:#a61714;}
+.tpi .card_benefit .p2_eb_1 {color:#fb1a77;}
+
+
+
+
+.tp .box_card_type.voucher .item_wrap .item {background: #5c325e; color: #fff; min-height: 274px;}
+
+.ttrmb .box_card_type.voucher .item_wrap .item,
+.tre5 .box_card_type.voucher .item_wrap .item,
+.trxe2 .box_card_type.voucher .item_wrap .item,
+.tre3 .box_card_type.voucher .item_wrap .item,
+.tre2 .box_card_type.voucher .item_wrap .item,
+.trxmbe2 .box_card_type.voucher .item_wrap .item,
+.trmb .box_card_type.voucher .item_wrap .item,
+.trmbe2 .box_card_type.voucher .item_wrap .item {background: #e3001f; color: #fff; min-height: 274px;}
+
+.ttrmb .box_card_type.voucher .item_wrap .item .plus_btn,
+.tre5 .box_card_type.voucher .item_wrap .item .plus_btn,
+.trxe2 .box_card_type.voucher .item_wrap .item .plus_btn,
+.trxmbe2 .box_card_type.voucher .item_wrap .item .plus_btn,
+.trmbe2 .box_card_type.voucher .item_wrap .item .plus_btn,
+.trmb .box_card_type.voucher .item_wrap .item .plus_btn,
+.tp .box_card_type.voucher .item_wrap .item .plus_btn,
+.tre3 .box_card_type.voucher .item_wrap .item .plus_btn,
+.tre2 .box_card_type.voucher .item_wrap .item .plus_btn,
+.tb .box_card_type.voucher .item_wrap .item .plus_btn {background:rgba(255,255,255,0.48);}
+
+.card_detail_view.tb .box_card_type.mpoint_emphasis .item.graph_wrap .plus_btn {background:rgba(255,255,255,0.48);}
+.card_detail_view.tb .box_card_type.mpoint_emphasis .item.point_save {background:#f5f5f5}
+
+
+
+/* ------------------------- // Q10337 ------------------------------- */
+
+
+/* A타입 바닥 연회비 */
+.event_container .membership_fee {margin-top:74px; padding-top:14px; width:240px; border-top:1px solid rgba(255,255,255,0.40)}
+.event_container .membership_fee .textbico_mide_wht {display:block;}
+.event_container .membership_brand {margin-top:24px}
+.event_container .membership_brand li ~ li {margin-top:14px}
+.event_container .membership_brand li span {display:inline-block; width:40%; text-align:left; color:rgba(255,255,255,.64); font-size:16px; font-weight:700; line-height:26px}
+.event_container .membership_brand li p {display:inline-block; width:60%; text-align:right; font-size:16px; font-weight:700; line-height:26px; color:#fff}
+
+
+
+/* 바우처 모듈 프리미엄카드 색상 */
+.purple .box_card_type.voucher .item_wrap:nth-child(2) .item { min-height: 352px; }
+.purple .box_card_type.voucher .item_wrap .item .item_tit > em,
+.red .box_card_type.voucher .item_wrap .item .item_tit > em { opacity: 1; }
+.theblack .box_card_type.voucher .item_wrap .item {background:#4d5052; color:#fff;}
+
+/* 카드디자인소개 */
+.card_detail_view .card_design_wrap {width:100%; margin:80px 0 104px; text-align:center;}
+.card_detail_view .card_design_wrap .box_card_img {overflow-x:auto;-ms-overflow-style:none;scrollbar-width:none;}
+.card_detail_view .card_design_wrap .box_card_img::-webkit-scrollbar {display: none;}
+.card_detail_view .card_design_wrap ul {display:inline-block;font-size:0;width:max-content;margin-top:32px; padding:0 16px;}
+.card_detail_view .card_design_wrap ul li {display:inline-block;width:74px;vertical-align:top;}
+.card_detail_view .card_design_wrap ul li + li {margin-left:28px;}
+.card_detail_view .card_design_wrap ul li .plate_img {width:74px; height:auto;}
+.card_detail_view .card_design_wrap ul li .plate_img + p {margin-top: 8px;}
+.card_detail_view .card_design_wrap + .section {margin-top: 80px;}
+.card_detail_view .card_design_wrap.type02 ul {justify-content:flex-start;}
+
+
+
+/* .box_card_type.xseries [class*="graph_box_"] .item .item_tit > p + p { margin-top: 16px; } */
+/* 브랜드별 모듈 타입 */
+.box_card_type.gscaltax .title_wrap .img_area
+.box_card_type.hyundai .title_wrap .img_area {width: 196px; height: 105px;}
+.box_card_type.gscaltax .item_wrap .item:nth-child(1) {background: #0068b7; color: #fff;}
+.box_card_type.emart_ed2 .item_wrap .item:nth-child(1) {background: #713d93; color: #fff;}
+.box_card_type.hyundai .item_wrap .item:nth-child(1), .box_card_type.hyundai .item_wrap .item:nth-child(2) {background: #002C5F; color:#fff;}
+.box_card_type.naver .item_wrap .item:nth-child(1){background: #00b016; color: #fff;}
+.box_card_type.genesis .item_wrap .item:nth-child(1){background: #292929; color: #fff;}
+.box_card_type.genesis .item_wrap .item:nth-child(2){background: #ad7b61; color: #fff;}
+/* ssg */
+.box_card_type.ssg .item_wrap .item:nth-child(1) {background: #333; color: #fff;}
+.box_card_type.ssg .item_wrap .item:nth-child(2) {background: #d1a788;}
+.box_card_type.ssg .item_wrap .item:nth-child(1) .plus_btn,
+.box_card_type.ssg .item_wrap .item:nth-child(2) .plus_btn {background:rgba(255,255,255,0.48);}
+/* amex item */
+/* .box_card_type[class*="amex_"] .title_wrap .img_area {width:228px; height:151px;} */
+.box_card_type.amex_green .item_wrap .item {background: #E7F2EC;}
+.box_card_type.amex_gold .item_wrap .item {background: #DCD39C;}
+.box_card_type.amex_gold .item_wrap .plus_btn {background:rgba(255,255,255,.48);}
+.box_card_type.amex_platinum .item_wrap.col3 .item {background: #E7EFF2;}
+.amex_green_bg {background: #2D5B3D !important;color:#ECFCF3 !important;}
+.amex_pla_bg {background:#272D35 !important;color:#ECFCF3 !important;}
+.amex_gold_bg {background: #5A4216 !important;color:#ECFCF3 !important;}
+.amex_gold_bg em, .amex_green_bg em, .amex_pla_bg em {color:#ECFCF3;opacity: 1 !important;}
+
+/* 혜택 기본 카드이미지 */
+.card_detail_view.black .card_benefit .ben_top .img { max-width: 271px; max-height: 136px; background-color: #f5f7f9; background-image: url(/docfiles/resources/mo/images/detail/img_card_blk.png); }
+.card_detail_view[class*="black"]:not(.black) .card_benefit .ben_top .img { background-color: #f5f7f9; background-image: url(/docfiles/resources/mo/images/detail/img_card_blked2.png); }
+.card_detail_view[class*="red"] .card_benefit .ben_top .img { background-color: #f8f4f4; background-image: url(/docfiles/resources/mo/images/detail/img_card_reded2.png); }
+.card_detail_view[class*="green"] .card_benefit .ben_top .img { background-color: #f1f8f4; background-image: url(/docfiles/resources/mo/images/detail/img_card_reded2.png); }
+.card_detail_view[class*="purple"] .card_benefit .ben_top .img { background-color: #f7f4fa; background-image: url(/docfiles/resources/mo/images/detail/img_card_pup.png); }
+.card_detail_view[class*="purple"][class*="2"] .card_benefit .ben_top .img { background-image: url(/docfiles/resources/mo/images/detail/img_card_puped2.png); }
+.card_detail_view.purple_osee .card_benefit .ben_top .img { background-color: #f7f4fa; background-image: url(/docfiles/resources/mo/images/detail/img_card_pup_osee.png); }
+.card_detail_view.red4 .card_benefit .ben_top .img { background-color: #f7f4fa; background-image: url(/docfiles/resources/mo/images/detail/img_card_reded4.png); }
+
+/* 혜택 오픈 이미지 */
+/* .card_detail_view.black .card_benefit .ben_top .img.on { background-image: url(/docfiles/resources/mo/images/detail/img_card_blk_open.png); }
+.card_detail_view[class*="black"]:not(.black) .card_benefit .ben_top .img.on { background-image: url(/docfiles/resources/mo/images/detail/img_card_blked2_open.png); }
+.card_detail_view[class*="purple"] .card_benefit .ben_top .img.on { background-image: url(/docfiles/resources/mo/images/detail/img_card_pup_open.png); }
+.card_detail_view[class*="purple"][class*="2"] .card_benefit .ben_top .img.on { background-image: url(/docfiles/resources/mo/images/detail/img_card_puped2_open.png); }
+.card_detail_view[class*="red"] .card_benefit .ben_top .img.on { background-image: url(/docfiles/resources/mo/images/detail/img_card_reded2_open.png); }
+.card_detail_view.purple_osee .card_benefit .ben_top .img.on { background-color: #f7f4fa; background-image: url(/docfiles/resources/mo/images/detail/img_card_pup_osee_open.png); }
+.card_detail_view.red4 .card_benefit .ben_top .img.on { background-color: #f7f4fa; background-image: url(/docfiles/resources/mo/images/detail/img_card_reded4_open.png); } */
+
+/* black ed2 */
+.card_detail_view.tbe2 .detail_top.type_full { height: 664px; background: url(/docfiles/resources/mo/images/detail/bg_top_blked2.png)no-repeat center; background-size: cover; color: #fff; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+.card_detail_view.tbe2 .card_voucher {margin-bottom: 80px;}
+.card_detail_view.tbe2 .card_voucher .vou_top { width: 100%; height: 393px; background: url(/docfiles/resources/mo/images/detail/bg_vou_blk.png) no-repeat 0 0; background-size: cover; }
+.card_detail_view.tbe2 .card_benefit {background: #f2f5f8;}
+
+/* the purple, the purple osee */
+/* .card_detail_view[class*="purple"] .card_voucher .vou_top { width: 100%; height: 393px; background: url(/docfiles/resources/mo/images/detail/bg_vou_puped2.png) no-repeat 0 0; background-size: cover; } */
+.card_detail_view[class*="purple"] .card_voucher .vou_top img {min-width: 375px; min-height: 442px;}
+.card_detail_view[class*="purple"] .card_benefit {background: #f7f4fa;}
+.card_detail_view[class*="purple"] .card_benefit .ben_top .img + p {color: #332237;}
+.card_detail_view.purple_osee .box_card_type .caution_list {margin-top: 24px; padding: 0 16px;}
+.card_detail_view.purple_osee .box_card_type .caution_list p + ul {margin-top: 12px;}
+
+/* the red edition4 */
+.card_detail_view[class*="red"] .card_voucher .vou_top img {min-width: 375px; min-height: 475px;}
+.card_detail_view[class*="red"] .card_benefit {background: #f8f4f4;}
+.card_detail_view[class*="red"] .card_benefit .ben_top .img + p {color: #a61714;}
+
+/* the Green */
+.card_detail_view[class*="green"] .card_voucher .vou_top img {min-width: 375px; min-height: 442px;}
+.card_detail_view[class*="green"] .card_voucher .vou_top + .cont {margin-top: 40px;}
+.card_detail_view[class*="green"] .card_benefit {background: #f1f8f4;}
+.card_detail_view[class*="green"] .card_benefit .ben_top .img + p {color: #008c15;}
+
+.card_detail_view.tbe3 .detail_top.type_full {background-repeat:no-repeat; background-position:center; background-size:cover; color: #fff;}
+.card_detail_view.tbe3 .event_container .img {width:160px; height:auto; margin-top:30px}
+.card_detail_view.tbe3 .benefit_icon_wrap {margin-top:80px}
+.card_detail_view.tbe3 .card_benefit .cont dl {margin-top:32px}
+.card_detail_view.tbe3 .card_benefit .cont dl dd + dt {margin-top:40px}
+
+
+/* 프리미엄 카드 - 프리미엄 서비스 모듈 */
+/* .card_detail_view.purple_osee .box_card_type.premium, 
+.card_detail_view.red4 .box_card_type.premium, 
+.card_detail_view.green .box_card_type.premium {margin-top:32px; padding-top: 56px;}
+.card_detail_view.purple_osee .box_card_type.premium:before,
+.card_detail_view.red4 .box_card_type.premium:before,
+.card_detail_view.green .box_card_type.premium:before {content: ''; position: absolute; top:0; left: 16px; right: 16px; height: 1px; background-color: #ebebeb;} */
+
+
+/* 대한항공카드 the first */
+.card_detail_view.the_first .card_voucher {background: url(/docfiles/resources/mo/images/detail/bg_voucher_thefirst.png);}
+.card_detail_view.the_first .card_voucher .cont {top: 320px; left: 1074px;}
+/* 대한항공카드 150 */
+.card_detail_view.air150 .card_voucher {background: url(/docfiles/resources/mo/images/detail/bg_voucher_koreanair.png);}
+.card_detail_view.air150 .card_voucher .cont {top: 320px; left: 1074px;}
+
+/*-------------------------------------------------------------*/
+
+/* 관심카드 비교하기 */
+.comp_inner {padding:0 24px; margin-top:58px;}
+.comp_inner .box_bul {margin-top:60px;}
+.comp_card_top { display: flex; justify-content: center; margin-top: 28px; }
+.comp_card_top .box_card_wrap { display: flex; }
+.comp_card_top .box_card_wrap + .box_card_wrap { margin-left: 67px; }
+.comp_card_top .box_card_wrap .box_card_sel { position: relative; text-align: center; padding-bottom:30px;}
+.comp_card_top .box_card_wrap .box_card_sel .card_img { width: 93px; height: 147px; box-shadow: none; }
+.comp_card_top .box_card_wrap .box_card_sel .card_img img { width: 100%; max-width: 100%; }
+.comp_card_top .box_card_wrap .box_card_sel .card_name {display:inline-flex; align-items:center; position:absolute; left:50%; bottom:0; transform: translateX(-50%);}
+.comp_card_top .box_card_wrap .box_card_sel .card_name strong { display: block; max-width: 112px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.comp_card_top .box_card_wrap .box_card_sel .card_name .arrow_ico { font-size: 0; color: transparent; display: inline-flex; width: 16px; height: 16px; background: url(/docfiles/resources/mo/images/com/icon/w16/ico_arrowB_down.png) no-repeat center; background-size: cover; }
+.comp_card_top .box_card_wrap input[type="checkbox"] { display: none; }
+.comp_card_top .box_card_wrap input[type="checkbox"] + .box_card_sel + label { display: none !important; font-size: 0; color: transparent; cursor: pointer; display: inline-flex; width: 100%; height: 100%; position: absolute; top: 0; left: 0; }
+.comp_card_info { margin-top: 38px; }
+.comp_card_info dl { display: flex; flex-wrap: wrap; }
+.comp_card_info dl + dl { margin-top: 48px; }
+.comp_card_info dl dt { width: 100%; margin-bottom: 8px; }
+.comp_card_info dl dd {width: calc((100% - 16px)/2); border-top: 1px solid #f5f5f5; padding-top: 16px; font-size:14px; line-height:22px; color:rgba(0,0,0,0.64);}
+.comp_card_info dl dd + dd { margin-left: 16px; }
+.comp_card_info dl dd p { word-break: keep-all; word-wrap: break-word; }
+.comp_card_info dl dd p span { display: inline-flex; }
+.comp_card_info dl + [class*="_list"] { padding: 40px 0 20px; border-bottom: 1px solid #f5f5f5; }
+.comp_card_info + .comp_more_link {margin-top:8px; overflow:hidden;}
+.comp_card_info + .comp_more_link li {width: calc((100% - 16px)/2); float:left;}
+.comp_card_info + .comp_more_link li + li {margin-left:16px;}
+.comp_card_info ~ .bul_list03 { padding: 40px 0 20px; border-bottom: 1px solid #f5f5f5; }
+
+.fixed .comp_card_info {padding-top:110px;}
+.fixed .comp_card_top { position: fixed; padding:0 24px; top: 20px; width: 100%; height: 49px; border-bottom: 1px solid #ebebeb; align-items: center; background-color: #fff; z-index: 1000; }
+.fixed .comp_card_top .box_card_wrap {width:50%; justify-content:center;}
+.fixed .comp_card_top .box_card_wrap .box_card_sel {padding-bottom:0;}
+.fixed .comp_card_top .box_card_wrap .box_card_sel .card_img { display: none; }
+.fixed .comp_card_top .box_card_wrap .box_card_sel .card_name {position:relative; left:0; transform:none;}
+.fixed .comp_card_top .box_card_wrap + .box_card_wrap {margin-left:0;}
+
+.card_sel_wrap .card_sel_cont:not(:last-child) .card_sel_list li:last-child { border-bottom: 1px solid #ebebeb; }
+.card_sel_wrap .card_sel_cont + .card_sel_cont { margin-top: 40px; }
+.card_sel_list li { display: flex; padding: 18px 0; align-items: center; position: relative; margin: 0; }
+.card_sel_list li + li { border-top: 1px solid #ebebeb; }
+.card_sel_list li .img { width: 40px; height: 64px; flex: 0 0 40px; }
+.card_sel_list li .txt { margin-left: 16px; display: inline-flex; justify-content: center; align-items: center; width: 100%; }
+.card_sel_list li .txt p { width: 100%; }
+.card_sel_list li.other .txt { opacity: .5; }
+.card_sel_list li.active .txt::after { content: ""; width: 32px; height: 32px; display: inline-flex; background: url(/docfiles/resources/mo/images/com/icon/w32/ico_check_b.png) no-repeat center; background-size: cover; }
+.card_sel_list li.active .link { user-select: none; pointer-events: none; }
+/* .card_sel_list li.active.other .txt::after */
+/* 선택된 카드가 없을 때 */
+.comp_card_top .box_card_wrap .box_card_sel .card_img.no_sel { border: 1px dotted #000; border-radius: 4px; }
+.comp_card_top .box_card_wrap .box_card_sel .card_img.no_sel img { display: none; }
+.no_sel_cont { margin: 38px auto 0; border-radius: 50%; background-color: #f5f5f5; display: flex; justify-content: center; align-items: center; width: 250px; height: 250px; box-shadow: 0 3px 7px rgba(0,0,0,.12); }
+
+/* 카드 랜딩페이지 */
+.sub_card .box_card_info .box_card_list { display: -webkit-flex; display: -ms-flexbox; display: flex; align-items: flex-start; padding: 16px 18px; border-radius: 8px; border: 1px solid #ebebeb; position: relative; letter-spacing: -0.6px; }
+.sub_card .box_card_info .box_card_list.on { border: 2px solid #000; }
+.sub_card .box_card_info .box_card_list + .box_card_list { margin-top: 8px; }
+.sub_card .box_card_info .img { width: 24px; height: 39px; flex: 0 0 24px; }
+.sub_card .box_card_info .img img { width: 100%; max-width: 100%; }
+.sub_card .box_card_info .txt { display: -webkit-flex; display: -ms-flexbox; display: flex; flex-direction: column; margin-left: 12px; }
+.sub_card .box_card_info .txt .sub_txt span { display: inline-flex; }
+.sub_card .box_card_info + .box_bul + .box_btn.type02 { display: -webkit-flex; display: -ms-flexbox; display: flex; justify-content: space-between; }
+.sub_card .box_card_info + .box_bul + .box_btn.type02 a { width: calc((100% - 8px)/2); }
+
+
+/* --------------------- Q10337 바닥 모듈 수정 --------------------- */
+
+/* 공통 카드 상세 모듈 */
+.box_card_type {margin: 0 auto; position: relative; word-break: keep-all; word-wrap: break-word;}
+.box_card_type:first-child {margin-top:56px} /* 2021-12-16 Q10071: 띠 배너 및 연회비 캐시백 이벤트 간격 가이드 변경 */
+.box_card_type + .box_card_type {margin-top: 104px;}
+.cate_tit {padding-left: 20px;}
+.cate_tit > span + p { margin-top: 8px; }
+.box_tit_wrap > span + p {margin-top: 8px;}
+.box_tit_wrap + .item_wrap {margin-top: 28px}
+.item_wrap {display:-webkit-flex; display:-ms-flexbox; display: flex; flex-direction: column; justify-content: space-between ;align-items:center; flex-wrap: wrap; margin-top:16px}
+.item {position: relative; width: 100%; padding: 24px 24px 32px; border-radius: 24px; color: #000; background: #f5f5f5; min-height: 200px; }
+.item ~ .item { margin-top:8px;}
+.item_tit em {display: inline-block; opacity: .64;}
+.item_tit em + .h2_b_lt {margin-top:14px}
+.item_tit em + .h3_b_lt,
+.item_tit em + .h4_b_lt,
+.item_tit .h4_b_lt + .h4_b_lt {margin-top:16px}
+.limit_desc {margin:8px 0 24px; padding-left:8px; width:100%}
+.limit_desc + .item {margin-top:0}
+.item_wrap .limit_desc:last-child {margin-bottom:0;}
+
+/* 공통 플러스 버튼 */
+.item .plus_btn {display: block; position: absolute; bottom: 18px; right: 18px; width: 28px; height: 28px; border-radius: 50%; background:#ccc;}
+.item .plus_btn span {display: none;}
+.item .plus_btn:before {content: '';display: inline-block; position: absolute; top: 50%; left: 50%;transform: translate(-50%, -50%); width: 27px; height: 27px; background: url(/docfiles/resources/mo/images/com/icon/w32/ico_plus_b.png) no-repeat; background-size: 100%;}
+/* 배경색상 있는 모듈 플러스 버튼 */
+.item .plus_btn.bg_type {background:rgba(255,255,255,.48);}
+
+/* 모듈 내 이미지 영역 */
+.item:before {content:''; display:block; clear:both}
+.item .img_area {float:right; margin:16px 16px 0 0; width:80px; height:80px}
+.item .img_area img {width: 100%;}
+.item .img_area.mpoint {float:left; margin:26px 0 0 8px; width:68px; height:68px}
+.item .img_area.mpoint_car {float:left; width:156px; height:82px;}
+.item .img_area.logo {float:left; width:120px; height:120px;margin-top: 8px;}
+
+/* 모듈 내 로고 리스트 */
+.brand_list { width:100%; display:-webkit-flex; display:-ms-flexbox; display: flex; flex-wrap: wrap; padding-right:19px; margin-top: 22px; margin-left:-4px}
+.brand_list:after {content: ''; display: block; clear: both;}
+.brand_list li {width: 25%; height: 28px; background-size: contain; background-position: 50%; background-repeat: no-repeat;}
+.brand_list li span {display: none;}
+.brand_list li:nth-child(n+5) { margin-top: 16px; }
+/* 디지털러버 */
+.box_card_type.d_lover .item_wrap .item .brand_list li {background-position:0;}
+.box_card_type.d_lover .logo_youtube {margin-top:0; min-width:114px;}
+.box_card_type.d_lover .logo_melon {margin-top:16px}
+
+/* sub_txt / bottom_txt */
+.item .item_tit .h4_b_lt + .p1_b_lt_1ln {margin-top: 8px;}
+.item .item_tit + .sub_txt {margin-top:16px; margin-right:22px}
+.item .sub_txt ~ .sub_txt {margin-top:20px}
+.item .sub_txt p ~ p,
+.item .bottom_txt p ~ p {margin-top: 4px;}
+.item .bottom_txt {margin:28px 0 0}
+
+/* 그래프 공통 */
+.box_card_type .graph_wrap {padding-bottom:60px; min-height:480px}
+.box_card_type .graph_area ul {margin-bottom:0; text-align:center;}
+.box_card_type .graph_area ul.txt_line2 {margin-bottom:20px}
+.box_card_type .graph_area ul li .bar {margin:0 auto; width:48px; background:linear-gradient(180deg, #33a5db, #1266a9); border-radius:4px;}
+.box_card_type .graph_area ul li {display:inline-block; position:relative; width:90px; text-align:center; vertical-align: bottom;}
+.box_card_type .graph_area ul li span {display:block; word-break:keep-all; word-wrap:break-word; margin-bottom:6px}
+.box_card_type .graph_area ul li p {word-break:keep-all; word-wrap:break-word; height:40px; margin-top:10px}
+/* 그래프 2개일때 .col2 추가 */
+.box_card_type .graph_wrap.col2 .graph_area li ~ li {margin-left:22px}
+.box_card_type .graph_wrap.col2 .graph_area li:nth-child(1) .bar {height:54px}
+.box_card_type .graph_wrap.col2 .graph_area li:nth-child(2) .bar {height:92px}
+/* 그래프 3개일때 .col3 추가 */
+.box_card_type .graph_wrap.col3 {padding-bottom:47px}
+.box_card_type .graph_wrap.col3 .item_tit + .graph_area {margin-top:40px;}
+.box_card_type .graph_wrap.col3 .sub_txt {min-height: 82px; margin-bottom:34px;}
+.box_card_type .graph_wrap.col3 .graph_area li ~ li {margin-left:2px}
+.box_card_type .graph_wrap.col3 .graph_area li p {margin-top:8px}
+.box_card_type .graph_wrap.col3 .graph_area li .bar {width:32px; border-radius:6px;}
+.box_card_type .graph_wrap.col3 .graph_area li:nth-child(1) .bar {height:26px}
+.box_card_type .graph_wrap.col3 .graph_area li:nth-child(2) .bar {height:54px}
+.box_card_type .graph_wrap.col3 .graph_area li:nth-child(3) .bar {height:82px}
+
+/* 할인 그래프 */
+.box_card_type .graph_wrap .graph_area.sale ul.txt_line {margin-top:-20px}
+.box_card_type .graph_wrap .graph_area.sale ul li {vertical-align:top;}
+.box_card_type .graph_wrap .graph_area.sale ul li span {display:table-cell; width:90px; height:46px; margin-bottom:0; padding-bottom:6px; vertical-align:bottom;}
+.box_card_type .graph_wrap .graph_area.sale ul li .bar {background-position:50% 0; background-repeat:no-repeat; background-size:48px 100%; border-radius:4px;}
+.box_card_type .graph_wrap.col2 .graph_area.sale ul li:nth-child(1) .bar {background-image:url(/docfiles/resources/mo/images/detail/bg_graph_sale_down01.png);}
+.box_card_type .graph_wrap.col2 .graph_area.sale ul li:nth-child(2) .bar {background-image:url(/docfiles/resources/mo/images/detail/bg_graph_sale_down02.png);}
+
+.box_card_type .graph_wrap.col3 .graph_area.sale ul li:nth-child(1) .bar {height:36px; background-image:url(/docfiles/resources/mo/images/detail/bg_graph_down_gray01.png);}
+.box_card_type .graph_wrap.col3 .graph_area.sale ul li:nth-child(2) .bar {height:54px; background-image:url(/docfiles/resources/mo/images/detail/bg_graph_down_gray02.png);}
+.box_card_type .graph_wrap.col3 .graph_area.sale ul li:nth-child(3) .bar {height:82px; background-image:url(/docfiles/resources/mo/images/detail/bg_graph_down_gray03.png);}
+
+/* b타입 그래프 */
+.box_card_type.mpoint_emphasis .graph_wrap.col2 .item_tit {min-height: 226px; margin-bottom: 31px;}
+.box_card_type.xseries .graph_wrap.col2 .item_tit {min-height: 226px; margin-bottom: 52px;}
+.box_card_type.xseries .graph_wrap.col2 .graph_area.sale ul li:nth-child(1) .bar {background-image:url(/docfiles/resources/mo/images/detail/bg_graph_down01.png);}
+.box_card_type.xseries .graph_wrap.col2 .graph_area.sale ul li:nth-child(2) .bar {background-image:url(/docfiles/resources/mo/images/detail/bg_graph_down02.png);}
+
+/* c타입 그래프 */
+.box_card_type .graph_wrap.col2 .sub_txt {min-height: 82px; margin-bottom:34px;}
+
+/* 신세계 graph 색상*/
+.box_card_type .item_wrap.ssg li:nth-child(1) .bar {background:linear-gradient(180deg, #999, #8a8a8a);}
+.box_card_type .item_wrap.ssg li:nth-child(2) .bar {background:linear-gradient(180deg, #ffb300, #d79700);}
+.box_card_type .item_wrap.ssg li:nth-child(3) .bar{background:linear-gradient(180deg, #e91a25, #c50c16);}
+
+/* xcash graph 색상 */
+.box_card_type .graph_wrap .graph_area.xcash ul li .bar {background:linear-gradient(180deg, #ff9045, #dd2b05);}
+
+/* mx black 그래프 */
+/* .box_card_type.mxblack .item.graph_wrap {background:#28282B; color:#fff;} */
+
+/* result_list */
+.item .result_list {margin-top:16px;}
+.item .result_list dl {display:-webkit-flex; display:-ms-flexbox; display: flex; align-items: center;}
+.item .result_list dl dt {width: 108px;}
+.item .result_list dl + dl {margin-top:4px}
+
+/* x캐시백 타입 */
+.modal_card_view .graph_box_wrap.xcash .graph_area ul li > span {background:linear-gradient(180deg, #ff9045, #dd2805);}
+/* 스마일캐시 타입 */
+.modal_card_view .graph_box_wrap .graph_area.smaile_type ul li:nth-child(1) {padding-top:0;}
+.modal_card_view .graph_box_wrap .graph_area.smaile_type ul li > span {height:85px;}
+.modal_card_view .smaile_graph ul {display:flex; justify-content:center;}
+.modal_card_view .smaile_graph ul li + li {margin-left:100px;}
+.modal_card_view .smaile_graph ul li > span {display:flex; justify-content:center; margin:12px auto 16px auto; width:110px; height:96px; color:#fff;}
+.modal_card_view .smaile_graph ul li.up_graph > span {align-items:flex-end; padding-bottom:7px; background:url('/docfiles/resources/pc/images/detail/bg_graph_up_blue2.png')0 0 no-repeat; background-size:110px auto;}
+.modal_card_view .smaile_graph ul li.down_graph > span {align-items:flex-start; padding-top:7px; background:url('/docfiles/resources/pc/images/detail/bg_graph_down_pop2.png')0 0 no-repeat; background-size:110px auto;} /* 제휴서비스 그래프 적용 시 */
+.modal_card_view .smaile_graph + .box_line {margin-top:40px;}
+
+/* 카드 3층 구독 */
+.card_mount { display: flex; display: -webkit-flex; display: -ms-flexbox; flex-direction: column; align-items: center; margin:104px 0}
+.card_mount .ico_onoff3 {display: inline-flex; font-size:0;color:transparent; width:96px; height:96px; background-color:#000; background-repeat:no-repeat; mask-image:url(/docfiles/resources/mo/images/detail/ico_onoff_3f.svg); -webkit-mask-image:url(/docfiles/resources/mo/images/com/icon/w32/ico_onoff_3f.svg); mask-size:96px 96px; -webkit-mask-size:96px 96px;}
+.card_mount h3 {margin:16px 0}
+.card_mount h3 + p {margin-bottom:16px}
+
+/* 박스내부 사용처리스트 */
+.point_use ul {margin-top:28px; font-size:0}
+.point_use ul li {position:relative}
+.point_use ul li.center:before {content:""; display:inline-block; width:0; height:48px; vertical-align:middle;}
+.point_use ul li ~ li {margin-top:21px}
+.point_use ul li .img {display:inline-block; width:48px; height:48px; vertical-align:top;}
+.point_use ul li .txt {display:inline-block; margin-left:12px; margin-top:3px; width:calc(100% - 60px)}
+.point_use ul li.center .txt {margin-top:0; vertical-align:middle;}
+
+/* 박스 내 체크리스트 */
+.check_list { min-height: 240px; }
+.check_list ul li {margin-top: 8px;}
+.check_list ul li:before {content: ''; display: inline-block; width: 26px; height: 26px; margin-right: 4px; background: url(/docfiles/resources/mo/images/com/icon/w32/ico_check_b_blue.png) no-repeat 50% 50%; vertical-align: top; background-size: cover; }
+
+/* 박스 내 구분선 있는경우 */
+.sep_list > ul {display:-webkit-flex; display:-ms-flexbox; display: flex; height: 100%; flex-direction: column; }
+.sep_list > ul > li {position: relative; flex: 1; margin-bottom:32px}
+.sep_list > ul > li .icon_img {left: 0; bottom: 0;}
+.sep_list > ul > li ~ li {padding-top: 24px; border-top: 1px solid #ebebeb; }
+.sep_list > ul > li:last-child {margin-bottom:0}
+
+/* 모듈내 스텝 아이콘 리스트 */
+.step_icon_list ul {margin-top:16px;}
+.step_icon_list ul li {position: relative; width:100%}
+.step_icon_list ul li + li:before {content: ''; display: block; position:absolute; top:-36px; left:50%; transform:translateX(-50%); width:24px; height:24px; opacity:0.4; background: url(/docfiles/resources/mo/images/com/icon/w24/ico_arrowB_down.png) no-repeat 50%; background-size:24px;}
+.step_icon_list ul li ~ li {margin-top:48px;}
+.step_icon_list ul li .img {width:64px; height:64px; margin: 0 auto;}
+.step_icon_list ul li p {margin-top:4px}
+
+/* 프리미엄, 플래티넘 모듈 */
+.box_card_type .premium .item,
+.box_card_type .platinum .item {min-height: 200px; background: #333; color: #fff;}
+.box_card_type .platinum .item .plus_btn,
+.box_card_type .premium .item .plus_btn {background:rgba(255,255,255,0.48);}
+.box_card_type .premium .item .img_area .svg ,
+.box_card_type .platinum .item .img_area .svg {opacity:0.4}
+
+
+/* 프리미엄 */
+.box_card_type .premium {margin-top:28px}
+.box_card_type .premium .item {min-height:274px}
+.box_card_type .premium .item .img_area {position:absolute; bottom:30px; right:40px; margin:0}
+
+/* 플래티넘 */
+.box_card_type .platinum .item {min-height:200px}
+.box_card_type .platinum .item .item_tit p {width: calc(100% - 96px); }
+.box_card_type .platinum .item .img_area {position:absolute; bottom:32px; right:40px; margin:0}
+.box_card_type .platinum + .ect_service {margin:56px auto -56px; padding-bottom:56px; border-bottom:1px solid #ebebeb;}
+
+/* 사업지원서비스 */
+.item.business {margin-top:0; padding-bottom:28px}
+.item.business .sub_txt p ~ p,
+.item.business .bottom_txt p ~ p {margin-top:8px}
+
+/* 제휴서비스 */
+.box_card_type.partnership .item {padding-bottom: 8px;}
+.box_card_type.partnership .sub_txt p ~ p,
+.box_card_type.partnership .bottom_txt p ~ p {margin-top:8px}
+
+/* 스마일 캐시 */
+.smile_cash .brand_list {margin-top:30px}
+
+/* 보너스 리워드 */
+.bonus_box {height:240px}
+.bonus_box em {margin-bottom:28px}
+.bonus_box .item_tit + .sub_txt {margin:24px 0 22px}
+
+/* 할인혜택 */
+.benefit_icon_wrap {position:relative;margin: 104px auto;}
+.benefit_icon_wrap > h3 + p {margin-top: 16px;}
+.benefit_icon_wrap .icon_list {margin-top:34px; padding:0 12px; width:100%; font-size:0}
+.benefit_icon_wrap .icon_list li {position:relative}
+.benefit_icon_wrap .icon_list li.center:before {content:""; display:inline-block; width:0; height:56px; vertical-align:middle;}
+.benefit_icon_wrap .icon_list li ~ li {margin-top:22px}
+.benefit_icon_wrap .icon_list li .img {display:inline-block; width:56px; height:56px; vertical-align:top;}
+.benefit_icon_wrap .icon_list li .txt {display:inline-block; margin-left:12px; margin-top:2px; width:calc(100% - 68px)}
+.benefit_icon_wrap .icon_list li.center .txt {margin-top:0; vertical-align:middle}
+
+/* 컬쳐&라이프 */
+.benefit_icon_wrap.type02 .icon_list {display:-webkit-flex; display:-ms-flexbox; display:flex; flex-wrap:wrap; justify-content:center; max-width:286px; margin:32px auto 0;}
+.benefit_icon_wrap.type02 .icon_list li {justify-content:center; flex:0 0 33%; width:33%; margin:0;}
+.benefit_icon_wrap.type02 .icon_list li:nth-child(n+4) {margin-top:16px;}
+.benefit_icon_wrap.type02 .icon_list li .img {width: 64px; height:42px;}
+
+/* 다이너스 */
+.benefit_icon_wrap.type03 .icon_list {display:-webkit-flex; display:-ms-flexbox; display:flex; justify-content:space-around; max-width:286px; margin:32px auto 0;}
+.benefit_icon_wrap.type03 .icon_list li {/*flex-direction:column; align-items:center;*/ text-align:center; margin:0;}
+.benefit_icon_wrap.type03 .icon_list li .img + strong {margin-top: 8px;}
+
+/* 금융서비스 */
+.finance_service {margin-top:104px;}
+.finance_service h3 {margin-bottom:16px}
+.finance_service .h0_b_ctr_size40 + .p1_b_ctr_1ln {margin-top: 16px;}
+.finance_service .p1_b_ctr_1ln + .box_list_warp {margin-top: 32px;}
+.finance_service .box_list_warp {display:-webkit-flex; display:-ms-flexbox; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 0 32px; }
+.finance_service .box_list_warp li {margin-top:8px; width: 100%; height: 96px; border-radius: 16px; background: #00a3b8; position: relative; text-align:center;}
+.finance_service .box_list_warp li:first-child {margin-top:0}
+.finance_service .box_list_warp li a {display:block; padding: 24px; color:#fff}
+.finance_service .box_list_warp li a .p2_m_ctr_1ln {display:block; margin-top:4px}
+.finance_service .box_list_warp li a p > span {background-image:url(/docfiles/resources/mo/images/com/icon/w16/ico_arrowB_forward_wht.png);}
+
+/* 기타 서비스 */
+.ect_service {margin: 96px auto; text-align: center;}
+.ect_service .p2_m_ctr, .ect_service .p2_m_ctr_2ln {margin-top:8px}
+.ect_service .p1_b_ctr {margin-top:16px}
+.ect_service .icon_img2 {width: 68px; height: 68px; margin-bottom: 16px;}
+
+.ect_service.type_mb {margin: 104px auto;}
+
+/* ect_wrap */
+.ect_wrap .ect_service {margin: 56px auto;}
+.ect_wrap .find_service {margin: 56px auto 104px;}
+.ect_wrap .ect_service ~ .ect_service {padding-top:56px; position:relative;}
+.ect_wrap .ect_service ~ .ect_service:before {content:'';  display:inline-block; position:absolute; top:0px; left:24px; width:calc(100% - 48px); height:1px; background-color:rgba(0,0,0,0.12);}
+.ect_wrap .ect_service + .find_service {padding-top:56px;border-top: 1px solid #ebebeb;}
+.ect_wrap .ect_service + .benefit_icon_wrap {padding-top:56px;border-top: 1px solid #ebebeb;margin-top:0;}
+
+/* 내게 맞는 카드 찾기 */
+.find_service {margin: 104px auto; text-align: center;}
+.find_service .icon {width: 68px;height: 68px;margin-bottom:16px;}
+.find_service .p2_m_ctr_2ln {margin-top: 8px;}
+.find_service .p1_b_ctr {margin-top: 16px;}
+
+/* 약관정보 */
+.terms_wrap { margin: 64px auto; padding: 0 16px; }
+.terms_wrap li {display:-webkit-flex; display:-ms-flexbox; display: flex; justify-content: space-between; align-items: center; flex: 1; border: 1px solid rgba(0,0,0,0.12); border-width: 1px 0; padding: 12px 8px; min-height:64px}
+.terms_wrap li + li { border-width: 0 0 1px; }
+.terms_wrap li [class^="ico_"] { display: inline-flex; align-items: center; }
+.terms_wrap li [class^="ico_"]::before { content: ""; display: inline-flex; width: 16px; height: 16px; background-color:#000; background-repeat:no-repeat; background-size: cover; }
+.terms_wrap li .ico_history::before { mask-image: url(/docfiles/resources/mo/images/com/icon/w16/ico_history.svg); -webkit-mask-image: url(/docfiles/resources/mo/images/com/icon/w16/ico_history.svg); }
+.terms_wrap li .ico_download::before { mask-image: url(/docfiles/resources/mo/images/com/icon/w16/ico_download.svg); -webkit-mask-image: url(/docfiles/resources/mo/images/com/icon/w16/ico_download.svg); }
+.terms_wrap li .ico_speaker::before { mask-image: url(/docfiles/resources/mo/images/com/icon/w16/ico_speaker.svg); -webkit-mask-image: url(/docfiles/resources/mo/images/com/icon/w16/ico_speaker.svg); }
+
+/* 현대카드 추천 및 이용후기 */
+.review .cate_tit {padding:0}
+.review .item_wrap {margin-top:32px; align-items:stretch; padding: 0 24px;}
+.review .item_wrap .item{ height:auto; margin:0 auto; padding:0 0 81px 0; background:none; border-radius:16px;}
+.review .item_wrap .item::before{content:''; position:absolute; left:79px; bottom:60px; width:16px; height:19px; background:url(/docfiles/resources/mo/images/detail/bg_review.png) no-repeat 0 0; background-size:16px 19px;}
+.review .item_wrap .item::after{content:''; position:absolute; top:0; bottom:79px; width:100%; background-color:#f5f5f5; border-radius:16px;}
+.review .item_wrap .item:nth-child(even)::before { left: inherit; right: 79px; transform: rotateY(180deg); }
+.review .item_wrap .item + .item {margin-top: 28px;}
+.review .review{position: relative; z-index:1;  padding:20px;}
+.review .review h3 + p{margin-top: 8px;}
+.review .writer{position:absolute; bottom:0; width:100%; height:57px; padding:6px 0 0 81px; }
+.review .writer::before { content:""; display: inline-flex; width: 57px; height: 57px; position: absolute; top:0; left: 12px; background:url(/docfiles/resources/mo/images/detail/ico_review01.png) no-repeat 0 0; background-size:57px 57px; }
+.review .writer.icon01::before{background-image:url(/docfiles/resources/mo/images/detail/ico_review01.png);}
+.review .writer.icon02::before{background-image:url(/docfiles/resources/mo/images/detail/ico_review02.png);}
+.review .writer.icon03::before{background-image:url(/docfiles/resources/mo/images/detail/ico_review03.png);}
+.review .writer .name { color: rgba(0,0,0,0.4); display:none}
+.review .writer .name + .info{margin-top:4px; display:none}
+.review .item_wrap .item:nth-child(even) .writer { display: flex; flex-direction: column; align-items: flex-end; padding: 6px 81px 0 0; }
+.review .item_wrap .item:nth-child(even) .writer::before { left: inherit; right: 12px; transform: rotateY(180deg); }
+
+/* 이용안내 */
+.useinfo { padding: 0 16px; margin-top:64px; word-break: keep-all; word-wrap: break-word}
+.useinfo .box_bul {margin-top:12px}
+.useinfo .box_bul .bul_list li {font-size: 14px; line-height:20px; color:#5c5c5c; font-weight:500}
+.useinfo .box_bul .bul_list li + li {margin-top: 6px;}
+.useinfo .box_bul .dash_list li {color:#5c5c5c}
+.useinfo .bul_list li > .dash_list {margin: 6px 0; color:#5c5c5c;}
+.useinfo .box_bul .bul_list.line_top li {font-weight:700;}
+.useinfo .box_table {margin:12px 0 20px;}
+.useinfo .box_table th,
+.useinfo .box_table td { padding: 12px 0 12px 12px; border: 1px solid rgba(0,0,0,0.04); border-width: 1px 0; }
+.useinfo .box_table th {color:#000; border-color:rgba(0,0,0,0.08); vertical-align:middle;}
+.card_detail_view .useinfo .line_top {margin-top: 24px; padding-top: 24px; border-top:1px solid #e0e0e0;}
+/* 이용안내 하단에 추가 텍스트 올 때 */
+.useinfo .box_bul + .p1_b_lt_1ln {margin-top:32px;}
+.useinfo .info_section {margin-top:32px;}
+.useinfo .info_section .tit {margin-bottom:12px;}
+.useinfo .info_section .cont {font-size:14px; line-height:22px; color:#5c5c5c;}
+.useinfo .info_section .cont + .cont {margin-top:32px;}
+.useinfo .info_section .cont .bul_list li {font-size:14px; line-height:22px; margin-top:6px;}
+.useinfo .info_section .cont .bul_list ol {padding-left:16px;}
+.useinfo .info_section .cont .bul_list ol > li {text-indent:-16px;}
+
+/* 관련 카드 */
+.card_issue {margin-top: 38px;}
+.card_issue ul { display:flex; flex-direction: column; justify-content: center; align-items: center; padding: 0 16px; }
+.card_issue ul li {position: relative; width: 100%; height:104px; display: flex; border-radius: 12px; padding: 16px 24px; align-items: center; }
+.card_issue ul li .img {display: inline-block; width: 46px; height: 72px; flex-shrink:0;}
+.card_issue ul li .img.vertical {transform:rotate(90deg); width:72px; max-width:inherit; margin-left:-25px}
+.card_issue ul li .img img { width: 100%; max-width: 100%; }
+.card_issue ul li ~ li {margin-top: 8px;}
+.card_issue ul li .cont {margin-left: 18px;}
+.card_issue ul li .cont p {margin-bottom: 4px; display:-webkit-box; overflow:hidden; text-overflow:ellipsis; -webkit-line-clamp:2; -webkit-box-orient:vertical;}
+
+/* b타입 모듈 */
+.box_card_type .title_wrap {padding:0 16px 0 24px;}
+.box_card_type .title_wrap .cont_area > em {opacity:.64;}
+.box_card_type .title_wrap .cont_area > em + p {margin-top: 16px;}
+.box_card_type .title_wrap .cont_area > p + p {margin-top: 16px;}
+.box_card_type .title_wrap .img_area {margin: 16px 0 24px auto; width: 196px; height: 105px;}
+
+
+/* 모듈 색상 */
+/* B타입 적립 모듈 색상 */
+.box_card_type.mpoint_emphasis .item_wrap .item:nth-child(1) {background: #29306e; color: #fff; min-height:498px;}
+.box_card_type.mpoint_emphasis .item_wrap .item:nth-child(2) {background: #0784b7; color: #fff; min-height:268px}
+.box_card_type.mpoint_emphasis .item_wrap .item:nth-child(3) {background: #83dbe0;}
+.box_card_type.mpoint_emphasis .item_wrap .plus_btn {background: rgba(255,255,255,.48);}
+
+/* the pink */
+.tpi .box_card_type.mpoint_emphasis .item_wrap .item:nth-child(2) {background-color:#f5f5f5; color:#000}
+.tpi .box_card_type.mpoint_emphasis .item_wrap .plus_btn:nth-child(2) {background: #ccc;}
+
+/* the green */
+.tg .box_card_type.mpoint_emphasis .item_wrap .item:nth-child(2) {background-color:#f5f5f5; color:#000}
+.tg .box_card_type.mpoint_emphasis .item_wrap .plus_btn:nth-child(2) {background: #ccc;}
+
+
+/* xseries */
+.box_card_type.xseries .item_wrap .item:nth-child(1) {background:#9b3209; color:#fff;}
+.box_card_type.xseries .item_wrap .item:nth-child(2) {background:#ee7900; color:#fff}
+.box_card_type.xseries .item_wrap .item:nth-child(3) {background:#ffdc15; color:#000;}
+.box_card_type.xseries .item_wrap .plus_btn {background: rgba(255,255,255,.48);}
+
+/* Z카드 */
+.box_card_type.zcard .item_wrap .item:nth-child(1) {background:#9b3209;}
+.box_card_type.zcard .item_wrap .item {background:#ee7900;color:#fff;}
+.box_card_type.zcard .item_wrap .plus_btn {background: rgba(255,255,255,.48);}
+
+/* 대한항공카드 */
+.box_card_type.koreanair .item_wrap .item:nth-child(1) {background:#29306e; color: #fff;}
+.box_card_type.koreanair .item_wrap .item:nth-child(2) {background:#0077b4; color: #fff;}
+.box_card_type.koreanair .item_wrap .plus_btn {background: rgba(255,255,255,.48);}
+
+/* 스타벅스 */
+.box_card_type.starbucks .item_wrap .item {background: #00704a; color: #fff;}
+
+/* 쏘카 */
+.box_card_type.socar .title_wrap .img_area {width: 228px; height: 151px;}
+.box_card_type.socar .item_wrap .item:nth-child(1) {background: #02abe7; color: #fff;}
+
+/* 무신사 */
+.box_card_type.musinsa .item_wrap .item:nth-child(1) {background:#000; color: #fff;}
+
+/* 배민 */
+.box_card_type.baemin .title_wrap .img_area {width: 207px; height: 160px; margin-top: 29px;}
+.box_card_type.baemin .item_wrap .item:nth-child(1) {background: #009b95; color: #fff;}
+.box_card_type.baemin .item_wrap .item:nth-child(2) {background: #f5eedc;}
+
+/* 디지털러버 */
+.box_card_type.d_lover .item_wrap .item:nth-child(1) {background: #c64f00; color: #fff;}
+.box_card_type.d_lover .item_wrap .item:nth-child(2) {background: #5D5857; color: #fff;}
+
+/* 스마일페이 */
+.box_card_type.smile .item_wrap .item {background: #272a5f; color: #fff;}
+.box_card_type.smile .item_wrap .item:last-child {background: #f5f5f5; color: #000;}
+
+/* 코스트코 */
+.box_card_type.costco .item_wrap .item {color: #fff;}
+.box_card_type.costco .item_wrap .item:nth-child(1) {background: #c8102e;}
+.box_card_type.costco .item_wrap .item:nth-child(2) {background: #005a97;}
+
+/* MXBLACK */
+.card_detail_view.mxb .ect_service {margin:120px 0}
+/* .card_detail_view.mxb .ect_service .h4_b_ctr {font-size:16px} */
+.card_detail_view.mxb .ect_service .icon_img3 {width:160px; margin-bottom:16px}
+.card_detail_view.mxb .ect_service .p2_b_ctr {margin-top: 16px;}
+.box_card_type.mxblack .item_wrap .item {background: #28282b; color: #fff;}
+.box_card_type.mxblack .item_wrap .item .svg.plt_black_m * {fill: #bbcdda;}
+.box_card_type.mxblack .item_wrap .item .plus_btn {background:rgba(255,255,255,0.48);}
+
+/* 브랜드로고 */
+/* cjmall */
+.box_card_type .logo_cjmall {background-image: url(/docfiles/resources/mo/images/detail/ico_cjmall.png);}
+/* g9 */
+.box_card_type .logo_g9 {background-image: url(/docfiles/resources/mo/images/detail/ico_g9.png);}
+/* 마켓컬리 */
+.box_card_type .logo_kurly {background-image: url(/docfiles/resources/mo/images/detail/ico_kurly.png);}
+/* 롯데홈쇼핑 */
+.box_card_type .brand_list li.logo_lotteshopping {background-image: url(/docfiles/resources/mo/images/detail/ico_lotteshopping.png);}
+/* gssupermarket */
+.box_card_type .brand_list li.logo_gssuper {background-image: url(/docfiles/resources/mo/images/detail/ico_gssuper.png);}
+/* 홈플러스익스프레스 */
+.box_card_type .brand_list li.logo_homeexpress {background-image: url(/docfiles/resources/mo/images/detail/ico_homeexpress.png);}
+/* hmall */
+.box_card_type .logo_hmall {background-image: url(/docfiles/resources/mo/images/detail/ico_hmall.png);}
+/* 11beonga */
+.box_card_type .logo_11beonga {background-image: url(/docfiles/resources/mo/images/detail/ico_11beonga.png);}
+/* auction */
+.box_card_type .logo_auction {background-image: url(/docfiles/resources/mo/images/detail/ico_auction.png);}
+/* ssg */
+.box_card_type .logo_ssg {background-image: url(/docfiles/resources/mo/images/detail/ico_ssg.png);}
+/* gmarket */
+.box_card_type .logo_gmarket {background-image: url(/docfiles/resources/mo/images/detail/ico_gmarket.png);}
+/* wemakeprice */
+.box_card_type .logo_wemakeprice {background-image: url(/docfiles/resources/mo/images/detail/ico_wemakeprice.png);}
+/* interpark */
+.box_card_type .logo_interpark {background-image: url(/docfiles/resources/mo/images/detail/ico_interpark.png);}
+/* gsshop */
+.box_card_type .logo_gsshop {background-image: url(/docfiles/resources/mo/images/detail/ico_gsshop.png);}
+/* ashley */
+.box_card_type .logo_ashley {background-image: url(/docfiles/resources/mo/images/detail/ico_ashley.png);}
+/* gs25 */
+.box_card_type .logo_gs25 {background-image: url(/docfiles/resources/mo/images/detail/ico_gs25.png);}
+/* mrpizza */
+.box_card_type .logo_mrpizza {background-image: url(/docfiles/resources/mo/images/detail/ico_mrpizza.png);}
+/* outback */
+.box_card_type .logo_outback {background-image: url(/docfiles/resources/mo/images/detail/ico_outback.png);}
+/* papajohns */
+.box_card_type .logo_papajohns {background-image: url(/docfiles/resources/mo/images/detail/ico_papajohns.png);}
+/* pizzahut */
+.box_card_type .logo_pizzahut {background-image: url(/docfiles/resources/mo/images/detail/ico_pizzahut.png);}
+/* pizzahut(배경없음) */
+.box_card_type .brand_list li.logo_pizzahut_bgwht {background-image: url(/docfiles/resources/mo/images/detail/ico_pizzahut_bgwht.png);}
+/* dominopizza */
+.box_card_type .brand_list li.logo_dominopizza {background-image: url(/docfiles/resources/mo/images/detail/ico_dominopizza.png);}
+/* tgi */
+.box_card_type .logo_tgi {background-image: url(/docfiles/resources/mo/images/detail/ico_tgi.png);}
+/* vips */
+.box_card_type .logo_vips {background-image: url(/docfiles/resources/mo/images/detail/ico_vips.png);}
+/* cgv */
+.box_card_type .logo_cgv {background-image: url(/docfiles/resources/mo/images/detail/ico_cgv.png);}
+/* megabox */
+.box_card_type .logo_megabox {background-image: url(/docfiles/resources/mo/images/detail/ico_megabox.png);}
+/* 롯데백화점 */
+.box_card_type .logo_lotte {background-image: url(/docfiles/resources/mo/images/detail/ico_lotte.png);}
+/* 신세계백화점 */
+.box_card_type .logo_shinsegae {background-image: url(/docfiles/resources/mo/images/detail/ico_shinsegae.png);}
+/* 현대백화점 */
+.box_card_type .logo_hyundai {background-image: url(/docfiles/resources/mo/images/detail/ico_hyundai.png);}
+/* 이마트 */
+.box_card_type .logo_emart {background-image: url(/docfiles/resources/mo/images/detail/ico_emart.png);}
+/* 홈플러스 */
+.box_card_type .logo_homeplus {background-image: url(/docfiles/resources/mo/images/detail/ico_homeplus.png);}
+/* 롯데온 */
+.box_card_type .logo_lotteon {background-image: url(/docfiles/resources/mo/images/detail/ico_lotteon.png);}
+/* 폴바셋 */
+.box_card_type .logo_paulbassett {background-image: url(/docfiles/resources/mo/images/detail/ico_paulbassett.png);}
+/* 스타벅스 */
+.box_card_type .logo_starbucks {background-image: url(/docfiles/resources/mo/images/detail/ico_starbucks.png);}
+/* 파리바게트 */
+.box_card_type .logo_parisbaguette {background-image: url(/docfiles/resources/mo/images/detail/ico_parisbaguette.png);}
+/* 맥도날드 */
+.box_card_type .logo_m {background-image: url(/docfiles/resources/mo/images/detail/ico_m.png);}
+/* 버거킹 */
+.box_card_type .logo_burgerking {background-image: url(/docfiles/resources/mo/images/detail/ico_burgerking.png);}
+/* cu */
+.box_card_type .logo_cu {background-image: url(/docfiles/resources/mo/images/detail/ico_cu.png);}
+/* 7eleven */
+.box_card_type .logo_7eleven {background-image: url(/docfiles/resources/mo/images/detail/ico_7eleven.png);}
+/* 롯데마트 */
+.box_card_type .logo_lottemart {background-image: url(/docfiles/resources/mo/images/detail/ico_lottemart.png);}
+
+/* 브랜드리스트 화이트색상 */
+/* 쿠팡페이 */
+.box_card_type .logo_coupay {background-image: url(/docfiles/resources/mo/images/detail/ico_coupay_wht.png);}
+/* 카카오페이 */
+.box_card_type .logo_kakaopay {background-image: url(/docfiles/resources/mo/images/detail/ico_kakaopay_wht.png);}
+/* 엔페이 */
+.box_card_type .logo_npay {background-image: url(/docfiles/resources/mo/images/detail/ico_npay_wht.png);}
+/* 삼성페이 */
+.box_card_type .logo_samsungpay{background-image: url(/docfiles/resources/mo/images/detail/ico_samsungpay_wht.png);}
+/* sk페이 */
+.box_card_type .logo_skpay{background-image: url(/docfiles/resources/mo/images/detail/ico_skpay_wht.png);}
+/* 스마일페이 */
+.box_card_type .logo_smilepay{background-image: url(/docfiles/resources/mo/images/detail/ico_smilepay_wht.png);}
+/* ssg페이 */
+.box_card_type .logo_ssgpay{background-image: url(/docfiles/resources/mo/images/detail/ico_ssgpay_wht.png);}
+/* 지니 */
+.box_card_type .logo_genie{background-image: url(/docfiles/resources/mo/images/detail/ico_genie_wht.png);}
+/* 멜론 */
+.box_card_type .logo_melon{background-image: url(/docfiles/resources/mo/images/detail/ico_melon_wht.png);}
+/* 넷플릭스 */
+.box_card_type .logo_netflix{background-image: url(/docfiles/resources/mo/images/detail/ico_netflix_wht.png);}
+/* 유튜브 */
+.box_card_type .logo_youtube{width: 114px; background-size: 114px; height: 28px; margin-top: 16px; background-image: url(/docfiles/resources/mo/images/detail/ico_youtube_wht.png);}
+/* 11번가 화이트 */
+.box_card_type .logo_11beonga_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_11beonga_wht.png);}
+/* 쿠팡 화이트 */
+.box_card_type .logo_coupang_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_coupang_wht.png);}
+/* 지마켓 화이트 */
+.box_card_type .logo_gmarket_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_gmarket_wht.png);}
+/* n쇼핑 화이트 */
+.box_card_type .logo_nshopping_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_nshopping_wht.png);}
+/* ssg 화이트 */
+.box_card_type .logo_ssg_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_ssg_wht.png);}
+/* cu 화이트 */
+.box_card_type .logo_cu_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_cu_wht.png);}
+/* 이디야 화이트 */
+.box_card_type .logo_ediya_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_ediya_wht.png);}
+/* gs25 화이트 */
+.box_card_type .logo_gs25_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_gs25_wht.png);}
+/* gs 칼텍스 화이트 */
+.box_card_type .logo_gscaltex_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_gscaltex_wht.png);}
+/* megabox 화이트 */
+.box_card_type .logo_megabox_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_megabox_wht.png);}
+/* 폴바셋 화이트 */
+.box_card_type .logo_poulbassett_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_poulbassett_wht.png);}
+/* 투썸플레이스 화이트 */
+.box_card_type .logo_twosome_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_twosome_wht.png);}
+/* 커피빈 화이트 */
+.box_card_type .logo_coffeebean_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_coffeebean_wht.png);}
+/* 스타벅스 화이트 */
+.box_card_type .logo_starbucks_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_starbucks_wht.png);}
+/* 뚜레주르 화이트 */
+.box_card_type .logo_tousles_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_tousles_wht.png);}
+/* CGV 화이트 */
+.box_card_type .logo_cgv_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_cgv_wht.png);}
+/* 이마트 화이트 */
+.box_card_type .logo_emart_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_emart_wht.png);}
+/* 이마트24 화이트 */
+.box_card_type .logo_emart24_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_emart24_wht.png);}
+/* 이마트 에브리데이 화이트 */
+.box_card_type .logo_emart_every_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_emart_every_wht.png);}
+/* 신세계tv쇼핑 화이트 */
+.box_card_type .logo_sin_tvshopping_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_sin_tvshopping_wht.png);}
+/* kt 화이트 */
+.box_card_type .logo_kt_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_kt_wht.png);}
+/* lg u+ 화이트 */
+.box_card_type .logo_lgu_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_lgu_wht.png);}
+/* sk telecom 화이트 */
+.box_card_type .logo_sktelecom_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_sktelecom_wht.png);}
+/* sk 에너지 화이트 */
+.box_card_type .logo_skenergy_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_skenergy_wht.png);}
+/* 현대 오일 뱅크 화이트 */
+.box_card_type .logo_hyundaioilbank_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_hyundaioilbank_wht.png);}
+/* s-oil 화이트 */
+.box_card_type .logo_soil_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_soil_wht.png);}
+/* 롯데시네마 화이트 */
+.box_card_type .logo_lottecinema_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_lottecinema_wht.png);}
+/* 롯데백화점 화이트 */
+.box_card_type .logo_lottedepart_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_lottedepart_wht.png);}
+/* 롯데아울렛 화이트 */
+.box_card_type .logo_lotteoutlets_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_lotteoutlets_wht.png);}
+/* 신세계 화이트 */
+.box_card_type .logo_shinsegae_wht{background-image: url(/docfiles/resources/mo/images/detail/ico_shinsegae_wht.png);}
+/*디즈니플러스 화이트*/
+.box_card_type .logo_disneyplus_wht{background-image: url(/docfiles/resources/mo/images/detail/logo_disneyplus_wht.png);}
+
+/* 블랙에디션3 */
+.card_detail_view.black3 .detail_top.type_full { height:calc(100vh - 48px); background: url(/docfiles/resources/mo/images/detail/bg_top_blked2.png)no-repeat center; background-size: cover; color: #fff; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+.card_detail_view.black3 .benefit_icon_wrap {margin-bottom:64px}
+.card_detail_view.black3 .top_type_a {display:none;}
+
+/* 제네시스 팝업 */
+.modal_pop.modal_genesis .box_content {padding-top:6px;}
+.modal_pop.modal_genesis .radio_list {margin-top:24px;}
+.modal_pop.modal_genesis .radio_list li {padding:20px 0 24px 0;}
+.modal_pop.modal_genesis input + label {display:block; position:relative; padding:3px 0 0 40px;}
+.modal_pop.modal_genesis input + label > i {display:inline-block; position:absolute; top:0; left:0; z-index:2; width:32px; height:32px; background-color:transparent; border-radius:100%}
+.modal_pop.modal_genesis input + label > i:after {content:''; position:absolute; top:2px; left:2px; z-index:-1; width:28px; height:28px; background-color:#e0e0e0; border-radius:100%;}
+.modal_pop.modal_genesis input:checked + label > i:before {content:''; position:absolute; top:11px; lefT:11px; width:10px; height:10px; background-color:#000; border-radius:100%;}
+.modal_pop.modal_genesis label p span.state {display:inline-block; padding:0 6px; margin-left:8px; color:#fff; font-size:12px; line-height:20px; background:#000; border-radius:16px;}
+.modal_pop.modal_genesis label > span {display:block; margin-top:8px}
+.modal_pop.modal_genesis .box_bul .box_title {margin-bottom:12px;}
+.modal_pop.modal_genesis .radio_list + .box_bul {margin-top:40px;}
+
+
+/* 카드상세 바닥 툴팁영역 */
+#apply_tooltip {display:none}
+
+/* 내게 맞는 카드 찾기 */
+.sub_card .find_inner {padding:0 24px 64px 24px;}
+.sub_card .find_inner .box_top_tit {margin-top:36px; padding:0;}
+.sub_card .find_inner .box_card_list {margin-top:40px;}
+.sub_card .find_inner .box_card_info {margin-top:64px;}
+.sub_card .find_inner .box_card_info dl dd + dd {border-top:1px solid rgba(0,0,0,0.04);}
+.sub_card .find_inner .box_card_info dl dd span + .dash_list02,
+.sub_card .find_inner .box_card_info dl dd strong + .dash_list02 {margin-top:4px;}
+.sub_card .find_inner .box_card_info dl dd .dash_list02 li {color:rgba(0,0,0,0.48);}
+.sub_card .find_inner .box_card_info dl dd .dash_list02 li + li {margin-top:4px;}
+.sub_card .find_inner .box_card_info .bul_list03 {margin-top:12px;}
+.sub_card .find_inner .box_card_info .bul_list03 li {color:rgba(0,0,0,0.64);}
+.sub_card .find_inner .box_card_info + .box_bul {margin-top:64px;}
+.sub_card .find_inner .box_bul .dash_list02.fc_m_a48 li {color:rgba(0,0,0,0.48);}
+.sub_card .find_inner .box_card_list .card_list { display: -webkit-flex; display: -ms-flexbox; display: flex; flex-direction: column; justify-content: center; margin: 4px auto 64px; }
+.sub_card .find_inner .box_card_list .card_list li { position: relative; padding: 12px 0; display: -webkit-flex; display: -ms-flexbox; display: flex; align-items: flex-start; }
+.sub_card .find_inner .box_card_list .card_list li + li { margin-top: 25px; }
+.sub_card .find_inner .box_card_list .card_list li .img { width: 64px; height: 100px; flex-shrink: 0; }
+.sub_card .find_inner .box_card_list .card_list li .img img { width: 100%; max-width: 100%; }
+.sub_card .find_inner .box_card_list .card_list li .txt { margin-left: 18px; }
+.sub_card .find_inner .box_card_list .card_list li .txt strong + p { margin-top: 4px; }
+.sub_card .find_inner .box_card_info dl + dl { margin-top: 24px; }
+.sub_card .find_inner .box_card_info dl + .bul_list { margin-top: 12px; }
+.sub_card .find_inner .box_card_info dl + .bul_list > li { font-size: 12px; line-height: 16px; }
+.sub_card .find_inner .box_card_info dl dt { padding-bottom: 9px; border-bottom: 1px solid #000; }
+.sub_card .find_inner .box_card_info dl dd { padding: 16px 0; display: -webkit-flex; display: -ms-flexbox; display: flex; flex-direction: column; }
+.sub_card .find_inner .box_card_info dl dd strong + span { margin-top: 4px; }
+.sub_card .find_inner .box_card_info dl dd span { opacity: .48; }
+.sub_card .find_inner .box_card_info dl dd .dash_list > li { font-size: 14px; line-height: 22px; opacity: .48; }
+.sub_card .find_inner .box_card_info dl:last-of-type dd:last-child { border-bottom: 1px solid rgba(0,0,0,0.04); }
+
+/*인터렉션 관련*/
+.event1 .event_container:not(.evt1){opacity:0;transform:translateY(-80px);transition:opacity .5s , transform .3s;transition-delay:.3s}
+.event2 .event_container.evt1 {opacity:1;transform:translateY(-80px);transition:opacity .5s , transform .3s;transition-delay:.3s}
+.event_container.evt1{opacity:0;}
+.event_container{opacity:1;transform:translateY(0);transition:opacity .5s , transform .3s;transition-delay:.3s}
+.event_container{position:fixed;width:100%;top:180px;}
+.event_container .img{margin:30px auto 0;}
+.event_container.evt1 > ul > li{text-align:center;}
+.event_container.evt1 > div{margin-left:auto;margin-right:auto;}
+.event_container.evt1 > ul > li ~ li {margin-top:24px}
+.tbe2 .detail_top,
+.tbe3 .detail_top{background:none;position:relative;min-height:100vh}
+.detail_top_bg{height: 664px; background-repeat:no-repeat; background-position:top center; background-size: cover;position:fixed;left:0;bottom:0;width:100%;height:100vh;}
+.tbe2 .detail_top_bg {background-image:url(/docfiles/resources/mo/images/detail/bg_top_blked2.png)}
+.tbe3 .detail_top_bg {background-image:url(/docfiles/resources/mo/images/detail/bg_top_tbe3.png)}
+.detail_dim{content:'';position:absolute;left:0;top:0;background:#000;opacity:0;width:100%;height:100%;}
+.card_detail_view[class*="black"] .card_voucher .vou_top{height:300px}
+.vou_top.vou_fix{z-index:10}
+/* .vou_top + .cont{padding-top:93px;} */
+.vou_top.vou_fix + .cont{padding-top:393px;}
+.card_usepoint {z-index:10;position:relative;}
+.cms_area{position:relative;}
+/*
+ * Dark Mode
+*/
+@media (prefers-color-scheme:dark) {
+    /* .svg * { fill: #fff; }
+	[class*="fc"][class*="_blk"], [data-fc="fc_blk"] {color:#fff;}
+
+    .dropdown_container ul { background-color:#333; }
+    .dropdown_container ul a {color:#7a7a7a;}
+    .dropdown_container ul li  { border-top-color:#141414; }
+    .dropdown_container ul li.current a { color:#fff; }
+
+    .card_mount .ico_onoff3 { background-color:#fff; }
+    .card_detail_view .detail_top .info_area .cont_wrap .membership_fee {box-shadow:0 0 1px rgb(225,225,225,.50);}
+
+    .terms_wrap li .ico_history::before,
+    .terms_wrap li .ico_download::before,
+    .terms_wrap li .ico_speaker::before { background-color:#fff;}
+    .card_detail_view .detail_top .info_area .cont_wrap .apply_message > a > i:after,
+    .card_detail_view .detail_top .info_area .cont_wrap .apply_message .wrap_tooltip .btn_tooltip01 i:after { background-color:#fff; } */
+
+    /* GGCZ06 추가 */
+    /* .fc_blk, .fc_blk li {color: #fff !important;}
+
+    .item {color: #fff; background: #0a0a0a;}
+    .item .plus_btn {background: #333;}
+    .sep_list > ul > li ~ li {border-color: #141414;}
+    
+    .card_voucher .cont {border-color:rgba(255,255,255,0.12);}
+    .tpi .box_card_type.mpoint_emphasis .item_wrap .item:nth-child(2) {color: #fff; background-color: #0a0a0a;}
+    .tg .box_card_type.mpoint_emphasis .item_wrap .item:nth-child(2) {background-color:#0a0a0a; color:#fff;}
+
+    .box_card_type.ssg .item_wrap .item:nth-child(1) {color:#ccc;}
+    .box_card_type.smile .item_wrap .item:last-child {color:#fff; background-color:#0a0a0a;}
+
+	.ect_wrap .ect_service + .find_service {border-color:#141414}
+    .ect_wrap .ect_service ~ .ect_service:before {border-color:rgba(255,255,255,0.12);}
+    .terms_wrap li {border-color: rgba(255,255,255,0.12);}    
+    .card_detail_view .useinfo .line_top {border-color:#1f1f1f;}
+	.step_icon_list ul li + li:before {background-image: url(/docfiles/resources/mo/images/com/icon/w24/ico_arrowB_down_wht.png);}
+	.card_detail_view .detail_top .info_area .cont_wrap .apply_message .wrap_tooltip .box_tooltip {background-color:#000}
+    .box_tooltip:after {border-color:#000 transparent transparent transparent}
+    .review .item_wrap .item::after {background-color:#0a0a0a;}
+    .useinfo .info_section .cont {color:#a3a3a3;}
+
+	.sub_card .find_inner .box_card_info dl dd .dash_list02 li {color:rgba(225,225,225,0.48)}
+	.sub_card .find_inner .box_card_info dl dt {border-color:#fff} */
+}
