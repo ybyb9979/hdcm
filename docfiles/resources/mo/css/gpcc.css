@@ -1,0 +1,2186 @@
+@charset "utf-8";
+
+@import url('gpcc_02.css'); /* Q10582 */
+
+/* M Edition3 */
+body.card_ME3 .mo_card ,  body.card_ME3 .plt_con .completed_con .img{background-color:rgb(235, 28, 116);}
+/* 캐롯손해보험 */
+body.card_MCIE3 .mo_card , body.card_MCIE3 .plt_con .completed_con .img{background-color:#eb1c74;}
+/* M2 Edition3 */
+body.card_MPE3 .mo_card , body.card_MPE3 .plt_con .completed_con .img{background-color:#fb9019;}
+/* M3 Edition3 */
+body.card_M3PE3 .mo_card , body.card_M3PE3 .plt_con .completed_con .img{background-color:#efe835;}
+/* X Edition2 */
+body.card_XE2 .mo_card , body.card_XE2 .plt_con .completed_con .img{background-color:#1d24ab;}
+/* X2 Edition2 */
+body.card_XPE2 .mo_card , body.card_XPE2 .plt_con , body.card_XPE2 .completed_con .img{background-color:#00a885;}
+/* X3 Edition2 */
+body.card_X3PE2 .mo_card , body.card_X3PE2 .plt_con , body.card_X3PE2 .completed_con .img{background-color:#25cbd3;}
+/* ZERO(할인형) Edition2 */
+body.card_ZROE2 .mo_card , body.card_ZROE2 .plt_con , body.card_ZROE2 .completed_con .img{background-color:#e4e5e4;}
+
+/* Mobile ZERO(할인형) Edition2 */
+body.card_MOZRE2 .mo_card , body.card_MOZRE2 .plt_con , body.card_MOZRE2 .completed_con .img{background-color:#e4e5e4;}
+/* ZERO(포인트형) Edition2 */
+body.card_MZROE2 .mo_card , body.card_MZROE2 .plt_con , body.card_MZROE2 .completed_con .img{background-color:#e4e5e4;}
+/* Mobile ZERO(포인트형) Edition2 */
+body.card_MMOZRE2 .mo_card , body.card_MMOZRE2 .plt_con , body.card_MMOZRE2 .completed_con .img{background-color:#e4e5e4;}
+/*골드, 블랙*/
+body.card_ZROE2_BN .mo_card , body.card_ZROE2_BN .plt_con , body.card_ZROE2_BN .completed_con .img{background-color:#ccc;}
+body.card_ZROE2_BM .mo_card , body.card_ZROE2_BM .plt_con , body.card_ZROE2_BM .completed_con .img{background-color:#f6e68f;}
+body.card_MZROE2_BN .mo_card , body.card_MZROE2_BN .plt_con , body.card_MZROE2_BN .completed_con .img{background-color:#ccc;}
+body.card_MZROE2_BM .mo_card , body.card_MZROE2_BM .plt_con , body.card_MZROE2_BM .completed_con .img{background-color:#f6e68f;}
+body.card_MOZRE2_BN .mo_card , body.card_MOZRE2_BN .plt_con , body.card_MOZRE2_BN .completed_con .img{background-color:#ccc;}
+body.card_MOZRE2_BM .mo_card , body.card_MOZRE2_BM .plt_con , body.card_MOZRE2_BM .completed_con .img{background-color:#f6e68f;}
+body.card_MMOZRE2_BN .mo_card , body.card_MMOZRE2_BN .plt_con , body.card_MMOZRE2_BN .completed_con .img{background-color:#ccc;}
+body.card_MMOZRE2_BM .mo_card , body.card_MMOZRE2_BM .plt_con , body.card_MMOZRE2_BM .completed_con .img{background-color:#f6e68f;}
+
+
+/* 2차 대상 카드 background-color */
+/* Premium카드 Red */
+body.card_TRE4 .mo_card, body.card_TRE4 .completed_con .img {background-color:#D8142E;}
+body.card_TRE5 .mo_card, body.card_TRE5 .completed_con .img {background-color:#D8142E;}
+body.card_TPE3 .mo_card, body.card_TPE3 .completed_con .img {background: #5C325E;}
+body.card_TPME3 .mo_card, body.card_TPME3 .completed_con .img {background: #5C325E;}
+
+body.card_TPE3 .completed_con .completed_txt , body.card_TPME3 .completed_con .completed_txt , body.card_TRE5 .completed_con .completed_txt , body.card_TRE4 .completed_con .completed_txt
+{color:#fff}
+/* Premium카드 Green */
+body.card_TG .mo_card, body.card_TG .completed_con .img {background-color:#008C15;}
+/* 포인트카드 T3 */
+body.card_T3PE2 .mo_card, body.card_T3PE2 .completed_con .img {background-color:#00A98D;}
+/* 할인카드 Digital Lover */
+body.card_ONOF .mo_card, body.card_ONOF .completed_con .img {background-color:#DEDEDE;}
+/* 제휴카드 kt-현대카드M Edition3(청구할인형) */
+body.card_MKTE3 .mo_card, body.card_MKTE3 .completed_con .img , body.bg_eb .mo_card, body.bg_eb .completed_con .img , body.bg_eb .plt_con{background-color:#ebebeb;}
+/* 제휴카드 kt-현대카드M Edition3(청구할인형 2.0) */
+body.card_MKTE3P .mo_card, body.card_MKTE3P .completed_con .img {background-color:#eb1c74;}
+/* 제휴카드 kt-현대카드M Edition3(통신할인형 2.0) */
+body.card_MKTE3TP .mo_card, body.card_MKTE3TP .completed_con .img {background-color:#ebebeb;}
+/* 제휴카드 kt-현대카드M Edition3(통신할인형) */
+body.card_MKTE3T .mo_card, body.card_MKTE3T .completed_con .img {background-color:#eb1c74;}
+/* 제휴카드 kt-현대카드M Edition3(라이트할부형) */
+body.card_MKTE3L .mo_card, body.card_MKTE3L .completed_con .img {background-color:#eb1c74;}
+/* 제휴카드 LGU+-현대카드M Edition3(통신할인형) */
+body.card_MLGTE3T .mo_card, body.card_MLGTE3T .completed_con .img {background-color:#eb1c74;}
+/* 제휴카드 LGU+-현대카드M Edition3(청구할인형) */
+body.card_MLGTE3 .mo_card, body.card_MLGTE3 .completed_con .img {background-color:#eb1c74;}
+/* 제휴카드 LGU+-현대카드M Edition3(라이트할부형) */
+body.card_MLGTE3L .mo_card, body.card_MLGTE3L .completed_con .img {background-color:#eb1c74;}
+/* 제휴카드 SKT-현대카드M Edition3(라이트할부형) */
+body.card_MSKTE3L .mo_card, body.card_MSKTE3L .completed_con .img {background-color:#eb1c74;}
+/* 제휴카드 SKT-현대카드M Edition3(할부형) */
+body.card_MSKTE3 .mo_card, body.card_MSKTE3 .completed_con .img {background-color:#eb1c74;}
+/* 제휴카드 t-broad-현대카드M Edition2(청구할인형) */
+body.card_MTBE2D .mo_card, body.card_MTBE2D .completed_con .img {background-color:#eb1c74;}
+/* 제휴카드 CJ 현대카드 M Edition2 */
+body.card_MCJE2 .mo_card, body.card_MCJE2 .completed_con .img {background-color:#eb1c74;}
+/* 제휴카드 coway-현대카드M Edition3 */
+body.card_MCWYE3 .mo_card, body.card_MCWYE3 .completed_con .img {background-color:#eb1c74;}
+/* 제휴카드 SK매직-현대카드M Edition3 */
+body.card_MSKME3 .mo_card, body.card_MSKME3 .completed_con .img {background-color:#eb1c74;}
+/* 제휴카드 하이마트-현대카드 M Edition2 */
+body.card_MHIMTE2 .mo_card, body.card_MHIMTE2 .completed_con .img  {background: #eb1c74;}
+
+/* 제휴카드 하이마트-현대카드 M Edition3 */
+body.card_MHIMTE3 .mo_card, body.card_MHIMTE3 .completed_con .img {background-color:#eb1c74;}
+/* 제휴카드 하이마트-현대카드 M Edition2 (장기할부형) */
+body.card_MHMMOE2 .mo_card, body.card_MHMMOE2 .completed_con .img {background-color:#eb1c74;}
+/* 제휴카드 하이마트Mobile-현대카드M Edition3(통신할인형) */
+body.card_MHMMOE3T .mo_card, body.card_MHMMOE3T .completed_con .img {background-color:#eb1c74;}
+/* 제휴카드 LG헬로비전-현대카드M Edition2(청구할인형) */
+body.card_MCJHE2D .mo_card, body.card_MCJHE2D .completed_con .img {background-color:#eb1c74;}
+/* 햇살론 */
+body.card_SLHC .mo_card, body.card_SLHC .completed_con .img {background-color:#e4e5e4;}
+
+/* CLCC */
+body.card_MKTE3 .mo_card, body.card_MKTE3 .completed_con .img,
+body.card_MKTE3P .mo_card, body.card_MKTE3P .completed_con .img,
+body.card_MKTRE3 .mo_card, body.card_MKTRE3 .completed_con .img,
+body.card_MLGTRE3 .mo_card, body.card_MLGTRE3 .completed_con .img,
+body.card_MSKTRE3 .mo_card, body.card_MSKTRE3 .completed_con .img,
+body.card_MLGEE3 .mo_card, body.card_MLGEE3 .completed_con .img,
+body.card_MHDSHE3 .mo_card, body.card_MHDSHE3 .completed_con .img,
+body.card_MSE2 .mo_card, body.card_MSE2 .completed_con .img,
+body.card_MSKTE3 .mo_card, body.card_MSKTE3 .completed_con .img,
+body.card_MLGTE3 .mo_card, body.card_MLGTE3 .completed_con .img {background-color:#eb1c74;}
+body.card_MPSE2 .mo_card, body.card_MPSE2 .completed_con .img {background-color:#FB9019;}
+body.card_ZROS .mo_card, body.card_ZROS .completed_con .img {background-color:#E4E5E4;}
+
+/*PINK*/
+body.card_TPI_GU .mo_card, body.card_TPI_GU .completed_con .img,
+body.card_TPI_GT .mo_card, body.card_TPI_GT .completed_con .img,
+body.card_TPI_GW .mo_card, body.card_TPI_GW .completed_con .img,
+body.card_TPI_GV .mo_card, body.card_TPI_GV .completed_con .img,
+body.card_TPI .mo_card, body.card_TPI .completed_con .img {background-color:#E4007F;}
+
+/*YES24*/
+body.card_YSHC_DS .mo_card, body.card_YSHC_DS .completed_con .img,
+body.card_YSHC_DT .mo_card, body.card_YSHC_DT .completed_con .img {background-color:#EBEBEB;}
+
+/*H-MALL*/
+body.card_HDSHHC_DS .mo_card, body.card_HDSHHC_DS .completed_con .img,
+body.card_HDSHHC_DT .mo_card, body.card_HDSHHC_DT .completed_con .img {background-color:#EBEBEB;}
+
+/*헬로비전*/
+body.card_MLGHE3 .mo_card, body.card_MLGHE3 .completed_con .img {background-color:#EBEBEB;}
+
+/*Kt-현대카드M Edition3*/
+body.card_MKTE3 .mo_card, body.card_MKTE3 .completed_con .img {background-color:#EBEBEB;}
+
+/* 현대 모빌리티 카드 - 캐스퍼 */
+body.card_HSCHC .mo_card, body.card_HSCHC .completed_con .img {background-color:#ebebeb;}
+/* 그린 ed2 카드 */
+body.card_TGE2 .mo_card, body.card_TGE2 .completed_con .img {background-color:#55B947;}
+/* 레드 ed5 카드 */
+body.card_TRE5 .mo_card, body.card_TRE5 .completed_con .img {background-color:#EE1B3B;}
+body.card_TRME5 .mo_card, body.card_TRME5 .completed_con .img {background-color:#EE1B3B;}
+/* SB카드 */
+body.card_MXB .mo_card, body.card_MXB .completed_con .img {background-color:#e0e0e0;}
+
+body.card_XE3,body.card_XPE3,body.card_X3PE3,body.card_MBT,body.card_MPBT,body.card_M3PBT{background:#e0e0e0;}
+body.card_XE3:before,body.card_XPE3:before,body.card_X3PE3:before,body.card_MBT:before,body.card_MPBT:before,body.card_M3PBT:before{background:#e0e0e0;}
+/* X boost GD */
+body.card_MMBF .mo_card, body.card_MMBF .completed_con .img {background-color:#e0e0e0;}
+body.card_XE3_GD .mo_card, body.card_XE3_GD .completed_con .img {background-color:#e0e0e0;} /* Q10582: 22.02.17 card_XE3_GD 클래스 추가 */
+body.card_XPE3_GD .mo_card, body.card_XPE3_GD .completed_con .img {background-color:#e0e0e0;}
+body.card_X3PE3_GD .mo_card, body.card_X3PE3_GD .completed_con .img {background-color:#e0e0e0;}
+/* X boost GE */
+body.card_XE3_GE .mo_card, body.card_XE3_GE .completed_con .img {background-color:#e0e0e0;}
+body.card_XPE3_GE .mo_card, body.card_XPE3_GE .completed_con .img {background-color:#e0e0e0;}
+body.card_X3PE3_GE .mo_card, body.card_X3PE3_GE .completed_con .img {background-color:#e0e0e0;}
+/* X boost GF */
+body.card_XE3_GF .mo_card, body.card_XE3_GF .completed_con .img {background-color:#e0e0e0;}
+body.card_XPE3_GF .mo_card, body.card_XPE3_GF .completed_con .img {background-color:#e0e0e0;}
+body.card_X3PE3_GF .mo_card, body.card_X3PE3_GF .completed_con .img {background-color:#e0e0e0;}
+/* X boost GG */
+body.card_XE3_GG .mo_card, body.card_XE3_GG .completed_con .img {background-color:#e0e0e0;}
+body.card_XPE3_GG .mo_card, body.card_XPE3_GG .completed_con .img {background-color:#e0e0e0;}
+body.card_X3PE3_GG .mo_card, body.card_X3PE3_GG .completed_con .img {background-color:#e0e0e0;}
+/* X boost GH */
+body.card_XE3_GH .mo_card, body.card_XE3_GH .completed_con .img {background-color:#e0e0e0;}
+body.card_XPE3_GH .mo_card, body.card_XPE3_GH .completed_con .img {background-color:#e0e0e0;}
+body.card_X3PE3_GH .mo_card, body.card_X3PE3_GH .completed_con .img {background-color:#e0e0e0;}
+/* X boost GI */
+body.card_XE3_GI .mo_card, body.card_XE3_GI .completed_con .img {background-color:#e0e0e0;}
+body.card_XPE3_GI .mo_card, body.card_XPE3_GI .completed_con .img {background-color:#e0e0e0;}
+body.card_X3PE3_GI .mo_card, body.card_X3PE3_GI .completed_con .img {background-color:#e0e0e0;}
+/* M boost GA */
+body.card_MBT_GA .mo_card, body.card_MBT_GA .completed_con .img {background-color:#e0e0e0;}
+body.card_MPBT_GA .mo_card, body.card_MPBT_GA .completed_con .img {background-color:#e0e0e0;}
+body.card_M3PBT_GA .mo_card, body.card_M3PBT_GA .completed_con .img {background-color:#e0e0e0;}
+/* M boost GB */
+body.card_MBT_GB .mo_card, body.card_MBT_GB .completed_con .img {background-color:#e0e0e0;}
+body.card_MPBT_GB .mo_card, body.card_MPBT_GB .completed_con .img {background-color:#e0e0e0;}
+body.card_M3PBT_GB .mo_card, body.card_M3PBT_GB .completed_con .img {background-color:#e0e0e0;}
+/* M boost GC */
+body.card_MBT_GC .mo_card, body.card_MBT_GC .completed_con .img {background-color:#e0e0e0;}
+body.card_MPBT_GC .mo_card, body.card_MPBT_GC .completed_con .img {background-color:#e0e0e0;}
+body.card_M3PBT_GC .mo_card, body.card_M3PBT_GC .completed_con .img {background-color:#e0e0e0;}
+/* M boost GG */
+body.card_MBT_GG .mo_card, body.card_MBT_GG .completed_con .img {background-color:#e0e0e0;}
+body.card_MPBT_GG .mo_card, body.card_MPBT_GG .completed_con .img {background-color:#e0e0e0;}
+body.card_M3PBT_GG .mo_card, body.card_M3PBT_GG .completed_con .img {background-color:#e0e0e0;}
+/* M boost GH */
+body.card_MBT_GH .mo_card, body.card_MBT_GH .completed_con .img {background-color:#e0e0e0;}
+body.card_MPBT_GH .mo_card, body.card_MPBT_GH .completed_con .img {background-color:#e0e0e0;}
+body.card_M3PBT_GH .mo_card, body.card_M3PBT_GH .completed_con .img {background-color:#e0e0e0;}
+
+/* M boost GI */
+body.card_MBT_GI .mo_card, body.card_MBT_GI .completed_con .img {background-color:#e0e0e0;}
+body.card_MPBT_GI .mo_card, body.card_MPBT_GI .completed_con .img {background-color:#e0e0e0;}
+body.card_M3PBT_GI .mo_card, body.card_M3PBT_GI .completed_con .img {background-color:#e0e0e0;}
+/*LB ZF*/
+body.card_ZF_ZF .mo_card, body.card_ZF_ZF .completed_con .img {background-color:#e4e5e4;}
+body.card_ZF_GM .mo_card, body.card_ZF_GM .completed_con .img {background-color:#e4e5e4;}
+body.card_ZF_GN .mo_card, body.card_ZF_GN .completed_con .img {background-color:#e4e5e4;}
+body.card_ZF_GO .mo_card, body.card_ZF_GO .completed_con .img {background-color:#e4e5e4;}
+body.card_ZF_GP .mo_card, body.card_ZF_GP .completed_con .img {background-color:#e4e5e4;}
+/*body.card_ZF_GQ .mo_card, body.card_ZF_GQ .completed_con .img {background-color:#e4e5e4;} 20210401 데빌Z 삭제*/
+body.card_ZF_GR .mo_card, body.card_ZF_GR .completed_con .img {background-color:#e4e5e4;}
+body.card_ZF_GS .mo_card, body.card_ZF_GS .completed_con .img {background-color:#e4e5e4;}
+
+/*LB ZW*/
+body.card_ZW_ZW .mo_card, body.card_ZW_ZW .completed_con .img {background-color:#e4e5e4;}
+body.card_ZW_GM .mo_card, body.card_ZW_GM .completed_con .img {background-color:#e4e5e4;}
+body.card_ZW_GN .mo_card, body.card_ZW_GN .completed_con .img {background-color:#e4e5e4;}
+body.card_ZW_GO .mo_card, body.card_ZW_GO .completed_con .img {background-color:#e4e5e4;}
+body.card_ZW_GP .mo_card, body.card_ZW_GP .completed_con .img {background-color:#e4e5e4;}
+/*body.card_ZW_GQ .mo_card, body.card_ZW_GQ .completed_con .img {background-color:#e4e5e4;} 20210401 데빌Z 삭제 */
+body.card_ZW_GR .mo_card, body.card_ZW_GR .completed_con .img {background-color:#e4e5e4;}
+body.card_ZW_GS .mo_card, body.card_ZW_GS .completed_con .img {background-color:#e4e5e4;}
+
+/*LB ZO*/
+body.card_ZO_ZO .mo_card, body.card_ZO_ZO .completed_con .img {background-color:#e4e5e4;}
+body.card_ZO_GM .mo_card, body.card_ZO_GM .completed_con .img {background-color:#e4e5e4;}
+body.card_ZO_GN .mo_card, body.card_ZO_GN .completed_con .img {background-color:#e4e5e4;}
+body.card_ZO_GO .mo_card, body.card_ZO_GO .completed_con .img {background-color:#e4e5e4;}
+body.card_ZO_GP .mo_card, body.card_ZO_GP .completed_con .img {background-color:#e4e5e4;}
+/*body.card_ZO_GQ .mo_card, body.card_ZO_GQ .completed_con .img {background-color:#e4e5e4;} 20210401 데빌Z 삭제 */
+body.card_ZO_GR .mo_card, body.card_ZO_GR .completed_con .img {background-color:#e4e5e4;}
+body.card_ZO_GS .mo_card, body.card_ZO_GS .completed_con .img {background-color:#e4e5e4;}
+
+/* MB카드 */
+body.card_MMBF .mo_card, body.card_MMBF .completed_con .img {background-color:#e0e0e0;}
+body.card_MMBR .mo_card, body.card_MMBR .completed_con .img {background-color:#e0e0e0;}
+body.card_MMBE .mo_card, body.card_MMBE .completed_con .img {background-color:#e0e0e0;}
+
+body.card_MMBPF .mo_card, body.card_MMBPF .completed_con .img {background-color:#e0e0e0;}
+body.card_MMBPR .mo_card, body.card_MMBPR .completed_con .img {background-color:#e0e0e0;}
+body.card_MMBPE .mo_card, body.card_MMBPE .completed_con .img {background-color:#e0e0e0;}
+
+body.card_XMBF .mo_card, body.card_XMBF .completed_con .img {background-color:#e0e0e0;}
+body.card_XMBR .mo_card, body.card_XMBR .completed_con .img {background-color:#e0e0e0;}
+body.card_XMBE .mo_card, body.card_XMBE .completed_con .img {background-color:#e0e0e0;}
+
+body.card_XMBPF .mo_card, body.card_XMBPF .completed_con .img {background-color:#e0e0e0;}
+body.card_XMBPR .mo_card, body.card_XMBPR .completed_con .img {background-color:#e0e0e0;}
+body.card_XMBPE .mo_card, body.card_XMBPE .completed_con .img {background-color:#e0e0e0;}
+
+body.card_ZROMBF .mo_card, body.card_ZROMBF .completed_con .img {background-color:#e4e5e4;}
+body.card_ZROMBR .mo_card, body.card_ZROMBR .completed_con .img {background-color:#e4e5e4;}
+body.card_ZROMBE .mo_card, body.card_ZROMBE .completed_con .img {background-color:#e4e5e4;}
+
+
+/* 초기화면 카드 플레이트 border */
+.card_TRE4 .gpcc_container.starting_card .gpcc_card_area,
+.card_TG .gpcc_container.starting_card .gpcc_card_area {border-radius: 8px;}
+.card_TRE5 .gpcc_container.starting_card .gpcc_card_area {border-radius: 8px;}
+
+/* 카드 플레이트 color */
+.card_TRE4 .plt_con {background-color:#D8142E; border-radius: 12px;}
+.card_TRE4 .plt_con {background-color:#D8142E; border-radius: 12px;}
+.card_TRE5 .plt_con {background-color:#D8142E; border-radius: 12px;}
+.card_TRE5 .plt_con {background-color:#D8142E; border-radius: 12px;}
+.card_TG .plt_con {background-color: #008C15; border-radius: 12px;}
+.card_TG .plt_con {background-color: #008C15; border-radius: 12px;}
+.card_T3PE2 .plt_con {background-color: #005CB9;}
+.card_T3PE2 .plt_con {background-color: #005CB9;}
+.card_T3PE2 .plt_con .box_input01.row2 .input_txt {caret-color:#fff;}
+/* 현대 모빌리티 카드 - 캐스퍼 */
+.card_HSCHC_DS .plt_con {background-color: #00a1ce;}
+.card_HSCHC_DS .plt_con {background-color: #00a1ce;}
+.card_HSCHC_DT .plt_con {background-color: #f4f1ef;}
+.card_HSCHC_DT .plt_con {background-color: #f4f2ef;}
+.card_HSCHC_DU .plt_con {background-color: #052C5A;}
+.card_HSCHC_DU .plt_con {background-color: #052C5A;}
+.card_HSCHC_DV .plt_con {background-color: #ca9e67;}
+.card_HSCHC_DV .plt_con {background-color: #ca9e67;}
+/* 그린ed2 카드 */
+.card_TGE2_GT .plt_con {background-color: #55B947;}
+.card_TGE2_GT .plt_con {background-color: #55B947;}
+.card_TGE2_GU .plt_con {background-color: #55B947;}
+.card_TGE2_GU .plt_con {background-color: #55B947;}
+.card_TGE2_GV .plt_con {background-color: #55B947;}
+.card_TGE2_GV .plt_con {background-color: #55B947;}
+.card_TGE2_GW .plt_con {background-color: #55B947;}
+.card_TGE2_GW .plt_con {background-color: #55B947;}
+/* 레드ed5 카드 */
+.card_TRE5_GT .plt_con {background-color: #EE1B3B;}
+.card_TRE5_GT .plt_con {background-color: #EE1B3B;}
+.card_TRE5_GU .plt_con {background-color: #CF212F;}
+.card_TRE5_GU .plt_con {background-color: #CF212F;}
+.card_TRE5_GV .plt_con {background-color: #FFFFFF;}
+.card_TRE5_GV .plt_con {background-color: #FFFFFF;}
+.card_TRME5_GT .plt_con {background-color: #EE1B3B;}
+.card_TRME5_GT .plt_con {background-color: #EE1B3B;}
+.card_TRME5_GU .plt_con {background-color: #CF212F;}
+.card_TRME5_GU .plt_con {background-color: #CF212F;}
+.card_TRME5_GV .plt_con {background-color: #FFFFFF;}
+.card_TRME5_GV .plt_con {background-color: #FFFFFF;}
+
+/* SB카드 */
+.card_MXB_BA .plt_con {background-color: #1B1B1B;}
+.card_MXB_GX .plt_con {background-color: #D4D3D1;}
+.card_MXB_GX .plt_con {background-color: #D4D3D1;}
+.card_MXB_GY .plt_con {background-color: #1B1B1B;}
+.card_MXB_GY .plt_con {background-color: #1B1B1B;}
+.card_MXB_GZ .plt_con {background-color: #1B1B1B;}
+.card_MXB_GZ .plt_con {background-color: #1B1B1B;}
+
+/* 할인카드 Digital Lover - Jean Crush */
+.card_ONOF.card_ONOF_OM .plt_con {background-color:#FFE900; border-radius: 16px;}
+.card_ONOF.card_ONOF_OM .plt_con {background-color:#FFE900; border-radius: 16px;}
+/* 할인카드 Digital Lover - Rusty Robot */ 
+.card_ONOF.card_ONOF_OR .plt_con {background-color:#FF6900; border-radius: 16px;}
+.card_ONOF.card_ONOF_OR .plt_con {background-color:#FF6900; border-radius: 16px;}
+/* 할인카드 Digital Lover - Star Bomb */
+.card_ONOF.card_ONOF_ON .plt_con {background-color:#25282A; border-radius: 16px;}
+.card_ONOF.card_ONOF_ON .plt_con {background-color:#25282A; border-radius: 16px;}
+.card_ONOF.card_ONOF_ON .plt_con .box_input01.row2 .input_txt {color:#fff;}
+/* 할인카드 Digital Lover - Foggy Planet */
+.card_ONOF.card_ONOF_OC .plt_con {background-color:#727272; border-radius: 16px;}
+.card_ONOF.card_ONOF_OC .plt_con {background-color:#727272; border-radius: 16px;}
+.card_MKTE3 .plt_con {background-color:#83DBE0;}
+.card_MKTE3 .plt_con {background-color:#83DBE0;}
+.card_MKTE3P .plt_con {background-color:#83DBE0;}
+.card_MKTE3P .plt_con {background-color:#83DBE0;}
+.card_MKTE3TP .plt_con {background-color:#83DBE0;}
+.card_MKTE3TP .plt_con {background-color:#83DBE0;}
+.card_MKTE3T .plt_con {background-color:#83DBE0;}
+.card_MKTE3T .plt_con {background-color:#83DBE0;}
+.card_MKTE3L .plt_con {background-color:#83DBE0;}
+.card_MKTE3L .plt_con {background-color:#83DBE0;}
+.card_MLGTE3 .plt_con {background-color:#83DBE0;}
+.card_MLGTE3 .plt_con {background-color:#83DBE0;}
+.card_MLGTE3T .plt_con {background-color:#83DBE0;}
+.card_MLGTE3T .plt_con {background-color:#83DBE0;}
+.card_MLGTE3L .plt_con {background-color:#83DBE0;}
+.card_MLGTE3L .plt_con {background-color:#83DBE0;}
+.card_MSKTE3L .plt_con {background-color:#83DBE0;}
+.card_MSKTE3L .plt_con {background-color:#83DBE0;}
+.card_MTBE2D .plt_con {background-color:#83DBE0;}
+.card_MTBE2D .plt_con {background-color:#83DBE0;}
+.card_MCJE2 .plt_con {background-color:#83DBE0;}
+.card_MCJE2 .plt_con {background-color:#83DBE0;}
+.card_MCWYE3 .plt_con {background-color:#83DBE0;}
+.card_MCWYE3 .plt_con {background-color:#83DBE0;}
+.card_MSKME3 .plt_con {background-color:#83DBE0;}
+.card_MSKME3 .plt_con {background-color:#83DBE0;}
+.card_MHIMTE2 .plt_con {background-color:#83DBE0;}
+.card_MHIMTE2 .plt_con {background-color:#83DBE0;}
+.card_MHIMTE3 .plt_con {background-color:#83DBE0;}/* 하이마트 M Edition3 himart */
+.card_MHIMTE3 .plt_con {background-color:#83DBE0;}/* 하이마트 M Edition3 himart */
+.card_MHMMOE2 .plt_con {background-color:#83DBE0;}
+.card_MHMMOE2 .plt_con {background-color:#83DBE0;}
+.card_MHMMOE3T .plt_con {background-color:#83DBE0;}
+.card_MHMMOE3T .plt_con {background-color:#83DBE0;}
+.card_MCJHE2D .plt_con {background-color:#83DBE0;}
+.card_MCJHE2D .plt_con {background-color:#83DBE0;}
+/*CLCC*/
+.card_MKTE3 .plt_con,
+.card_MKTE3P .plt_con,
+.card_MKTRE3 .plt_con,
+.card_MLGTRE3 .plt_con,
+.card_MSKTRE3 .plt_con,
+.card_MLGEE3 .plt_con,
+.card_MHDSHE3 .plt_con,
+.card_MSE2 .plt_con,
+.card_MSKTE3 .plt_con,
+.card_MLGTE3 .plt_con {background-color:#83DBE0;}
+.card_MPSE2 .plt_con {background-color:#00B3E3;}
+.card_ZROS .plt_con {background-color:#fff;}
+.card_MKTE3 .plt_con,
+.card_MKTE3P .plt_con,
+.card_MKTRE3 .plt_con,
+.card_MLGTRE3 .plt_con,
+.card_MSKTRE3 .plt_con,
+.card_MLGEE3 .plt_con,
+.card_MHDSHE3 .plt_con,
+.card_MSE2 .plt_con,
+.card_MSKTE3 .plt_con,
+.card_MLGTE3 .plt_con{background-color:#83DBE0;}
+.card_MPSE2 .plt_con{background-color:#00B3E3;}
+.card_ZROS .plt_con{background-color:#fff;}
+/*PINK*/
+.card_TPI_GU .plt_con,
+.card_TPI_GT .plt_con,
+.card_TPI_GW .plt_con,
+.card_TPI_GV .plt_con,
+.card_TPI .plt_con{background-color:#E4007F;}
+.card_TPI_GU .plt_con,
+.card_TPI_GT .plt_con,
+.card_TPI_GW .plt_con,
+.card_TPI_GV .plt_con,
+.card_TPI .plt_con{background-color:#E4007F;}
+/*YES24*/
+.card_YSHC_DS .plt_con{background-color:#fff;}
+.card_YSHC_DT .plt_con{background-color:#006D9D;}
+.card_YSHC_DS .plt_con{background-color:#fff;}
+.card_YSHC_DT .plt_con{background-color:#006D9D;}
+/*H-MALL*/
+.card_HDSHHC_DS .plt_con{background-color:#FAFAFB;}
+.card_HDSHHC_DT .plt_con{background-color:#F15C3D;}
+.card_HDSHHC_DS .plt_con{background-color:#FAFAFB;}
+.card_HDSHHC_DT .plt_con{background-color:#F15C3D;}
+/*헬로비전*/
+.card_MLGHE3 .plt_con{background-color:#FAFAFB;border-radius:12px;}
+.card_MLGHE3 .plt_con{background-color:#FAFAFB;}
+/*Kt-현대카드M Edition3*/
+.card_MKTE3 .plt_con{background-color:#00C7BD;}
+.card_MKTE3 .plt_con{background-color:#00C7BD;}
+/* M/X boost */
+.card_MMBF .plt_con {background-color:#AB2517 !important;}
+.card_MMBF .plt_con {background-color:#AB2517 !important;}
+.card_XE3_GD  .plt_con {background-color:#AB2517 !important;} /* Q10582: 22.02.17 card_XE3_GD 클래스 추가 */
+.card_XPE3_GD .plt_con {background-color:#AB2517 !important;}
+.card_XPE3_GD .plt_con {background-color:#AB2517 !important;}
+.card_X3PE3_GD .plt_con {background-color:#AB2517 !important;}
+.card_X3PE3_GD .plt_con {background-color:#AB2517 !important;}
+.card_XE3_GE .plt_con {background-color:#EEF2F4 !important;}
+.card_XE3_GE .plt_con {background-color:#EEF2F4 !important;}
+.card_XPE3_GE .plt_con {background-color:#EEF2F4 !important;}
+.card_XPE3_GE .plt_con {background-color:#EEF2F4 !important;}
+.card_X3PE3_GE .plt_con {background-color:#EEF2F4 !important;}
+.card_X3PE3_GE .plt_con {background-color:#EEF2F4 !important;}
+.card_XE3_GF .plt_con {background-color:#A29072 !important;}
+.card_XE3_GF .plt_con {background-color:#A29072 !important;}
+.card_XPE3_GF .plt_con {background-color:#A29072 !important;}
+.card_XPE3_GF .plt_con {background-color:#A29072 !important;}
+.card_X3PE3_GF .plt_con {background-color:#A29072 !important;}
+.card_X3PE3_GF .plt_con {background-color:#A29072 !important;}
+.card_XE3_GG .plt_con {background-color:#C93B40 !important;}
+.card_XE3_GG .plt_con {background-color:#C93B40 !important;}
+.card_XPE3_GG .plt_con {background-color:#C93B40 !important;}
+.card_XPE3_GG .plt_con {background-color:#C93B40 !important;}
+.card_X3PE3_GG .plt_con {background-color:#C93B40 !important;}
+.card_X3PE3_GG .plt_con {background-color:#C93B40 !important;}
+.card_XE3_GH .plt_con {background-color:#FBFAFA !important;}
+.card_XE3_GH .plt_con {background-color:#FBFAFA !important;}
+.card_XPE3_GH .plt_con {background-color:#FBFAFA !important;}
+.card_XPE3_GH .plt_con {background-color:#FBFAFA !important;}
+.card_X3PE3_GH .plt_con {background-color:#FBFAFA !important;}
+.card_X3PE3_GH .plt_con {background-color:#FBFAFA !important;}
+.card_XE3_GI .plt_con {background-color:#F0F2F4 !important;}
+.card_XE3_GI .plt_con {background-color:#F0F2F4 !important;}
+.card_XPE3_GI .plt_con {background-color:#F0F2F4 !important;}
+.card_XPE3_GI .plt_con {background-color:#F0F2F4 !important;}
+.card_X3PE3_GI .plt_con {background-color:#F0F2F4 !important;}
+.card_X3PE3_GI .plt_con {background-color:#F0F2F4 !important;}
+
+.card_MBT_GA .plt_con {background-color:#29306B !important;}
+.card_MBT_GA .plt_con {background-color:#29306B !important;}
+.card_MPBT_GA .plt_con {background-color:#29306B !important;}
+.card_MPBT_GA .plt_con {background-color:#29306B !important;}
+.card_M3PBT_GA .plt_con {background-color:#29306B !important;}
+.card_M3PBT_GA .plt_con {background-color:#29306B !important;}
+.card_MBT_GB .plt_con {background-color:#EEF2F4 !important;}
+.card_MBT_GB .plt_con {background-color:#EEF2F4 !important;}
+.card_MPBT_GB .plt_con {background-color:#EEF2F4 !important;}
+.card_MPBT_GB .plt_con {background-color:#EEF2F4 !important;}
+.card_M3PBT_GB .plt_con {background-color:#EEF2F4 !important;}
+.card_M3PBT_GB .plt_con {background-color:#EEF2F4 !important;}
+.card_MBT_GC .plt_con {background-color:#215E87 !important;}
+.card_MBT_GC .plt_con {background-color:#215E87 !important;}
+.card_MPBT_GC .plt_con {background-color:#215E87 !important;}
+.card_MPBT_GC .plt_con {background-color:#215E87 !important;}
+.card_M3PBT_GC .plt_con {background-color:#215E87 !important;}
+.card_M3PBT_GC .plt_con {background-color:#215E87 !important;}
+.card_MBT_GG .plt_con {background-color:#C93B40 !important;}
+.card_MBT_GG .plt_con {background-color:#C93B40 !important;}
+.card_MPBT_GG .plt_con {background-color:#C93B40 !important;}
+.card_MPBT_GG .plt_con {background-color:#C93B40 !important;}
+.card_M3PBT_GG .plt_con {background-color:#C93B40 !important;}
+.card_M3PBT_GG .plt_con {background-color:#C93B40 !important;}
+.card_MBT_GH .plt_con {background-color:#FBFAFA !important;}
+.card_MBT_GH .plt_con {background-color:#FBFAFA !important;}
+.card_MPBT_GH .plt_con {background-color:#FBFAFA !important;}
+.card_MPBT_GH .plt_con {background-color:#FBFAFA !important;}
+.card_M3PBT_GH .plt_con {background-color:#FBFAFA !important;}
+.card_M3PBT_GH .plt_con {background-color:#FBFAFA !important;}
+.card_MBT_GI .plt_con {background-color:#F0F2F4 !important;}
+.card_MBT_Gi .plt_con {background-color:#F0F2F4 !important;}
+.card_MPBT_GI .plt_con {background-color:#F0F2F4 !important;}
+.card_MPBT_GI .plt_con {background-color:#F0F2F4 !important;}
+.card_M3PBT_GI .plt_con {background-color:#F0F2F4 !important;}
+.card_M3PBT_GI .plt_con {background-color:#F0F2F4 !important;}
+
+/*LB*/
+.card_ZF_ZF .plt_con{background-color:#592A87 !important;}
+.card_ZF_ZF .plt_con{background-color:#592A87 !important;}
+.card_ZO_ZO .plt_con{background-color:#262626 !important;}
+.card_ZO_ZO .plt_con{background-color:#262626 !important;}
+.card_ZW_ZW .plt_con{background-color:#2AB586 !important;}
+.card_ZW_ZW .plt_con{background-color:#2AB586 !important;}
+.card_ZF_GM .plt_con,.card_ZW_GM .plt_con,.card_ZO_GM .plt_con {background-color:#7F3729 !important;}
+.card_ZF_GM .plt_con,.card_ZW_GM .plt_con,.card_ZO_GM .plt_con {background-color:#7F3729 !important;}
+.card_ZF_GN .plt_con,.card_ZW_GN .plt_con,.card_ZO_GN .plt_con {background-color:#F1F1F2 !important;}
+.card_ZF_GN .plt_con,.card_ZW_GN .plt_con,.card_ZO_GN .plt_con {background-color:#F1F1F2 !important;}
+.card_ZF_GO .plt_con,.card_ZW_GO .plt_con,.card_ZO_GO .plt_con {background-color:#D7522A !important;}
+.card_ZF_GO .plt_con,.card_ZW_GO .plt_con,.card_ZO_GO .plt_con {background-color:#D7522A !important;}
+.card_ZF_GP .plt_con,.card_ZW_GP .plt_con,.card_ZO_GP .plt_con {background-color:#2D2D2F !important;}
+.card_ZF_GP .plt_con,.card_ZW_GP .plt_con,.card_ZO_GP .plt_con {background-color:#2D2D2F !important;}
+/*.card_ZF_GQ .plt_con,.card_ZW_GQ .plt_con,.card_ZO_GQ .plt_con {background-color:#0197E9 !important;}
+.card_ZF_GQ .plt_con,.card_ZW_GQ .plt_con,.card_ZO_GQ .plt_con {background-color:#0197E9 !important;} 20210401 데빌Z 삭제*/
+.card_ZF_GR .plt_con,.card_ZW_GR .plt_con,.card_ZO_GR .plt_con {background-color:#EDF0F0 !important;}
+.card_ZF_GR .plt_con,.card_ZW_GR .plt_con,.card_ZO_GR .plt_con {background-color:#EDF0F0 !important;}
+.card_ZF_GS .plt_con,.card_ZW_GS .plt_con,.card_ZO_GS .plt_con {background-color:#E8E8E4 !important;}
+.card_ZF_GS .plt_con,.card_ZW_GS .plt_con,.card_ZO_GS .plt_con {background-color:#E8E8E4 !important;}
+
+/* 햇살론 */
+.card_SLHC .plt_con {background-color:#fff; border-radius:12px;}
+.card_SLHC .plt_con {background-color:#fff; border-radius:12px;}
+
+/* MB카드 M/X/ZERO */
+.card_MMBF_GA .plt_con {background-color:#29306B !important;}
+.card_MMBF_GA .plt_con {background-color:#29306B !important;}
+.card_MMBR_GA .plt_con {background-color:#29306B !important;}
+.card_MMBR_GA .plt_con {background-color:#29306B !important;}
+.card_MMBE_GA .plt_con {background-color:#29306B !important;}
+.card_MMBE_GA .plt_con {background-color:#29306B !important;}
+.card_MMBPF_GA .plt_con {background-color:#29306B !important;}
+.card_MMBPF_GA .plt_con {background-color:#29306B !important;}
+.card_MMBPR_GA .plt_con {background-color:#29306B !important;}
+.card_MMBPR_GA .plt_con {background-color:#29306B !important;}
+.card_MMBPE_GA .plt_con {background-color:#29306B !important;}
+.card_MMBPE_GA .plt_con {background-color:#29306B !important;}
+.card_MMBF_GB .plt_con {background-color:#EEF2F4 !important;}
+.card_MMBF_GB .plt_con {background-color:#EEF2F4 !important;}
+.card_MMBR_GB .plt_con {background-color:#EEF2F4 !important;}
+.card_MMBR_GB .plt_con {background-color:#EEF2F4 !important;}
+.card_MMBE_GB .plt_con {background-color:#EEF2F4 !important;}
+.card_MMBE_GB .plt_con {background-color:#EEF2F4 !important;}
+.card_MMBPF_GB .plt_con {background-color:#EEF2F4 !important;}
+.card_MMBPF_GB .plt_con {background-color:#EEF2F4 !important;}
+.card_MMBPR_GB .plt_con {background-color:#EEF2F4 !important;}
+.card_MMBPR_GB .plt_con {background-color:#EEF2F4 !important;}
+.card_MMBPE_GB .plt_con {background-color:#EEF2F4 !important;}
+.card_MMBPE_GB .plt_con {background-color:#EEF2F4 !important;}
+.card_MMBF_GC .plt_con {background-color:#215E87 !important;}
+.card_MMBF_GC .plt_con {background-color:#215E87 !important;}
+.card_MMBR_GC .plt_con {background-color:#215E87 !important;}
+.card_MMBR_GC .plt_con {background-color:#215E87 !important;}
+.card_MMBE_GC .plt_con {background-color:#215E87 !important;}
+.card_MMBE_GC .plt_con {background-color:#215E87 !important;}
+.card_MMBPF_GC .plt_con {background-color:#215E87 !important;}
+.card_MMBPF_GC .plt_con {background-color:#215E87 !important;}
+.card_MMBPR_GC .plt_con {background-color:#215E87 !important;}
+.card_MMBPR_GC .plt_con {background-color:#215E87 !important;}
+.card_MMBPE_GC .plt_con {background-color:#215E87 !important;}
+.card_MMBPE_GC .plt_con {background-color:#215E87 !important;}
+
+.card_XMBF_GD .plt_con {background-color:#AB2517 !important;}
+.card_XMBF_GD .plt_con {background-color:#AB2517 !important;}
+.card_XMBR_GD .plt_con {background-color:#AB2517 !important;}
+.card_XMBR_GD .plt_con {background-color:#AB2517 !important;}
+.card_XMBE_GD .plt_con {background-color:#AB2517 !important;}
+.card_XMBE_GD .plt_con {background-color:#AB2517 !important;}
+.card_XMBPF_GD .plt_con {background-color:#AB2517 !important;}
+.card_XMBPF_GD .plt_con {background-color:#AB2517 !important;}
+.card_XMBPR_GD .plt_con {background-color:#AB2517 !important;}
+.card_XMBPR_GD .plt_con {background-color:#AB2517 !important;}
+.card_XMBPE_GD .plt_con {background-color:#AB2517 !important;}
+.card_XMBPE_GD .plt_con {background-color:#AB2517 !important;}
+.card_XMBF_GE .plt_con {background-color:#EEF2F4 !important;}
+.card_XMBF_GE .plt_con {background-color:#EEF2F4 !important;}
+.card_XMBR_GE .plt_con {background-color:#EEF2F4 !important;}
+.card_XMBR_GE .plt_con {background-color:#EEF2F4 !important;}
+.card_XMBE_GE .plt_con {background-color:#EEF2F4 !important;}
+.card_XMBE_GE .plt_con {background-color:#EEF2F4 !important;}
+.card_XMBPF_GE .plt_con {background-color:#EEF2F4 !important;}
+.card_XMBPF_GE .plt_con {background-color:#EEF2F4 !important;}
+.card_XMBPR_GE .plt_con {background-color:#EEF2F4 !important;}
+.card_XMBPR_GE .plt_con {background-color:#EEF2F4 !important;}
+.card_XMBPE_GE .plt_con {background-color:#EEF2F4 !important;}
+.card_XMBPE_GE .plt_con {background-color:#EEF2F4 !important;}
+.card_XMBF_GF .plt_con {background-color:#A29072 !important;}
+.card_XMBF_GF .plt_con {background-color:#A29072 !important;}
+.card_XMBR_GF .plt_con {background-color:#A29072 !important;}
+.card_XMBR_GF .plt_con {background-color:#A29072 !important;}
+.card_XMBE_GF .plt_con {background-color:#A29072 !important;}
+.card_XMBE_GF .plt_con {background-color:#A29072 !important;}
+.card_XMBPF_GF .plt_con {background-color:#A29072 !important;}
+.card_XMBPF_GF .plt_con {background-color:#A29072 !important;}
+.card_XMBPR_GF .plt_con {background-color:#A29072 !important;}
+.card_XMBPR_GF .plt_con {background-color:#A29072 !important;}
+.card_XMBPE_GF .plt_con {background-color:#A29072 !important;}
+.card_XMBPE_GF .plt_con {background-color:#A29072 !important;}
+
+.card_ZROMBF .plt_con {background-color:#fff !important;}
+.card_ZROMBF .plt_con {background-color:#fff !important;}
+.card_ZROMBR .plt_con {background-color:#fff !important;}
+.card_ZROMBR .plt_con {background-color:#fff !important;}
+.card_ZROMBE .plt_con {background-color:#fff !important;}
+.card_ZROMBE .plt_con {background-color:#fff !important;}
+
+/* //MB카드 */
+
+/* 카드 플레이트 text color 변경 */
+.card_TRE4 .plt_con > .h3_b_lt {color:#000;}
+.card_TRE4 .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_TRE4 .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_TRE4 .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_TRE4 .plt_con .auto_con a {color:#000;}
+.card_TRE4 .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_TRE4 .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_TRE4 .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_TRE4 .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_TRE4 .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_TRE4 .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+/* 레드 ed5 카드 */
+.card_TRE5 .plt_con > .h3_b_lt {color:#000;}
+.card_TRE5 .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_TRE5 .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_TRE5 .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_TRE5 .plt_con .auto_con a {color:#000;}
+.card_TRE5 .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_TRE5 .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_TRE5 .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_TRE5 .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_TRE5 .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_TRE5 .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_TRME5 .plt_con > .h3_b_lt {color:#000;}
+.card_TRME5 .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_TRME5 .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_TRME5 .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_TRME5 .plt_con .auto_con a {color:#000;}
+.card_TRME5 .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_TRME5 .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_TRME5 .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_TRME5 .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_TRME5 .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_TRME5 .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_TG .plt_con > .h3_b_lt {color:#000;}
+.card_TG .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_TG .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_TG .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_TG .plt_con .auto_con a {color:#000;}
+.card_TG .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_TG .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_TG .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_TG .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_TG .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_TG .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+/* 그린 ed2 카드 */
+.card_TGE2 .plt_con > .h3_b_lt {color:#000;}
+.card_TGE2 .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_TGE2 .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_TGE2 .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_TGE2 .plt_con .auto_con a {color:#000;}
+.card_TGE2 .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_TGE2 .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_TGE2 .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_TGE2 .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_TGE2 .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_TGE2 .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_ONOF.card_ONOF_OM .plt_con > .h3_b_lt {color:#000;}
+.card_ONOF.card_ONOF_OM .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_ONOF.card_ONOF_OM .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_ONOF.card_ONOF_OM .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_ONOF.card_ONOF_OM .plt_con .auto_con a {color:#000;}
+.card_ONOF.card_ONOF_OM .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_ONOF.card_ONOF_OM .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_ONOF.card_ONOF_OM .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_ONOF.card_ONOF_OM .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_ONOF.card_ONOF_OM .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_ONOF.card_ONOF_OM .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_ONOF.card_ONOF_OR .plt_con > .h3_b_lt {color:#000;}
+.card_ONOF.card_ONOF_OR .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_ONOF.card_ONOF_OR .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_ONOF.card_ONOF_OR .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_ONOF.card_ONOF_OR .plt_con .auto_con a {color:#000;}
+.card_ONOF.card_ONOF_OR .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_ONOF.card_ONOF_OR .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_ONOF.card_ONOF_OR .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_ONOF.card_ONOF_OR .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_ONOF.card_ONOF_OR .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_ONOF.card_ONOF_OR .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MKTE3T .plt_con > .h3_b_lt {color:#000;}
+.card_MKTE3T .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MKTE3T .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MKTE3T .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MKTE3T .plt_con .auto_con a {color:#000;}
+.card_MKTE3T .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MKTE3T .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MKTE3T .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MKTE3T .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MKTE3T .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MKTE3T .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MKTE3TP .plt_con > .h3_b_lt {color:#000;}
+.card_MKTE3TP .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MKTE3TP .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MKTE3TP .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MKTE3TP .plt_con .auto_con a {color:#000;}
+.card_MKTE3TP .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MKTE3TP .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MKTE3TP .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MKTE3TP .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MKTE3TP .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MKTE3TP .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MKTE3L .plt_con > .h3_b_lt {color:#000;}
+.card_MKTE3L .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MKTE3L .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MKTE3L .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MKTE3L .plt_con .auto_con a {color:#000;}
+.card_MKTE3L .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MKTE3L .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MKTE3L .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MKTE3L .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MKTE3L .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MKTE3L .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MLGTE3T .plt_con > .h3_b_lt {color:#000;}
+.card_MLGTE3T .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MLGTE3T .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MLGTE3T .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MLGTE3T .plt_con .auto_con a {color:#000;}
+.card_MLGTE3T .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MLGTE3T .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MLGTE3T .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MLGTE3T .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MLGTE3T .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MLGTE3T .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MLGTE3L .plt_con > .h3_b_lt {color:#000;}
+.card_MLGTE3L .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MLGTE3L .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MLGTE3L .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MLGTE3L .plt_con .auto_con a {color:#000;}
+.card_MLGTE3L .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MLGTE3L .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MLGTE3L .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MLGTE3L .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MLGTE3L .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MLGTE3L .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MSKTE3L .plt_con > .h3_b_lt {color:#000;}
+.card_MSKTE3L .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MSKTE3L .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MSKTE3L .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MSKTE3L .plt_con .auto_con a {color:#000;}
+.card_MSKTE3L .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MSKTE3L .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MSKTE3L .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MSKTE3L .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MSKTE3L .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MSKTE3L .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MTBE2D .plt_con > .h3_b_lt {color:#000;}
+.card_MTBE2D .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MTBE2D .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MTBE2D .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MTBE2D .plt_con .auto_con a {color:#000;}
+.card_MTBE2D .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MTBE2D .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MTBE2D .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MTBE2D .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MTBE2D .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MTBE2D .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MCJE2 .plt_con > .h3_b_lt {color:#000;}
+.card_MCJE2 .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MCJE2 .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MCJE2 .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MCJE2 .plt_con .auto_con a {color:#000;}
+.card_MCJE2 .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MCJE2 .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MCJE2 .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MCJE2 .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MCJE2 .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MCJE2 .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MCWYE3 .plt_con > .h3_b_lt {color:#000;}
+.card_MCWYE3 .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MCWYE3 .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MCWYE3 .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MCWYE3 .plt_con .auto_con a {color:#000;}
+.card_MCWYE3 .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MCWYE3 .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MCWYE3 .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MCWYE3 .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MCWYE3 .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MCWYE3 .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MSKME3 .plt_con > .h3_b_lt {color:#000;}
+.card_MSKME3 .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MSKME3 .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MSKME3 .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MSKME3 .plt_con .auto_con a {color:#000;}
+.card_MSKME3 .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MSKME3 .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MSKME3 .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MSKME3 .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MSKME3 .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MSKME3 .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MHIMTE2 .plt_con > .h3_b_lt {color:#000;}
+.card_MHIMTE2 .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MHIMTE2 .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MHIMTE2 .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MHIMTE2 .plt_con .auto_con a {color:#000;}
+.card_MHIMTE2 .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MHIMTE2 .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MHIMTE2 .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MHIMTE2 .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MHIMTE2 .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MHIMTE2 .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MHIMTE3 .plt_con > .h3_b_lt {color:#000;}
+.card_MHIMTE3 .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MHIMTE3 .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MHIMTE3 .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MHIMTE3 .plt_con .auto_con a {color:#000;}
+.card_MHIMTE3 .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MHIMTE3 .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MHIMTE3 .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MHIMTE3 .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MHIMTE3 .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MHIMTE3 .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MHMMOE2 .plt_con > .h3_b_lt {color:#000;}
+.card_MHMMOE2 .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MHMMOE2 .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MHMMOE2 .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MHMMOE2 .plt_con .auto_con a {color:#000;}
+.card_MHMMOE2 .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MHMMOE2 .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MHMMOE2 .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MHMMOE2 .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MHMMOE2 .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MHMMOE2 .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MHMMOE3T .plt_con > .h3_b_lt {color:#000;}
+.card_MHMMOE3T .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MHMMOE3T .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MHMMOE3T .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MHMMOE3T .plt_con .auto_con a {color:#000;}
+.card_MHMMOE3T .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MHMMOE3T .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MHMMOE3T .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MHMMOE3T .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MHMMOE3T .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MHMMOE3T .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MCJHE2D .plt_con > .h3_b_lt {color:#000;}
+.card_MCJHE2D .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MCJHE2D .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MCJHE2D .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MCJHE2D .plt_con .auto_con a {color:#000;}
+.card_MCJHE2D .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MCJHE2D .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MCJHE2D .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MCJHE2D .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MCJHE2D .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MCJHE2D .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_XE3_GE .plt_con > .h3_b_lt {color:#000;}
+.card_XE3_GE .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_XE3_GE .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_XE3_GE .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_XE3_GE .plt_con .auto_con a {color:#000;}
+.card_XE3_GE .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_XPE3_GE .plt_con > .h3_b_lt {color:#000;}
+.card_XPE3_GE .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_XPE3_GE .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_XPE3_GE .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_XPE3_GE .plt_con .auto_con a {color:#000;}
+.card_XPE3_GE .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_X3PE3_GE .plt_con > .h3_b_lt {color:#000;}
+.card_X3PE3_GE .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_X3PE3_GE .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_X3PE3_GE .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_X3PE3_GE .plt_con .auto_con a {color:#000;}
+.card_X3PE3_GE .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_XE3_GH .plt_con > .h3_b_lt {color:#000;}
+.card_XE3_GH .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_XE3_GH .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_XE3_GH .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_XE3_GH .plt_con .auto_con a {color:#000;}
+.card_XE3_GH .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_XPE3_GH .plt_con > .h3_b_lt {color:#000;}
+.card_XPE3_GH .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_XPE3_GH .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_XPE3_GH .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_XPE3_GH .plt_con .auto_con a {color:#000;}
+.card_XPE3_GH .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_X3PE3_GH .plt_con > .h3_b_lt {color:#000;}
+.card_X3PE3_GH .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_X3PE3_GH .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_X3PE3_GH .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_X3PE3_GH .plt_con .auto_con a {color:#000;}
+.card_X3PE3_GH .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MBT_GH .plt_con > .h3_b_lt {color:#000;}
+.card_MBT_GH .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MBT_GH .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_MBT_GH .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MBT_GH .plt_con .auto_con a {color:#000;}
+.card_MBT_GH .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MPBT_GH .plt_con > .h3_b_lt {color:#000;}
+.card_MPBT_GH .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MPBT_GH .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_MPBT_GH .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MPBT_GH .plt_con .auto_con a {color:#000;}
+.card_MPBT_GH .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_M3PBT_GH .plt_con > .h3_b_lt {color:#000;}
+.card_M3PBT_GH .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_M3PBT_GH .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_M3PBT_GH .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_M3PBT_GH .plt_con .auto_con a {color:#000;}
+.card_M3PBT_GH .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_XE3_GI .plt_con > .h3_b_lt {color:#000;}
+.card_XE3_GI .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_XE3_GI .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_XE3_GI .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_XE3_GI .plt_con .auto_con a {color:#000;}
+.card_XE3_GI .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_XPE3_GI .plt_con > .h3_b_lt {color:#000;}
+.card_XPE3_GI .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_XPE3_GI .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_XPE3_GI .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_XPE3_GI .plt_con .auto_con a {color:#000;}
+.card_XPE3_GI .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_X3PE3_GI .plt_con > .h3_b_lt {color:#000;}
+.card_X3PE3_GI .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_X3PE3_GI .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_X3PE3_GI .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_X3PE3_GI .plt_con .auto_con a {color:#000;}
+.card_X3PE3_GI .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MBT_GI .plt_con > .h3_b_lt {color:#000;}
+.card_MBT_GI .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MBT_GI .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_MBT_GI .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MBT_GI .plt_con .auto_con a {color:#000;}
+.card_MBT_GI .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MPBT_GI .plt_con > .h3_b_lt {color:#000;}
+.card_MPBT_GI .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MPBT_GI .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_MPBT_GI .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MPBT_GI .plt_con .auto_con a {color:#000;}
+.card_MPBT_GI .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_M3PBT_GI .plt_con > .h3_b_lt {color:#000;}
+.card_M3PBT_GI .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_M3PBT_GI .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_M3PBT_GI .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_M3PBT_GI .plt_con .auto_con a {color:#000;}
+.card_M3PBT_GI .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MBT_GB .plt_con > .h3_b_lt {color:#000;}
+.card_MBT_GB .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MBT_GB .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_MBT_GB .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MBT_GB .plt_con .auto_con a {color:#000;}
+.card_MBT_GB .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MPBT_GB .plt_con > .h3_b_lt {color:#000;}
+.card_MPBT_GB .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MPBT_GB .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_MPBT_GB .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MPBT_GB .plt_con .auto_con a {color:#000;}
+.card_MPBT_GB .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_M3PBT_GB .plt_con > .h3_b_lt {color:#000;}
+.card_M3PBT_GB .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_M3PBT_GB .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_M3PBT_GB .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_M3PBT_GB .plt_con .auto_con a {color:#000;}
+.card_M3PBT_GB .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_XE3_GF .plt_con > .h3_b_lt {color:#000;}
+.card_XE3_GF .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_XE3_GF .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_XE3_GF .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_XE3_GF .plt_con .auto_con a {color:#000;}
+.card_XE3_GF .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_XPE3_GF .plt_con > .h3_b_lt {color:#000;}
+.card_XPE3_GF .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_XPE3_GF .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_XPE3_GF .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_XPE3_GF .plt_con .auto_con a {color:#000;}
+.card_XPE3_GF .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_X3PE3_GF .plt_con > .h3_b_lt {color:#000;}
+.card_X3PE3_GF .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_X3PE3_GF .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_X3PE3_GF .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_X3PE3_GF .plt_con .auto_con a {color:#000;}
+.card_X3PE3_GF .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MKTE3 .plt_con > .h3_b_lt {color:#000;}
+.card_MKTE3 .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MKTE3 .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MKTE3 .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MKTE3 .plt_con .auto_con a {color:#000;}
+.card_MKTE3 .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MKTE3 .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MKTE3 .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MKTE3 .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MKTE3 .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MKTE3 .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MKTE3P .plt_con > .h3_b_lt {color:#000;}
+.card_MKTE3P .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MKTE3P .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MKTE3P .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MKTE3P .plt_con .auto_con a {color:#000;}
+.card_MKTE3P .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MKTE3P .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MKTE3P .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MKTE3P .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MKTE3P .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MKTE3P .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MKTRE3 .plt_con > .h3_b_lt {color:#000;}
+.card_MKTRE3 .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MKTRE3 .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MKTRE3 .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MKTRE3 .plt_con .auto_con a {color:#000;}
+.card_MKTRE3 .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MKTRE3 .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MKTRE3 .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MKTRE3 .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MKTRE3 .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MKTRE3 .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MLGTRE3 .plt_con > .h3_b_lt {color:#000;}
+.card_MLGTRE3 .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MLGTRE3 .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MLGTRE3 .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MLGTRE3 .plt_con .auto_con a {color:#000;}
+.card_MLGTRE3 .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MLGTRE3 .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MLGTRE3 .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MLGTRE3 .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MLGTRE3 .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MLGTRE3 .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MSKTRE3 .plt_con > .h3_b_lt {color:#000;}
+.card_MSKTRE3 .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MSKTRE3 .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MSKTRE3 .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MSKTRE3 .plt_con .auto_con a {color:#000;}
+.card_MSKTRE3 .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MSKTRE3 .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MSKTRE3 .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MSKTRE3 .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MSKTRE3 .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MSKTRE3 .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MLGEE3 .plt_con > .h3_b_lt {color:#000;}
+.card_MLGEE3 .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MLGEE3 .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MLGEE3 .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MLGEE3 .plt_con .auto_con a {color:#000;}
+.card_MLGEE3 .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MLGEE3 .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MLGEE3 .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MLGEE3 .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MLGEE3 .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MLGEE3 .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MHDSHE3 .plt_con > .h3_b_lt {color:#000;}
+.card_MHDSHE3 .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MHDSHE3 .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MHDSHE3 .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MHDSHE3 .plt_con .auto_con a {color:#000;}
+.card_MHDSHE3 .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MHDSHE3 .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MHDSHE3 .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MHDSHE3 .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MHDSHE3 .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MHDSHE3 .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MSE2 .plt_con > .h3_b_lt {color:#000;}
+.card_MSE2 .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MSE2 .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MSE2 .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MSE2 .plt_con .auto_con a {color:#000;}
+.card_MSE2 .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MSE2 .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MSE2 .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MSE2 .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MSE2 .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MSE2 .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MPSE2 .plt_con > .h3_b_lt {color:#000;}
+.card_MPSE2 .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MPSE2 .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MPSE2 .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MPSE2 .plt_con .auto_con a {color:#000;}
+.card_MPSE2 .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MPSE2 .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MPSE2 .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MPSE2 .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MPSE2 .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MPSE2 .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_ZROS  .plt_con > .h3_b_lt {color:#000;}
+.card_ZROS  .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_ZROS  .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_ZROS  .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_ZROS  .plt_con .auto_con a {color:#000;}
+.card_ZROS  .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_ZROS  .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_ZROS  .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_ZROS  .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_ZROS  .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_ZROS  .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MSKTE3  .plt_con > .h3_b_lt {color:#000;}
+.card_MSKTE3  .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MSKTE3  .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MSKTE3  .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MSKTE3  .plt_con .auto_con a {color:#000;}
+.card_MSKTE3  .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MSKTE3  .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MSKTE3  .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MSKTE3  .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MSKTE3  .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MSKTE3  .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MLGTE3  .plt_con > .h3_b_lt {color:#000;}
+.card_MLGTE3  .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MLGTE3  .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MLGTE3  .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MLGTE3  .plt_con .auto_con a {color:#000;}
+.card_MLGTE3  .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MLGTE3  .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MLGTE3  .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MLGTE3  .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MLGTE3  .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MLGTE3  .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+/*PINK*/
+.card_TPI_GU .plt_con > .h3_b_lt,
+.card_TPI_GT .plt_con > .h3_b_lt,
+.card_TPI_GW .plt_con > .h3_b_lt,
+.card_TPI_GV .plt_con > .h3_b_lt,
+.card_TPI .plt_con > .h3_b_lt {color:#000;}
+.card_TPI_GU .plt_con > .h3_b_lt + .p1_m_lt,
+.card_TPI_GT .plt_con > .h3_b_lt + .p1_m_lt,
+.card_TPI_GW .plt_con > .h3_b_lt + .p1_m_lt,
+.card_TPI_GV .plt_con > .h3_b_lt + .p1_m_lt,
+.card_TPI .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_TPI_GU .plt_con .box_input01.row2 .input_txt,
+.card_TPI_GT .plt_con .box_input01.row2 .input_txt,
+.card_TPI_GW .plt_con .box_input01.row2 .input_txt,
+.card_TPI_GV .plt_con .box_input01.row2 .input_txt,
+.card_TPI .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_TPI_GU .plt_con .box_input01.row2 .input_txt + label,
+.card_TPI_GT .plt_con .box_input01.row2 .input_txt + label,
+.card_TPI_GW .plt_con .box_input01.row2 .input_txt + label,
+.card_TPI_GV .plt_con .box_input01.row2 .input_txt + label,
+.card_TPI .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_TPI_GU .form_card_wrap .form_bundle .auto_complete_list li,
+.card_TPI_GT .form_card_wrap .form_bundle .auto_complete_list li,
+.card_TPI_GW .form_card_wrap .form_bundle .auto_complete_list li,
+.card_TPI_GV .form_card_wrap .form_bundle .auto_complete_list li,
+.card_TPI .plt_con .auto_con a {color:#000;}
+.card_TPI_GU .plt_con .box_btn a,
+.card_TPI_GT .plt_con .box_btn a,
+.card_TPI_GW .plt_con .box_btn a,
+.card_TPI_GV .plt_con .box_btn a,
+.card_TPI .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_TPI_GU .form_card_wrap > div.box_card_bundle strong.title,
+.card_TPI_GT .form_card_wrap > div.box_card_bundle strong.title,
+.card_TPI_GW .form_card_wrap > div.box_card_bundle strong.title,
+.card_TPI_GV .form_card_wrap > div.box_card_bundle strong.title,
+.card_TPI .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_TPI_GU .plt_con .form_items > h3.p1_b_lt,
+.card_TPI_GT .plt_con .form_items > h3.p1_b_lt,
+.card_TPI_GW .plt_con .form_items > h3.p1_b_lt,
+.card_TPI_GV .plt_con .form_items > h3.p1_b_lt,
+.card_TPI .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_TPI_GU .plt_con .form_items > h3.p1_b_lt .fr,
+.card_TPI_GT .plt_con .form_items > h3.p1_b_lt .fr,
+.card_TPI_GW .plt_con .form_items > h3.p1_b_lt .fr,
+.card_TPI_GV .plt_con .form_items > h3.p1_b_lt .fr,
+.card_TPI .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_TPI_GU .plt_con .form_items > h3.p1_b_lt .fr:after,
+.card_TPI_GT .plt_con .form_items > h3.p1_b_lt .fr:after,
+.card_TPI_GW .plt_con .form_items > h3.p1_b_lt .fr:after,
+.card_TPI_GV .plt_con .form_items > h3.p1_b_lt .fr:after,
+.card_TPI .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_TPI_GU .form_card_bundle .sec_body .box_white,
+.card_TPI_GT .form_card_bundle .sec_body .box_white,
+.card_TPI_GW .form_card_bundle .sec_body .box_white,
+.card_TPI_GV .form_card_bundle .sec_body .box_white,
+.card_TPI .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+/*YES24*/
+.card_YSHC_DS .plt_con > .h3_b_lt{color:#000;}
+.card_YSHC_DT .plt_con > .h3_b_lt {color:#fff;}
+.card_YSHC_DS .plt_con > .h3_b_lt + .p1_m_lt{color: rgba(0,0,0,0.80);}
+.card_YSHC_DT .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(255,255,255,0.80);}
+.card_YSHC_DS .plt_con .box_input01.row2 .input_txt{color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_YSHC_DT .plt_con .box_input01.row2 .input_txt {color:#fff; border-bottom:1px solid rgba(255,255,255,0.2);}
+.card_YSHC_DS .plt_con .box_input01.row2 .input_txt + label{color: rgba(0,0,0,0.40);}
+.card_YSHC_DT .plt_con .box_input01.row2 .input_txt + label {color: rgba(255,255,255,0.40);}
+.card_YSHC_DS .form_card_wrap .form_bundle .auto_complete_list li{color:#000;}
+.card_YSHC_DT .form_card_wrap .form_bundle .auto_complete_list li {color:#fff;}
+.card_YSHC_DS .plt_con .box_btn a{background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+.card_YSHC_DT .plt_con .box_btn a {background: rgba(255,255,255,0.08); color:rgba(255,255,255,0.2);}
+
+.card_YSHC_DS .form_card_wrap > div.box_card_bundle strong.title{color: #000;}
+.card_YSHC_DT .form_card_wrap > div.box_card_bundle strong.title {color: #fff;}
+.card_YSHC_DS .plt_con .form_items > h3.p1_b_lt{color:#000;}
+.card_YSHC_DT .plt_con .form_items > h3.p1_b_lt {color:#fff;}
+.card_YSHC_DS .plt_con .form_items > h3.p1_b_lt .fr{color: rgba(0,0,0,0.64);}
+.card_YSHC_DT .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(255,255,255,0.64);}
+.card_YSHC_DS .plt_con .form_items > h3.p1_b_lt .fr:after{background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_YSHC_DT .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward_White.png) no-repeat center; background-size: 100%;}
+.card_YSHC_DS .form_card_bundle .sec_body .box_white{border: 2px solid #f5f5f5;}
+.card_YSHC_DT .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+/*H-MALL*/
+.card_HDSHHC_DS .plt_con > .h3_b_lt,
+.card_HDSHHC_DT .plt_con > .h3_b_lt {color:#000;}
+.card_HDSHHC_DS .plt_con > .h3_b_lt + .p1_m_lt,
+.card_HDSHHC_DT .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_HDSHHC_DS .plt_con .box_input01.row2 .input_txt,
+.card_HDSHHC_DT .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_HDSHHC_DS .plt_con .box_input01.row2 .input_txt + label,
+.card_HDSHHC_DT .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_HDSHHC_DS .form_card_wrap .form_bundle .auto_complete_list li,
+.card_HDSHHC_DT .plt_con .auto_con a {color:#000;}
+.card_HDSHHC_DS .plt_con .box_btn a,
+.card_HDSHHC_DT .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_HDSHHC_DS .form_card_wrap > div.box_card_bundle strong.title,
+.card_HDSHHC_DT .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_HDSHHC_DS .plt_con .form_items > h3.p1_b_lt,
+.card_HDSHHC_DT .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_HDSHHC_DS .plt_con .form_items > h3.p1_b_lt .fr,
+.card_HDSHHC_DT .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_HDSHHC_DS .plt_con .form_items > h3.p1_b_lt .fr:after,
+.card_HDSHHC_DT .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_HDSHHC_DS .form_card_bundle .sec_body .box_white,
+.card_HDSHHC_DT .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+/*헬로비전*/
+.card_MLGHE3 .plt_con > .h3_b_lt {color:#000;}
+.card_MLGHE3 .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MLGHE3 .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MLGHE3 .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MLGHE3 .plt_con .auto_con a {color:#000;}
+.card_MLGHE3 .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MLGHE3 .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MLGHE3 .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MLGHE3 .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0,0.64);}
+.card_MLGHE3 .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MLGHE3 .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+/*Kt-현대카드M Edition3*/
+.card_MKTE3 .plt_con > .h3_b_lt {color:#000;}
+.card_MKTE3 .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MKTE3 .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MKTE3 .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MKTE3 .plt_con .auto_con a {color:#000;}
+.card_MKTE3 .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MKTE3 .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MKTE3 .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MKTE3 .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0,0.64);}
+.card_MKTE3 .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MKTE3 .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+/* 현대 모빌리티 카드 - 캐스퍼 */
+.card_HSCHC_DS .plt_con > .h3_b_lt {color:#000;}
+.card_HSCHC_DS .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_HSCHC_DS .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_HSCHC_DS .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_HSCHC_DS .plt_con .auto_con a {color:#000;}
+.card_HSCHC_DS .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_HSCHC_DS .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_HSCHC_DS .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_HSCHC_DS .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_HSCHC_DS .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/pc/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_HSCHC_DS .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_HSCHC_DT .plt_con > .h3_b_lt {color:#000;}
+.card_HSCHC_DT .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_HSCHC_DT .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_HSCHC_DT .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_HSCHC_DT .plt_con .auto_con a {color:#000;}
+.card_HSCHC_DT .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_HSCHC_DT .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_HSCHC_DT .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_HSCHC_DT .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_HSCHC_DT .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/pc/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_HSCHC_DT .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_HSCHC_DV .plt_con > .h3_b_lt {color:#000;}
+.card_HSCHC_DV .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_HSCHC_DV .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_HSCHC_DV .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_HSCHC_DV .plt_con .auto_con a {color:#000;}
+.card_HSCHC_DV .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_HSCHC_DV .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_HSCHC_DV .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_HSCHC_DV .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_HSCHC_DV .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/pc/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_HSCHC_DV .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+/* //현대 모빌리티 카드 - 캐스퍼 */
+
+/* SB카드 */
+.card_MXB_GX .plt_con > .h3_b_lt {color:#000;}
+.card_MXB_GX .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MXB_GX .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MXB_GX .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MXB_GX .plt_con .auto_con a {color:#000;}
+.card_MXB_GX .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MXB_GX .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MXB_GX .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MXB_GX .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MXB_GX .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/pc/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MXB_GX .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+/* MB카드 */
+/* M */
+.card_MMBF_GB .plt_con > .h3_b_lt {color:#000;}
+.card_MMBF_GB .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MMBF_GB .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_MMBF_GB .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MMBF_GB .plt_con .auto_con a {color:#000;}
+.card_MMBF_GB .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MMBF_GB .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MMBF_GB .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MMBF_GB .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MMBF_GB .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/pc/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MMBF_GB .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MMBR_GB .plt_con > .h3_b_lt {color:#000;}
+.card_MMBR_GB .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MMBR_GB .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_MMBR_GB .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MMBR_GB .plt_con .auto_con a {color:#000;}
+.card_MMBR_GB .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MMBR_GB .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MMBR_GB .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MMBR_GB .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MMBR_GB .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/pc/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MMBR_GB .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MMBE_GB .plt_con > .h3_b_lt {color:#000;}
+.card_MMBE_GB .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MMBE_GB .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_MMBE_GB .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MMBE_GB .plt_con .auto_con a {color:#000;}
+.card_MMBE_GB .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MMBE_GB .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MMBE_GB .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MMBE_GB .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MMBE_GB .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/pc/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MMBE_GB .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MMBPF_GB .plt_con > .h3_b_lt {color:#000;}
+.card_MMBPF_GB .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MMBPF_GB .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_MMBPF_GB .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MMBPF_GB .plt_con .auto_con a {color:#000;}
+.card_MMBPF_GB .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MMBPF_GB .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MMBPF_GB .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MMBPF_GB .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MMBPF_GB .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/pc/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MMBPF_GB .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MMBPR_GB .plt_con > .h3_b_lt {color:#000;}
+.card_MMBPR_GB .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MMBPR_GB .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_MMBPR_GB .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MMBPR_GB .plt_con .auto_con a {color:#000;}
+.card_MMBPR_GB .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MMBPR_GB .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MMBPR_GB .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MMBPR_GB .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MMBPR_GB .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/pc/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MMBPR_GB .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_MMBPE_GB .plt_con > .h3_b_lt {color:#000;}
+.card_MMBPE_GB .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MMBPE_GB .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_MMBPE_GB .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MMBPE_GB .plt_con .auto_con a {color:#000;}
+.card_MMBPE_GB .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MMBPE_GB .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MMBPE_GB .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MMBPE_GB .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MMBPE_GB .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/pc/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MMBPE_GB .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+/* x */
+.card_XMBF_GE .plt_con > .h3_b_lt {color:#000;}
+.card_XMBF_GE .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_XMBF_GE .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_XMBF_GE .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_XMBF_GE .plt_con .auto_con a {color:#000;}
+.card_XMBF_GE .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_XMBF_GE .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_XMBF_GE .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_XMBF_GE .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_XMBF_GE .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/pc/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_XMBF_GE .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_XMBR_GE .plt_con > .h3_b_lt {color:#000;}
+.card_XMBR_GE .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_XMBR_GE .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_XMBR_GE .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_XMBR_GE .plt_con .auto_con a {color:#000;}
+.card_XMBR_GE .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_XMBR_GE .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_XMBR_GE .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_XMBR_GE .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_XMBR_GE .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/pc/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_XMBR_GE .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_XMBE_GE .plt_con > .h3_b_lt {color:#000;}
+.card_XMBE_GE .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_XMBE_GE .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_XMBE_GE .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_XMBE_GE .plt_con .auto_con a {color:#000;}
+.card_XMBE_GE .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_XMBE_GE .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_XMBE_GE .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_XMBE_GE .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_XMBE_GE .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/pc/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_XMBE_GE .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_XMBPF_GE .plt_con > .h3_b_lt {color:#000;}
+.card_XMBPF_GE .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_XMBPF_GE .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_XMBPF_GE .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_XMBPF_GE .plt_con .auto_con a {color:#000;}
+.card_XMBPF_GE .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_XMBPF_GE .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_XMBPF_GE .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_XMBPF_GE .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_XMBPF_GE .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/pc/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_XMBPF_GE .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_XMBPR_GE .plt_con > .h3_b_lt {color:#000;}
+.card_XMBPR_GE .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_XMBPR_GE .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_XMBPR_GE .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_XMBPR_GE .plt_con .auto_con a {color:#000;}
+.card_XMBPR_GE .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_XMBPR_GE .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_XMBPR_GE .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_XMBPR_GE .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_XMBPR_GE .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/pc/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_XMBPR_GE .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_XMBPE_GE .plt_con > .h3_b_lt {color:#000;}
+.card_XMBPE_GE .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_XMBPE_GE .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);caret-color: #000 !important;}
+.card_XMBPE_GE .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_XMBPE_GE .plt_con .auto_con a {color:#000;}
+.card_XMBPE_GE .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_XMBPE_GE .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_XMBPE_GE .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_XMBPE_GE .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_XMBPE_GE .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/pc/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_XMBPE_GE .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+/* zero */
+.card_ZROMBF .plt_con > .h3_b_lt {color:#000;}
+.card_ZROMBF .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_ZROMBF .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_ZROMBF .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_ZROMBF .plt_con .auto_con a {color:#000;}
+.card_ZROMBF .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_ZROMBF .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_ZROMBF .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_ZROMBF .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_ZROMBF .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/pc/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_ZROMBF .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_ZROMBR .plt_con > .h3_b_lt {color:#000;}
+.card_ZROMBR .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_ZROMBR .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_ZROMBR .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_ZROMBR .plt_con .auto_con a {color:#000;}
+.card_ZROMBR .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_ZROMBR .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_ZROMBR .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_ZROMBR .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_ZROMBR .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/pc/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_ZROMBR .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+.card_ZROMBE .plt_con > .h3_b_lt {color:#000;}
+.card_ZROMBE .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_ZROMBE .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_ZROMBE .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_ZROMBE .plt_con .auto_con a {color:#000;}
+.card_ZROMBE .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_ZROMBE .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_ZROMBE .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_ZROMBE .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_ZROMBE .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/pc/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_ZROMBE .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+
+/* 햇살론 */
+.card_SLHC .form_card_wrap > div.box_card_bundle strong.title {color:#000;}
+.card_SLHC .form_card_wrap > div.box_card_bundle > div.front_card {background-color:#fff;}
+.card_SLHC .form_card_wrap > div.box_card_bundle > div.back_card {background-color:#fff;}
+.card_SLHC .plt_con > .h3_b_lt {color:#000;}
+.card_SLHC .plt_con > .h3_b_lt + .p1_m_lt {color:rgba(0, 0, 0, 0.80);}
+.card_SLHC .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0, 0, 0, 0.2);}
+.card_SLHC .plt_con .box_input01.row2 .input_txt:focus {border-bottom:2px solid rgba(0, 0, 0, 1);}
+.card_SLHC .plt_con .box_input01.row2 .input_txt + label {/*color:rgba(0, 0, 0, 0.40); */color:rgba(0, 0, 0, 0.64);}/*2021-08 웹접근성(명도대비)*/
+.card_SLHC .plt_con .auto_con a {color:#000;}
+.card_SLHC .plt_con .box_btn a {background:rgba(0, 0, 0, 0.08); color:rgba(0, 0, 0, 0.2);}
+.card_SLHC .form_card_wrap.page div.box_card_bundle {background-color:#fff;}
+
+.card_SLHC .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_SLHC .plt_con .form_items > h3.p1_b_lt .fr {color:rgba(0, 0, 0, 0.64);}
+.card_SLHC .plt_con .form_items > h3.p1_b_lt .fr:after {background:url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size:100%;}
+.card_SLHC .form_card_bundle .sec_body .box_white {border:2px solid #f5f5f5;}
+.card_SLHC .form_card_bundle .sec_body p.box_white {background:#f5f5f5;}
+
+/* 특수 소재 플레이트 */
+.form_card_bundle .sec_body.plate {position: relative; margin-bottom: 0; min-height: 44px; max-height:92px; background-color: #fff; border-radius: 4px; border: 2px solid rgba(0,0,0,0.04); box-sizing: border-box;}
+.form_card_bundle .sec_body.plate .toggle_bundle {height:44px; border:0; border-radius:0;}
+.form_card_bundle .sec_body.plate .toggle_bundle .toggle_title {line-height:44px;}
+.form_card_bundle .sec_body.plate .toggle_bundle.traffic {display:none;}
+.form_card_bundle .sec_body.plate .toggle_bundle.active {display:block;}
+
+/* 특수 소재 플레이트 bottom sheet */
+.layer_popup.bottom_sheet .layer_wrap .layer_specialPlate .layer_content{max-height: 70vh; padding-bottom:113px;}
+.layer_specialPlate + .layer_footer {width: 100%;position: absolute;left: 0;bottom: 0;background: linear-gradient(to top,rgba(255,255,255,1) 70%,rgba(255,255,255,0));}
+.layer_popup .layer_wrap .terms_wrap.type {margin: 16px 0 27px;}
+.layer_popup .layer_wrap .bullet_list.type02 {margin-top: 12px;}
+
+/* T3 적립마일리지 */
+.overseas_pay .box_white.koreanair .custom_radio input[type="radio"] + label span.logo {background-image:url('/gpcc/mo/images/img_koreanair.png'); background-size:52px 28px;}
+.overseas_pay .box_white.asiana .custom_radio input[type="radio"] + label span.logo {background-image:url('/gpcc/mo/images/img_asiana.png'); background-size:52px 28px;}
+
+/* Digital Lover */
+/* 메인 */
+.intro_cont .card_txt.type {/*height:40px; */margin-bottom: 40px;margin-bottom:120px; color: #000;}
+
+/* 스트리밍 서비스 */
+.digital_service_wrap {}
+.digital_service_wrap li {margin-top:8px;}
+.digital_service_wrap li:first-child {margin-top:0;}
+.digital_service_wrap .custom_radio {display: block;}
+.digital_service_wrap .custom_radio input[type="radio"] + label {display: block; padding: 8px 24px 12px; height: 96px; text-align: center; border-radius:8px; border: 1px solid #ebebeb; box-sizing: border-box;}
+.digital_service_wrap .custom_radio input[type="radio"]:checked + label {border: 2px solid #000;}
+.digital_service_wrap .custom_radio input[type="radio"] + label:before {content: ""; position: relative; margin: 0 auto; width: 112px; height:60px; background:url('/gpcc/mo/images/img_Melon.png') no-repeat 0 0; background-size: 112px 60px;}
+.digital_service_wrap .custom_radio.disney input[type="radio"] + label:before {background-image: url('/gpcc/mo/images/img_Disney.png');}
+.digital_service_wrap .custom_radio.netflix input[type="radio"] + label:before {background-image: url('/gpcc/mo/images/img_Netflix.png');}
+.digital_service_wrap .custom_radio.youtube input[type="radio"] + label:before {background-image: url('/gpcc/mo/images/img_Youtube.png');}
+.digital_service_wrap .custom_radio.genie input[type="radio"] + label:before {background-image: url('/gpcc/mo/images/img_Genie.png');}
+.digital_service_wrap .custom_radio input[type="radio"]:checked + label:before {margin-top:-1px;}
+.digital_service_wrap .custom_radio input[type="radio"] + label .txt {display: block; font-size: 12px; line-height: 16px; color: rgba(0,0,0,0.48);}
+.digital_service_wrap .custom_radio input[type="radio"]:checked + label .txt {font-weight: bold; color: #000;}
+.digital_service_wrap + .bullet_list {margin-top:23px; padding-bottom:116px;}
+
+/* 카드 배송지와 이용대금명세서 */
+.app_info_wrap .bottom_bundle {position: relative; padding: 16px 12px 12px; margin-top:13px; background-color: #f5f5f5; border-radius: 4px; box-sizing: border-box;}
+.app_info_wrap .bottom_bundle .txt {margin-bottom:0; color:#333; font-size:14px; line-height: 20px;}
+.app_info_wrap .bottom_bundle .txt .highlight {font-weight: bold;}
+.app_info_wrap .bottom_bundle .txt:before {content: ''; display: inline-block; vertical-align: middle; width:40px; height:40px; background: url('/gpcc/mo/images/img_App.png'); background-size:40px;}
+.app_info_wrap .bottom_bundle .txt > span {display: inline-block; vertical-align: middle; margin-left: 7px; width: calc(100% - 52px);}
+
+/* 기존회원 - 카드교체발급 */
+.change_card_wrap {margin-top: -3px;}
+.change_card_wrap p {font-weight: bold; font-size: 16px; color: #000000; line-height: 22px;}
+
+/* 랩업 */
+.img_App_area.type02 {margin:36px 0 0;}
+.select_wrapping ul li.no_wrap > span {max-width: 80%;}
+.select_wrapping ul li.no_wrap2 {display:block;}
+.select_wrapping ul li.no_wrap2:after {display:block;content:"";clear:both;}
+.select_wrapping ul li.no_wrap2 > span {float: left; max-width:58%; word-break:keep-all;}
+.select_wrapping ul li.no_wrap2 a {position: absolute; right:0; padding-right:24px; max-width: none;}
+.select_wrapping ul li.no_wrap2 a:after {position:absolute;right:0;top: 2px;}
+.select_wrapping ul li.no_wrap2 a span {width:100%;max-width: none;}
+
+/* 신청접수&완료 */
+.gpcc_wrap.card_TRE4 .gpcc_complete_area .img_area:before {background: #D8142E;}
+.gpcc_wrap.card_TRE4 .gpcc_complete_area .img_area:after {background: #D8142E;}
+/* 레드 ed5 카드 */
+.gpcc_wrap.card_TRE5 .gpcc_complete_area .img_area:before {background: #EE1B3B;}
+.gpcc_wrap.card_TRE5 .gpcc_complete_area .img_area:after {background: #EE1B3B;}
+.gpcc_wrap.card_TRME5 .gpcc_complete_area .img_area:before {background: #EE1B3B;}
+.gpcc_wrap.card_TRME5 .gpcc_complete_area .img_area:after {background: #EE1B3B;}
+
+.gpcc_wrap.card_TG .gpcc_complete_area .img_area:before {background: #008C15;}
+.gpcc_wrap.card_TG .gpcc_complete_area .img_area:after {background: #008C15;}
+/* 그린 ed2 카드 */
+.gpcc_wrap.card_TGE2 .gpcc_complete_area .img_area:before {background: #55B947;}
+.gpcc_wrap.card_TGE2 .gpcc_complete_area .img_area:after {background: #55B947;}
+
+.gpcc_wrap.card_T3PE2 .gpcc_complete_area .img_area:before {background: #00A98D;}
+.gpcc_wrap.card_T3PE2 .gpcc_complete_area .img_area:after {background: #00A98D;}
+
+.gpcc_wrap.card_ONOF .gpcc_complete_area .img_area:before {background: #DEDEDE;}
+.gpcc_wrap.card_ONOF .gpcc_complete_area .img_area:after {background: #DEDEDE;}
+
+/* .gpcc_wrap.card_MKTE3T .gpcc_complete_area .img_area:before {background: #eb1c74;} */
+/* .gpcc_wrap.card_MKTE3T .gpcc_complete_area .img_area:after {background: #eb1c74;} */
+
+.gpcc_wrap.card_MKTE3TP .gpcc_complete_area .img_area:before {background: #ebebeb;}
+.gpcc_wrap.card_MKTE3TP .gpcc_complete_area .img_area:after {background: #ebebeb;}
+
+/* .gpcc_wrap.card_MKTE3L .gpcc_complete_area .img_area:before {background: #eb1c74;} */
+/* .gpcc_wrap.card_MKTE3L .gpcc_complete_area .img_area:after {background: #eb1c74;} */
+
+/* .gpcc_wrap.card_MLGTE3T .gpcc_complete_area .img_area:before {background: #eb1c74;} */
+/* .gpcc_wrap.card_MLGTE3T .gpcc_complete_area .img_area:after {background: #eb1c74;} */
+
+/* .gpcc_wrap.card_MLGTE3L .gpcc_complete_area .img_area:before {background: #eb1c74;} */
+/* .gpcc_wrap.card_MLGTE3L .gpcc_complete_area .img_area:after {background: #eb1c74;} */
+
+/* .gpcc_wrap.card_MSKTE3L .gpcc_complete_area .img_area:before {background: #eb1c74;} */
+/* .gpcc_wrap.card_MSKTE3L .gpcc_complete_area .img_area:after {background: #eb1c74;} */
+
+/* .gpcc_wrap.card_MTBE2D .gpcc_complete_area .img_area:before {background: #eb1c74;} */
+/* .gpcc_wrap.card_MTBE2D .gpcc_complete_area .img_area:after {background: #eb1c74;} */
+
+/* .gpcc_wrap.card_MCJE2 .gpcc_complete_area .img_area:before {background: #eb1c74;} */
+/* .gpcc_wrap.card_MCJE2 .gpcc_complete_area .img_area:after {background: #eb1c74;} */
+
+/* .gpcc_wrap.card_MCWYE3 .gpcc_complete_area .img_area:before {background: #eb1c74;} */
+/* .gpcc_wrap.card_MCWYE3 .gpcc_complete_area .img_area:after {background: #eb1c74;} */
+
+/* .gpcc_wrap.card_MSKME3 .gpcc_complete_area .img_area:before {background: #eb1c74;} */
+/* .gpcc_wrap.card_MSKME3 .gpcc_complete_area .img_area:after {background: #eb1c74;} */
+
+/* .gpcc_wrap.card_MHIMTE2 .gpcc_complete_area .img_area:before {background: #eb1c74;} */
+/* .gpcc_wrap.card_MHIMTE2 .gpcc_complete_area .img_area:after {background: #eb1c74;} */
+
+/* .gpcc_wrap.card_MHIMTE3 .gpcc_complete_area .img_area:before {background: #eb1c74;}하이마트 M Edition3 himart */
+/* .gpcc_wrap.card_MHIMTE3 .gpcc_complete_area .img_area:after {background: #eb1c74;}하이마트 M Edition3 himart */
+
+/* .gpcc_wrap.card_MHMMOE2 .gpcc_complete_area .img_area:before {background: #eb1c74;} */
+/* .gpcc_wrap.card_MHMMOE2 .gpcc_complete_area .img_area:after {background: #eb1c74;} */
+
+/* .gpcc_wrap.card_MHMMOE3T .gpcc_complete_area .img_area:before {background: #eb1c74;} */
+/* .gpcc_wrap.card_MHMMOE3T .gpcc_complete_area .img_area:after {background: #eb1c74;} */
+
+/* .gpcc_wrap.card_MCJHE2D .gpcc_complete_area .img_area:before {background: #eb1c74;} */
+/* .gpcc_wrap.card_MCJHE2D .gpcc_complete_area .img_area:after {background: #eb1c74;} */
+
+
+
+.gpcc_wrap.card_MKTE3 .gpcc_complete_area .img_area:before,
+.gpcc_wrap.card_MKTE3P .gpcc_complete_area .img_area:before,
+.gpcc_wrap.card_MKTRE3 .gpcc_complete_area .img_area:before,
+.gpcc_wrap.card_MLGTRE3 .gpcc_complete_area .img_area:before,
+.gpcc_wrap.card_MSKTRE3 .gpcc_complete_area .img_area:before,
+.gpcc_wrap.card_MLGEE3 .gpcc_complete_area .img_area:before,
+.gpcc_wrap.card_MHDSHE3 .gpcc_complete_area .img_area:before,
+.gpcc_wrap.card_MSE2 .gpcc_complete_area .img_area:before,
+.gpcc_wrap.card_MSKTE3 .gpcc_complete_area .img_area:before,
+/* .gpcc_wrap.card_MLGTE3 .gpcc_complete_area .img_area:before {background: #eb1c74;} */
+.gpcc_wrap.card_MPSE2 .gpcc_complete_area .img_area:before {background: #FB9019;}
+.gpcc_wrap.card_ZROS .gpcc_complete_area .img_area:before {background: #E4E5E4;}
+.gpcc_wrap.card_MKTE3 .gpcc_complete_area .img_area:after,
+.gpcc_wrap.card_MKTE3P .gpcc_complete_area .img_area:after,
+.gpcc_wrap.card_MKTRE3 .gpcc_complete_area .img_area:after,
+.gpcc_wrap.card_MLGTRE3 .gpcc_complete_area .img_area:after,
+.gpcc_wrap.card_MSKTRE3 .gpcc_complete_area .img_area:after,
+.gpcc_wrap.card_MLGEE3 .gpcc_complete_area .img_area:after,
+.gpcc_wrap.card_MHDSHE3 .gpcc_complete_area .img_area:after,
+.gpcc_wrap.card_MSE2 .gpcc_complete_area .img_area:after,
+.gpcc_wrap.card_MSKTE3 .gpcc_complete_area .img_area:after,
+/* .gpcc_wrap.card_MLGTE3 .gpcc_complete_area .img_area:after{background: #eb1c74;} */
+.gpcc_wrap.card_MPSE2 .gpcc_complete_area .img_area:after{background: #FB9019;}
+.gpcc_wrap.card_ZROS .gpcc_complete_area .img_area:after{background: #E4E5E4;}
+
+/*PINK*/
+.gpcc_wrap.card_TPI_GU .gpcc_complete_area .img_area:before,
+.gpcc_wrap.card_TPI_GT .gpcc_complete_area .img_area:before,
+.gpcc_wrap.card_TPI_GW .gpcc_complete_area .img_area:before,
+.gpcc_wrap.card_TPI_GV .gpcc_complete_area .img_area:before,
+.gpcc_wrap.card_TPI .gpcc_complete_area .img_area:before {background: #E4007F;}
+.gpcc_wrap.card_TPI_GU .gpcc_complete_area .img_area:after,
+.gpcc_wrap.card_TPI_GT .gpcc_complete_area .img_area:after,
+.gpcc_wrap.card_TPI_GW .gpcc_complete_area .img_area:after,
+.gpcc_wrap.card_TPI_GV .gpcc_complete_area .img_area:after,
+.gpcc_wrap.card_TPI .gpcc_complete_area .img_area:after{background: #E4007F;}
+
+/*YES24*/
+.gpcc_wrap.card_YSHC_DS .gpcc_complete_area .img_area:before,
+.gpcc_wrap.card_YSHC_DT .gpcc_complete_area .img_area:before {background: #EBEBEB;}
+.gpcc_wrap.card_YSHC_DS .gpcc_complete_area .img_area:after,
+.gpcc_wrap.card_YSHC_DT .gpcc_complete_area .img_area:after{background: #EBEBEB;}
+
+/*H-MALL*/
+.gpcc_wrap.card_HDSHHC_DS .gpcc_complete_area .img_area:before,
+.gpcc_wrap.card_HDSHHC_DT .gpcc_complete_area .img_area:before {background: #EBEBEB;}
+.gpcc_wrap.card_HDSHHC_DS .gpcc_complete_area .img_area:after,
+.gpcc_wrap.card_HDSHHC_DT .gpcc_complete_area .img_area:after{background: #EBEBEB;}
+
+/*헬로비전*/
+.gpcc_wrap.card_MLGHE3 .gpcc_complete_area .img_area:before {background: #EBEBEB;}
+.gpcc_wrap.card_MLGHE3 .gpcc_complete_area .img_area:after{background: #EBEBEB;}
+
+/*Kt-현대카드M Edition3*/
+.gpcc_wrap.card_MKTE3 .gpcc_complete_area .img_area:before {background: #EBEBEB;}
+.gpcc_wrap.card_MKTE3 .gpcc_complete_area .img_area:after{background: #EBEBEB;}
+
+/* 현대 모빌리티 카드 - 캐스퍼 */
+.gpcc_wrap.card_HSCHC_DS .gpcc_complete_area .img_area:after {background: #ebebeb;}
+.gpcc_wrap.card_HSCHC_DS .gpcc_complete_area .img_area:before {background: #ebebeb;}
+.gpcc_wrap.card_HSCHC_DT .gpcc_complete_area .img_area:after {background: #ebebeb;}
+.gpcc_wrap.card_HSCHC_DT .gpcc_complete_area .img_area:before {background: #ebebeb;}
+.gpcc_wrap.card_HSCHC_DU .gpcc_complete_area .img_area:after {background: #ebebeb;}
+.gpcc_wrap.card_HSCHC_DU .gpcc_complete_area .img_area:before {background: #ebebeb;}
+.gpcc_wrap.card_HSCHC_DV .gpcc_complete_area .img_area:after {background: #ebebeb;}
+.gpcc_wrap.card_HSCHC_DV .gpcc_complete_area .img_area:before {background: #ebebeb;}
+
+/* SB카드 */
+.gpcc_wrap.card_MXB_BA .gpcc_complete_area .img_area:after {background: #E0E0E0;}
+.gpcc_wrap.card_MXB_BA .gpcc_complete_area .img_area:before {background: #E0E0E0;}
+.gpcc_wrap.card_MXB_GX .gpcc_complete_area .img_area:after {background: #E0E0E0;}
+.gpcc_wrap.card_MXB_GX .gpcc_complete_area .img_area:before {background: #E0E0E0;}
+.gpcc_wrap.card_MXB_GY .gpcc_complete_area .img_area:after {background: #E0E0E0;}
+.gpcc_wrap.card_MXB_GY .gpcc_complete_area .img_area:before {background: #E0E0E0;}
+.gpcc_wrap.card_MXB_GZ .gpcc_complete_area .img_area:after {background: #E0E0E0;}
+.gpcc_wrap.card_MXB_GZ .gpcc_complete_area .img_area:before {background: #E0E0E0;}
+
+/* MB카드 */
+.gpcc_wrap.card_MMBF .gpcc_complete_area .img_area:after {background: #e0e0e0}
+.gpcc_wrap.card_MMBF .gpcc_complete_area .img_area:before {background: #e0e0e0}
+.gpcc_wrap.card_MMBR .gpcc_complete_area .img_area:after {background: #e0e0e0;}
+.gpcc_wrap.card_MMBR .gpcc_complete_area .img_area:before {background: #e0e0e0;}
+.gpcc_wrap.card_MMBE .gpcc_complete_area .img_area:after {background: #e0e0e0;}
+.gpcc_wrap.card_MMBE .gpcc_complete_area .img_area:before {background: #e0e0e0;}
+
+.gpcc_wrap.card_MMBPF .gpcc_complete_area .img_area:after {background: #e0e0e0;}
+.gpcc_wrap.card_MMBPF .gpcc_complete_area .img_area:before {background: #e0e0e0;}
+.gpcc_wrap.card_MMBPR .gpcc_complete_area .img_area:after {background: #e0e0e0;}
+.gpcc_wrap.card_MMBPR .gpcc_complete_area .img_area:before {background: #e0e0e0;}
+.gpcc_wrap.card_MMBPE .gpcc_complete_area .img_area:after {background: #e0e0e0;}
+.gpcc_wrap.card_MMBPE .gpcc_complete_area .img_area:before {background: #e0e0e0;}
+
+.gpcc_wrap.card_XMBF .gpcc_complete_area .img_area:after {background: #e0e0e0;}
+.gpcc_wrap.card_XMBF .gpcc_complete_area .img_area:before {background: #e0e0e0;}
+.gpcc_wrap.card_XMBR .gpcc_complete_area .img_area:after {background: #e0e0e0;}
+.gpcc_wrap.card_XMBR .gpcc_complete_area .img_area:before {background: #e0e0e0;}
+.gpcc_wrap.card_XMBE .gpcc_complete_area .img_area:after {background: #e0e0e0;}
+.gpcc_wrap.card_XMBE .gpcc_complete_area .img_area:before {background: #e0e0e0;}
+
+.gpcc_wrap.card_XMBPF .gpcc_complete_area .img_area:after {background: #e0e0e0;}
+.gpcc_wrap.card_XMBPF .gpcc_complete_area .img_area:before {background: #e0e0e0;}
+.gpcc_wrap.card_XMBPR .gpcc_complete_area .img_area:after {background: #e0e0e0;}
+.gpcc_wrap.card_XMBPR .gpcc_complete_area .img_area:before {background: #e0e0e0;}
+.gpcc_wrap.card_XMBPE .gpcc_complete_area .img_area:after {background: #e0e0e0;}
+.gpcc_wrap.card_XMBPE .gpcc_complete_area .img_area:before {background: #e0e0e0;}
+
+.gpcc_wrap.card_ZROMBF .gpcc_complete_area .img_area:after {background: #e4e5e4;}
+.gpcc_wrap.card_ZROMBF .gpcc_complete_area .img_area:before {background: #e4e5e4;}
+.gpcc_wrap.card_ZROMBR .gpcc_complete_area .img_area:after {background: #e4e5e4;}
+.gpcc_wrap.card_ZROMBR .gpcc_complete_area .img_area:before {background: #e4e5e4;}
+.gpcc_wrap.card_ZROMBE .gpcc_complete_area .img_area:after {background: #e4e5e4;}
+.gpcc_wrap.card_ZROMBE .gpcc_complete_area .img_area:before {background: #e4e5e4;}
+
+/* 삼성페이 추가 건 */
+.gpcc_top_title.medium.type {margin:14px 0 0;}
+.detail_txt {margin-top:24px; font-size: 16px; color: #000; line-height: 22px;}
+.detail_txt + .bullet_list {margin-top:12px;}
+
+/* 로그인한 회원 */
+/* 카드신청 처음화면 */
+.gpcc_container.starting_card2 .gpcc_card_area {width:156px;}
+.gpcc_container.starting_card2 .box_link_arrow.type {margin-top:64px;}
+.gpcc_container.starting_card2 .box_link_arrow.type > a {line-height:64px;}
+.gpcc_container.starting_card2 .box_link_arrow > a:after {content:""; position:absolute; right:8px; width:32px; height:100%; background:url('/gpcc/mo/images/ArrowB_Forward.png') center no-repeat; background-size:32px;}
+
+/* 카드신청 처음화면 - 디자인 선택 */
+.gpcc_container.starting_card2 .card_txt {margin-bottom: 113px;}
+.gpcc_container.starting_card2 .card_txt.type {margin-bottom:83px;}
+
+/* 카드선택 팝업 (디지털러버 포함) */
+.layer_popup.bottom_sheet .layer_wrap .layer_content.my_card_sel {padding-top:0;margin-top:-4px;min-height: 297px;max-height: 480px;}
+.layer_popup.bottom_sheet .layer_wrap .info_box {margin-top:15px; padding: 0 6.4%;}
+.layer_popup.bottom_sheet .layer_wrap .pop_text {font-weight: bold; font-size: 16px; color: #000; line-height: 26px;}
+.layer_popup.bottom_sheet .layer_wrap .card_name {font-size: 16px; color: #000; line-height: 26px;}
+.layer_popup.bottom_sheet .layer_wrap .pop_text + .card_name {margin-top:19px;}
+
+/* npay 추가 */
+.npay_wrap {margin:-15px 0 30px; text-align: center;}
+.npay_wrap .npay_cont {position: relative;}
+.npay_wrap .npay_cont .npay_comment {position: absolute;bottom: 27px;margin-left:-7px;min-width: 148px;font-weight: normal;background: #000;border-radius: 8px;height: 28px;line-height: 28px;opacity:0;}
+.npay_wrap .npay_cont .npay_comment > span {padding: 0 8px 0;font-size: 14px;color: #fff;display: inline-block;}
+.npay_wrap .npay_cont .npay_comment:after {content: '';position: absolute;bottom: -4px;left:12px;width: 8px;height: 4px;background: url('/gpcc/mo/images/bg_comment.png') 0 0 no-repeat;background-size: 8px 4px;}
+.npay_wrap .npay_cont .npay_txt {font-weight: bold; font-size: 14px; color: #000; text-align: center; line-height: 20px;}
+.npay_wrap .npay_cont .npay_txt > span {vertical-align: top; margin-left:1px;}
+.npay_wrap .npay_cont .npay_txt:before {display: inline-block; vertical-align: -4px; content:''; width:49px; height: 19px; background: url('/gpcc/mo/images/img_npay.png') 0 0 no-repeat; background-size: 49px 19px;}
+.npay_wrap .npay_cont .npay_txt.btn.btn_arrow:after {vertical-align: top; margin-top: 2px; margin-left: -4px; opacity: 1;}
+
+/* 카드 플레이트 */
+.layer_popup.bottom_sheet .layer_wrap.non_Mheight{max-height:none;}
+.form_card_bundle .sec_body.plate{max-height:137px;}
+.form_card_bundle .sec_body.plate .toggle_bundle.cardDesign {margin-bottom: 1px;}
+.form_card_bundle .sec_body.plate .toggle_bundle.traffic .toggle_title.f_nor {font-weight:normal;}
+.form_card_bundle .sec_body.plate .toggle_bundle .toggle_title .icon {display: inline-block;vertical-align: middle;margin: 0 6px 0 -8px;width:16px;height:16px;background: url('/gpcc/mo/images/ico_step.png')0 0 no-repeat;background-size: 16px;}
+.form_card_bundle .sec_body.plate .toggle_bundle.cardDesign .btn_info{margin-right:6px; font-size:16px;font-weight:bold;line-height:44px;color:#000;}
+.form_card_bundle .sec_body.plate .toggle_bundle.cardDesign .btn_info:after{display:inline-block; vertical-align:middle; margin-top:-2px; content:"";background: url('/gpcc/mo/images/ArrowB_Forward.png') no-repeat center; background-size: 100%;width:24px;height:24px;}
+
+/* 특수소재 플레이트 신청 팝업 */
+.layer_popup.bottom_sheet .layer_wrap .layer_header.history_btn {padding: 16px 26.9% 16px 12px;}
+.layer_popup.bottom_sheet .layer_wrap .layer_header.history_btn::after {display: block; content: ''; clear: both;}
+.layer_popup.bottom_sheet .layer_wrap .layer_header.history_btn .layer_history_back {position: relative; float: left; width:32px; height:32px;}
+.layer_popup.bottom_sheet .layer_wrap .layer_header.history_btn .layer_history_back:before {display:block; content:""; position:absolute; left:50%; top:50%; transform: translate(-50%, -50%); width:32px; height:32px; background:url(/gpcc/mo/images/ico_ArrowB_Back.png) 0 0 no-repeat; background-size:32px;}
+.layer_popup.bottom_sheet .layer_wrap .layer_header.history_btn .layer_history_back span {color:transparent;}
+.layer_popup.bottom_sheet .layer_wrap .layer_header.history_btn h1 {float: left; margin-top:3px;}
+
+.layer_popup.bottom_sheet .layer_wrap .layer_cardDesign.layer_scroll_list .layer_content {padding-left: 0; padding-right: 0;}
+.layer_scroll_list .plate_title {padding: 0 6.4%;}
+
+.plate_title{margin-bottom:39px;padding-bottom:1px;}
+.plate_title dt{color:#000;font-size:16px;line-height:22px;margin-bottom:12px;font-weight:bold !important;}
+.plate_title dd{font-size:16px;color:#000;line-height:26px;}
+.plate_title dd + dt{margin-top:28px;}
+.plate_title.plate_title2 dt {margin-bottom: 4px;} /* card list 3개 */
+.bullet_list.black li {font-size: 16px; color: #000;}
+.sub_desc + .bullet_list.black {margin-top:23px;} /* Sony card 팝업 간격 */
+
+.cardDesign_list{text-align:center;width:100%;overflow-x:scroll;}
+.cardDesign_list ul{margin-bottom:17px;}
+.cardDesign_list ul.over_count{overflow: hidden; padding-left: 6.4%; margin-bottom:0; text-align:left;}
+.cardDesign_list ul.over_count li{float:left;}
+.cardDesign_list ul.over_count li:first-child{margin-left:0;}
+.cardDesign_list li{width:108px;text-align:center;display:inline-block;margin:0 16px;}
+.cardDesign_list li span{color:#000; font-size:14px;font-weight:bold !important;}
+.cardDesign_list li .custom_radio input[type="radio"] + label{padding:0; line-height: 0;}
+.cardDesign_list li .custom_radio input[type="radio"] + label:before{display:inline-block;position:relative;margin-bottom:9px;width:21px;height: 21px;}
+.cardDesign_list li .custom_radio input[type="radio"]:checked + label:before {background-position: 0 -21px;}
+.cardDesign_list li img{width:100%;margin-bottom:16px;}
+.layer_popup.bottom_sheet .layer_wrap .layer_cardDesign .layer_content{/*max-height: 522px;*/max-height:67vh; padding-bottom:112px;}
+
+.cardDesign_list li .custom_radio input[type="radio"] + label .card_cont{position:relative;-webkit-transform-style: preserve-3d;-webkit-transition: -webkit-transform .9s cubic-bezier(.4,.4,.1,1.4);background-color: transparent;transform-style: preserve-3d;transition: -webkit-transform .9s cubic-bezier(.4,.4,.1,1.4);transition: transform .9s cubic-bezier(.4,.4,.1,1.4);transition: transform .9s cubic-bezier(.4,.4,.1,1.4),-webkit-transform .9s cubic-bezier(.4,.4,.1,1.4);}
+.cardDesign_list li .custom_radio input[type="radio"] + label .card_cont .card{position:relative;left:0;top:0;backface-visibility: hidden;-webkit-backface-visibility: hidden;/*-webkit-box-shadow: 0 16px 32px 0 rgba(0,0,0,.15);box-shadow: 0 16px 32px 0 rgba(0,0,0,.15);*/-webkit-transition: top .25s ease;transition: top .25s ease;/*left: calc(50% - 100px);*/top:0;background-color:none;border-radius:8px;}
+.cardDesign_list li .custom_radio input[type="radio"] + label .card_cont .b_card{position:absolute;-webkit-transform: rotateY(180deg);transform: rotateY(180deg);}
+.cardDesign_list li .custom_radio input[type="radio"] + label .card_cont.back{-webkit-transform: rotateY(180deg);transform: rotateY(180deg);}
+
+.cardDesign_list li .back_side_view_btn{display:block; position: relative; margin:12px auto 16px; padding-left:25px; width:73px; height:28px; line-height:29px; letter-spacing: -0.1em; font-size:11px; font-weight:bold; color:#fff; background:rgba(0,0,0,.48); border-radius:16px; text-align:left; z-index:2;}
+.cardDesign_list li .back_side_view_btn:before{content:""; position:absolute;top:5px;left:7px; width:18px; height:18px; background:url('/gpcc/mo/images/flip_Arrow.png') no-repeat center; background-size:100% auto;}
+
+.layer_cardDesign + .layer_footer {width: 100%;position: absolute;left: 0;bottom: 0;background: linear-gradient(to top,rgba(255,255,255,1) 70%,rgba(255,255,255,0));}
+.visa_txt{margin-bottom:29px;font-size:16px;line-height:26px;}
+
+/* 가족카드 */
+.form_bundle_wrap.type {margin-top:28px;}
+.custom_card_select{width:100%;padding:20px 0 10px 0;border-bottom: 1px solid rgba(0,0,0,0.12);}
+.custom_card_select .btn.btn_arrow {display: block;}
+.custom_card_select .btn.btn_arrow:after{content:"";position:absolute;right:0;top:21px;width:24px;height:24px;background:url(/gpcc/mo/images/ico_ArrowB_Down.png) no-repeat 0 0;background-size:100%;opacity: 0.8;}
+.custom_card_select span{font-size:20px;color:#000;line-height:26px;}
+
+/* Purple card */
+/* bg */
+.gpcc_wrap.card_TPE3, body.card_TPE3, body.card_TPE3:before, .card_TPE3 .layer_popup.full.card_design_pop,
+.gpcc_wrap.card_TPME3, body.card_TPME3, body.card_TPME3:before, .card_TPME3 .layer_popup.full.card_design_pop {background-color:#5C325E;}
+.card_TPE3 .plt_con,
+.card_TPME3 .plt_con {background-color:#5C325E;}
+.card_TPE3 .plt_con,
+.card_TPME3 .plt_con {background-color:#5C325E;}
+.card_TPE3 .plt_con .box_input01.row2 .input_txt,
+.card_TPME3 .plt_con .box_input01.row2 .input_txt {caret-color:#fff;}
+.gpcc_wrap.card_TPE3 .gpcc_complete_area .img_area:before,
+.gpcc_wrap.card_TPME3 .gpcc_complete_area .img_area:before {background: #5C325E;}
+.gpcc_wrap.card_TPE3 .gpcc_complete_area .img_area:after,
+.gpcc_wrap.card_TPME3 .gpcc_complete_area .img_area:after {background: #5C325E;}
+.card_TPE3 .gpcc_complete_area .text_area,
+.card_TPME3 .gpcc_complete_area .text_area {color:#fff;}
+.card_TPE3 .gpcc_complete_area .text_area .desc,
+.card_TPME3 .gpcc_complete_area .text_area .desc {color:#fff;}
+
+/* 카드 종류 선택 팝업 */
+.sorts_card .card_design_txt {line-height: 26px;}
+.sorts_card .overseas_pay.big .box_white .custom_radio input[type="radio"] + label {padding: 11px 16px 9px;}
+.sorts_card .overseas_pay.big .box_white .custom_radio input[type="radio"]:checked + label {padding: 10px 15px 8px; border:2px solid #000;}
+.sorts_card .overseas_pay.big .box_white .custom_radio input[type="radio"] + label span {top: 14px; transform: translateY(0px);}
+.sorts_card .overseas_pay.big .box_white .custom_radio input[type="radio"]:checked + label span {top: 13px; left:15px;}
+.sorts_card .overseas_pay.big .box_white .custom_radio input[type="radio"]:checked + label:before {display: none;}
+
+/* 발급시작화면 */
+.card_TPE3 .header h1,
+.card_TPE3 .h3_eb_ctr,
+.card_TPME3 .header h1,
+.card_TPME3 .h3_eb_ctr {color:#fff;}
+.card_TPE3 .btn_prev,
+.card_TPME3 .btn_prev {background: url('/docfiles/resources/mo/images/com/icon/w32/ico_arrowB_back_wht.png') 0 0 no-repeat; background-size: 100%;}
+.card_TPE3 .header .btn_close,
+.card_TPME3 .header .btn_close {background: url('/docfiles/resources/mo/images/com/icon/w32/ico_x_b_wht.png') center no-repeat; background-size: 100%;}
+.card_TPE3 .box_btn.fix p.fc_a64,
+.card_TPME3 .box_btn.fix p.fc_a64 {color:rgba(255,255,255,0.64);}
+
+
+/* 영문이름/교통/브랜드 */
+.card_TPE3 .box_card_bundle .form_plate_card .box,
+.card_TPME3 .box_card_bundle .form_plate_card .box {padding-bottom: 0;box-sizing: content-box;}
+.form_card_bundle .sec_body.plate.plate2 {max-height:91px;}
+.form_card_bundle .sec_body.plate.plate2 .toggle_bundle.traffic {display:block;}
+.layer_popup.bottom_sheet .layer_wrap .layer_header.history_btn.bor_bottom {padding: 16px 26.9% 15px 12px !important;}
+
+/* 로열티 보너스 */
+.royalty_box {margin-top:24px;}
+.royalty_box .box_white + .box_white {margin-top:8px;}
+.royalty_box .box_white .custom_radio {display: block;}
+.royalty_box .box_white .custom_radio input[type="radio"] + label {display: block; padding:15px 16px 16px; border:1px solid #ebebeb; border-radius: 8px; line-height:22px;}
+.royalty_box .box_white .custom_radio input[type="radio"] + label:before {display: none;}
+.royalty_box .box_white .custom_radio input[type="radio"]:checked + label {padding:14px 15px 15px; border:2px solid #000;}
+.royalty_box .box_white .custom_radio input[type="radio"] + label .royal_txt {font-size:16px; color:#000;}
+
+/* 랩업 */
+.card_TPE3 .layer_popup.full.card_design_pop .intro_cont .card_select_tit2 {color:#fff;}
+.card_TPME3 .layer_popup.full.card_design_pop .intro_cont .card_select_tit2 {color:#fff;}
+
+/* Sony card */
+/* bg */
+.gpcc_wrap.card_MSPSE3, body.card_MSPSE3, body.card_MSPSE3:before, .gpcc_wrap.card_MSPSE3 .layer_popup.card_design_pop {background-color:#0E57AF;}
+.card_MSPSE3 .plt_con {background-color:#fff;}
+.card_MSPSE3 .plt_con {background-color:#fff;border-radius:12px;}
+.gpcc_wrap.card_MSPSE3 .gpcc_complete_area .img_area:before {background: #0E57AF;}
+.gpcc_wrap.card_MSPSE3 .gpcc_complete_area .img_area:after {background: #0E57AF;}
+.card_MSPSE3 .gpcc_complete_area .text_area {color:#fff;}
+.card_MSPSE3 .gpcc_complete_area .text_area .desc {color:#fff;}
+
+/* 발급시작화면 */
+.card_MSPSE3 .header h1,
+.card_MSPSE3 .h3_eb_ctr {color:#fff;}
+.card_MSPSE3 .btn_prev {background: url('/docfiles/resources/mo/images/com/icon/w32/ico_arrowB_back_wht.png') 0 0 no-repeat; background-size: 100%;}
+.card_MSPSE3 .header .btn_close {background: url('/docfiles/resources/mo/images/com/icon/w32/ico_x_b_wht.png') center no-repeat; background-size: 100%;}
+.card_MSPSE3 .box_btn.fix .fc_a64 {color:rgba(255,255,255,0.64);}
+
+/* plate 뒷면 color */
+.card_MSPSE3 .plt_con > .h3_b_lt {color:#000;}
+.card_MSPSE3 .plt_con > .h3_b_lt + .p1_m_lt {color: rgba(0,0,0,0.80);}
+.card_MSPSE3 .plt_con .box_input01.row2 .input_txt {color:#000; border-bottom:1px solid rgba(0,0,0,0.2);}
+.card_MSPSE3 .plt_con .box_input01.row2 .input_txt + label {color: rgba(0,0,0,0.40);}
+.card_MSPSE3 .plt_con .auto_con a {color:#000;}
+.card_MSPSE3 .plt_con .box_btn a {background: rgba(0,0,0,0.08); color:rgba(0,0,0,0.2);}
+
+.card_MSPSE3 .form_card_wrap > div.box_card_bundle strong.title {color: #000;}
+.card_MSPSE3 .plt_con .form_items > h3.p1_b_lt {color:#000;}
+.card_MSPSE3 .plt_con .form_items > h3.p1_b_lt .fr {color: rgba(0,0,0,0.64);}
+.card_MSPSE3 .plt_con .form_items > h3.p1_b_lt .fr:after {background: url(/gpcc/mo/images/ArrowB_Forward.png) no-repeat center; background-size: 100%;}
+.card_MSPSE3 .form_card_bundle .sec_body .box_white {border: 2px solid #f5f5f5;}
+.card_MSPSE3 .box_card_bundle .form_plate_card{border-radius:12px;}
+
+/* costco card */
+.costco_pay_wrap {}
+.costco_pay_wrap .toggle_bundle.border {margin-top:14px;}
+.costco_pay_wrap .form_bundle_wrap {margin-top:12px;}
+.costco_pay_wrap .costco_info {display: none;}
+.costco_pay_wrap .costco_info.on {display: block;}
+.costco_pay_wrap .costco_img {margin:20px auto 0; width: 296px; height: 184px;}
+.costco_pay_wrap .costco_info.on + .bullet_list {margin-top:23px;}
+
+
+/*바운딩 bg컨트롤*/
+.half_bg{background:none !important;}
+.half_bg:before{display:block;content:"";position:fixed;left:0;top:0px;width:100%;height:30%;z-index:-1;}
+.half_bg.scrollUp:before{height:50px;}
+.half_bg.scrollDown:before{height:45%;}
+
+/* auto_complete_list - 20210830 son */
+.auto_complete_list input[type=radio] + label {padding-left:0;font-size:16px; color:#fff;}
+.auto_complete_list input[type=radio] + label:after {display:none;}
+
+
+/* 현대 모빌리티 카드 - 캐스퍼 */
+.card_HSCHC_DU .plt_con *:not(.input_box *):not(.error input)  , .card_HSCHC_DU .box_input01.row2 .input_cell label,
+/* 그린 ed2 카드 */
+.card_TGE2 .plt_con *:not(.input_box *):not(.error input)  , .card_TGE2 .box_input01.row2 .input_cell label,
+
+/* SB카드 */
+.card_MXB_BA .plt_con *:not(.input_box *):not(.error input)  , .card_MXB_BA .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_MXB_GY .plt_con *:not(.input_box *):not(.error input)  , .card_MXB_GY .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_MXB_GZ .plt_con *:not(.input_box *):not(.error input)  , .card_MXB_GZ .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_ONOF.card_ONOF_OC .plt_con *:not(.input_box *):not(.error input)  , .card_ONOF.card_ONOF_OC .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_ONOF.card_ONOF_ON .plt_con *:not(.input_box *):not(.error input)  , .card_ONOF.card_ONOF_ON .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+
+/* MB카드 */
+.card_MMBF_GA .plt_con *:not(.input_box *):not(.error input)  , .card_MMBF_GA .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_MMBR_GA .plt_con *:not(.input_box *):not(.error input)  , .card_MMBR_GA .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_MMBE_GA .plt_con *:not(.input_box *):not(.error input)  , .card_MMBE_GA .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_MMBPF_GA .plt_con *:not(.input_box *):not(.error input)  , .card_MMBPF_GA .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_MMBPR_GA .plt_con *:not(.input_box *):not(.error input)  , .card_MMBPR_GA .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_MMBPE_GA .plt_con *:not(.input_box *):not(.error input)  , .card_MMBPE_GA .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+
+.card_MMBF_GC .plt_con *:not(.input_box *):not(.error input)  , .card_MMBF_GC .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_MMBR_GC .plt_con *:not(.input_box *):not(.error input)  , .card_MMBR_GC .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_MMBE_GC .plt_con *:not(.input_box *):not(.error input)  , .card_MMBE_GC .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_MMBPF_GC .plt_con *:not(.input_box *):not(.error input)  , .card_MMBPF_GC .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_MMBPR_GC .plt_con *:not(.input_box *):not(.error input)  , .card_MMBPR_GC .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_MMBPE_GC .plt_con *:not(.input_box *):not(.error input)  , .card_MMBPE_GC .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+
+.card_XMBF_GD .plt_con *:not(.input_box *):not(.error input)  , .card_XMBF_GD .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_XMBR_GD .plt_con *:not(.input_box *):not(.error input)  , .card_XMBR_GD .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_XMBE_GD .plt_con *:not(.input_box *):not(.error input)  , .card_XMBE_GD .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_XMBPF_GD .plt_con *:not(.input_box *):not(.error input)  , .card_XMBPF_GD .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_XMBPR_GD .plt_con *:not(.input_box *):not(.error input)  , .card_XMBPR_GD .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_XMBPE_GD .plt_con *:not(.input_box *):not(.error input)  , .card_XMBPE_GD .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_TPE3 .plt_con  *:not(.input_box *):not(.error input)  , .card_TPE3 .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_TPME3 .plt_con *:not(.input_box *):not(.error input)  , .card_TPME3 .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_MBT_GA .plt_con *:not(.input_box *):not(.error input)  , .card_MBT_GA .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+
+.card_XMBF_GF .plt_con *:not(.input_box *):not(.error input)  , .card_XMBF_GF .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_XMBR_GF .plt_con *:not(.input_box *):not(.error input)  , .card_XMBR_GF .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_XMBE_GF .plt_con *:not(.input_box *):not(.error input)  , .card_XMBE_GF .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_XMBPF_GF .plt_con *:not(.input_box *):not(.error input)  , .card_XMBPF_GF .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_XMBPR_GF .plt_con *:not(.input_box *):not(.error input)  , .card_XMBPR_GF .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_XMBPE_GF .plt_con *:not(.input_box *):not(.error input)  , .card_XMBPE_GF .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_ZF_GM .plt_con *:not(.input_box *):not(.error input)  , .card_ZF_GM .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_ZF_GO .plt_con *:not(.input_box *):not(.error input)  , .card_ZF_GO .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_ZF_GP .plt_con *:not(.input_box *):not(.error input)  , .card_ZF_GP .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+.card_MPBT_GA .plt_con *:not(.input_box *):not(.error input)  , .card_MPBT_GA .plt_con .box_input01.row2 .input_cell label{color:rgba(255, 255, 255, .88);}
+
+.card_HSCHC_DU .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_TGE2 .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_MXB_BA .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_MXB_GY .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_MXB_GZ .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_MMBF_GA .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_MMBR_GA .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_MMBE_GA .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_MMBPF_GA .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_MMBPR_GA .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_MMBPE_GA .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_MMBF_GC .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_MMBR_GC .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_MMBE_GC .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_MMBPF_GC .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_MMBPR_GC .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_MMBPE_GC .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_XMBF_GD .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_XMBR_GD .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_XMBE_GD .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_XMBPF_GD .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_XMBPR_GD .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_XMBPE_GD .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_XMBF_GF .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_XMBR_GF .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_XMBE_GF .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_XMBPF_GF .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_XMBPR_GF .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_XMBPE_GF .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_MBT_GA .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_ZF_GM .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_ZF_GO .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_ZF_GP .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before,
+.card_MPBT_GA .plt_con .plt_con .box_input01.row2 .input_cell_box:not(.error):before
+{background-color:rgba(255, 255, 255, .88);}
+
+
+/* 햇살론 */
+.half_bg.card_SLHC:before {background-color:#e4e5e4;}
+.card_SLHC .layer_wrap .toggle_bundle {border:2px solid #f5f5f5;}
+
+/* 사업체명 MB카드 */
+.custom_input.company_name {width: 100% !important;}
+.form_card_wrap .form_plate_card .box span.desc {display: block; margin-top: 6px; font-size: 15px; color: rgba(255, 255, 255, 0.80); line-height: 22px;}
+.form_card_wrap .form_bundle .sec_body .text.type01 {display: block; margin-top: 6px; font-size: 14px; color: rgba(255, 255, 255, 0.80);}
+.form_card_wrap .form_bundle .box_account .custom_input.company_name input[type="text"] {font-size:20px;}
+.form_card_wrap .form_bundle .box_account .custom_input.company_name input[type="text"].active + label {display:none;}
+
+/* MB카드 */
+.card_MMBF_GB .form_card_wrap .form_plate_card .box span.desc {color: #000;}
+.card_MMBF_GB .form_card_wrap .form_bundle .sec_body .text.type01 {color: #000;}
+
+.card_MMBR_GB.form_card_wrap .form_plate_card .box span.desc {color: #000;}
+.card_MMBR_GB.form_card_wrap .form_bundle .sec_body .text.type01 {color: #000;}
+
+.card_MMBE_GB.form_card_wrap .form_plate_card .box span.desc {color: #000;}
+.card_MMBE_GB.form_card_wrap .form_bundle .sec_body .text.type01 {color: #000;}
+
+.card_MMBPF_GB.form_card_wrap .form_plate_card .box span.desc {color: #000;}
+.card_MMBPF_GB.form_card_wrap .form_bundle .sec_body .text.type01 {color: #000;}
+
+.card_MMBPR_GB.form_card_wrap .form_plate_card .box span.desc {color: #000;}
+.card_MMBPR_GB.form_card_wrap .form_bundle .sec_body .text.type01 {color: #000;}
+
+.card_MMBPE_GB.form_card_wrap .form_plate_card .box span.desc {color: #000;}
+.card_MMBPE_GB.form_card_wrap .form_bundle .sec_body .text.type01 {color: #000;}
+
+.card_XMBF_GE.form_card_wrap .form_plate_card .box span.desc {color: #000;}
+.card_XMBF_GE.form_card_wrap .form_bundle .sec_body .text.type01 {color: #000;}
+
+.card_XMBR_GE.form_card_wrap .form_plate_card .box span.desc {color: #000;}
+.card_XMBR_GE.form_card_wrap .form_bundle .sec_body .text.type01 {color: #000;}
+
+.card_XMBE_GE.form_card_wrap .form_plate_card .box span.desc {color: #000;}
+.card_XMBE_GE.form_card_wrap .form_bundle .sec_body .text.type01 {color: #000;}
+
+.card_XMBPF_GE.form_card_wrap .form_plate_card .box span.desc {color: #000;}
+.card_XMBPF_GE.form_card_wrap .form_bundle .sec_body .text.type01 {color: #000;}
+
+.card_XMBPR_GE.form_card_wrap .form_plate_card .box span.desc {color: #000;}
+.card_XMBPR_GE.form_card_wrap .form_bundle .sec_body .text.type01 {color: #000;}
+
+.card_ZROMBF.form_card_wrap .form_plate_card .box span.desc {color: #000;}
+.card_ZROMBF.form_card_wrap .form_bundle .sec_body .text.type01 {color: #000;}
+
+.card_ZROMBR.form_card_wrap .form_plate_card .box span.desc {color: #000;}
+.card_ZROMBR.form_card_wrap .form_bundle .sec_body .text.type01 {color: #000;}
+
+.card_ZROMBE.form_card_wrap .form_plate_card .box span.desc {color: #000;}
+.card_ZROMBE.form_card_wrap .form_bundle .sec_body .text.type01 {color: #000;}
+
+
+.gpcc_wrap.cardM {background-color:#eb1c74;}
+.gpcc_wrap.cardM2 {background-color:#fb9019;}
+.gpcc_wrap.cardM3 {background-color:#efe835;}
+.gpcc_wrap.cardX {background-color:#1d24ab;}
+.gpcc_wrap.cardX2 {background-color:#00a885;}
+.gpcc_wrap.cardX3 {background-color:#25cbd3;}
+.gpcc_wrap.cardZero {background-color:#e4e5e4;}
+.gpcc_wrap.cardZeroM {background-color:#e4e5e4;}
+
+.nppfs-keypad-div {z-index:999999;}
+
+.gpcc_container.form_padding {padding-bottom:150px;}
+
+

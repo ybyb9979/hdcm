@@ -1,0 +1,176 @@
+/* Q10582 */
+
+/* MOCAR006130 카드 파인더 */
+.finderAni.ani{position:relative;display:flex;align-items:center;justify-content:center;flex-direction:column;overflow:hidden;}
+.finderAni .moving {display: flex; justify-content: center; flex-direction: column; overflow: hidden;}
+.finderAni h3 {margin-bottom: 12px;}
+.finderAni h3, .finderAni p {width: 233px;}
+.card_finder{padding-bottom:0;}
+.card_finder:before{content:'';display:block;position:absolute;left:268px;top:0;width:1px;height:100%;background:#ccc;}
+.card_finder .content{display:flex;}
+.finder_left{position:relative;width:268px;padding:40px;height:100%;min-height:100vh;-webkit-user-select:none;}
+.finder_left .h4_b_lt{margin-bottom:28px;}
+.finder_left .items ~ .items{margin-top:44px;}
+.slider_bar {height: 3px;margin-top: 10px;}
+.slider_bar .slider_label, .slider_bar .slider_point {display: flex;flex-wrap: nowrap;justify-content: space-between;}
+.slider_bar .slider_label {padding-top: 10px;width:calc(100% + 12px)}
+.slider_bar .slider_label li{text-align:center;min-width:16px;}
+.slider_bar .slider_label li:nth-child(3){padding-left:10px}
+.slider_bar .slider_point {margin:0;width:100%;justify-content: space-between;}
+.slider_bar .slider_point span {width: 3px;height: 3px;background: #fff;z-index: 10;}
+.slider_bar .ui-slider-handle {width: 16px;height: 16px;margin-top: -9px;border:1px solid #000;z-index:10;box-shadow:none;margin-left:-8px}
+.slider_bar .ui-slider-handle:focus-visible{outline:none;}
+.slider_bar .ui-slider-range {background-color: #000;}
+
+.finderAni{width:calc(100% - 268px);padding:40px 0 40px 56px}
+.finderAni .p1_b_lt{margin-bottom:26px;}
+.finderAni .list05 > li{width:33.3%;flex:1 1 auto;margin:0;max-width:33.3%}
+.finderAni .list05 > li:nth-child(n + 4){margin-top:40px;}
+.finderAni .list05 > li .card_plt {position:relative;}
+.finderAni .list05 > li .card_plt > a{display:flex;}
+.finderAni .list05 > li:nth-child(3n + 2){width:33.4%;}
+.finderAni .list05 > li .img{width:120px}
+.finderAni .list05 > li.img_v .img{width:191px}
+.finderAni .list05 > li .img + .con{width:calc(100% - 148px);margin-left:28px}
+.finderAni .list05 > li.img_v .img + .con{width:calc(100% - 219px);margin-left:28px}
+.finderAni .list05 > li .card_plt .highlight{display:inline-block;;}
+.finderAni .list05 > li .card_plt .highlight:after{height:8px}
+.finderAni .list05 .con ul:not(.grid_info) li{font-size:14px;line-height:20px;color:#333}
+.finderAni .list05 .grid_info{margin-bottom:8px}
+.finderAni .list05 .grid_info li{margin:8px 4px 4px 0;padding:0 4px;color:#5c5c5c;border-radius:4px;background:rgba(0,0,0,.08);display:flex;justify-content:center;align-items:center;height:20px;font-size:12px;}
+.finderAni .list05 .grid_info li.current{background:#FB9019;color:#fff}
+.finderAni .card_att a {right:calc(100% - 114px);}
+.finderAni .img_v .card_att a {right:calc(100% - 187px);}
+.finderAni button:focus{outline:1px solid #000}
+.finderAni .moving{position:absolute;width:100%;height:100vh;left:1px;top:0;display:flex;align-items:center;}
+.finderAni .moving video{width:100%;}
+.finderAni .right_top{position:absolute;left:0;top:0;width:100%;height:100%;display:flex;justify-content:center;flex-direction:column}
+.card_finder .card_flot{right:calc(100% - 268px);width:268px;position:absolute;border-radius:0;border:none;border-top:1px solid #ebebeb}
+.card_finder .card_flot .flot_btn{width:100%;}
+
+.finder_list .img_w47 {width: 47px;}
+.finder_list.lv01{position:absolute;width:506px;height:506px; animation:finder 10s infinite linear;}
+.finder_list li{position:absolute;transform-origin:center center;height:102px}
+.finder_list li:nth-child(1){top:0;left:calc(50% - 23px);}
+.finder_list li:nth-child(2){transform:rotate(30deg);top:45px;right:104px;transform-origin:right top}
+.finder_list li:nth-child(3){transform:rotate(60deg);top:150px;right:22px;transform-origin:right top}
+.finder_list li:nth-child(4){transform:rotate(90deg);top:calc(50% - 51px);right:18px}
+.finder_list li:nth-child(5){transform:rotate(120deg);transform-origin:right bottom;bottom:150px;right:122px}
+.finder_list li:nth-child(6){transform:rotate(150deg);transform-origin:right bottom;bottom:104px;right:188px}
+.finder_list li:nth-child(7){transform:rotate(180deg);bottom:0;left:calc(50% - 23px);}
+.finder_list li:nth-child(8){transform:rotate(210deg);transform-origin:left bottom;bottom:104px;left:188px}
+.finder_list li:nth-child(9){transform:rotate(240deg);transform-origin:left bottom;bottom:150px;left:122px}
+.finder_list li:nth-child(10){transform:rotate(270deg);top:calc(50% - 51px);left:18px}
+.finder_list li:nth-child(11){transform:rotate(300deg);top:150px;left:22px;transform-origin:left top}
+.finder_list li:nth-child(12){transform:rotate(330deg);top:45px;left:104px;transform-origin:left top}
+
+@keyframes finder{
+    from{transform:rotate(0)}
+    to{transform:rotate(360deg)}
+}
+
+/* PCCAR006120 카드 파인더 메뉴 */
+.finder .items .radio_box.h32 li {margin-right: 8px;}
+.sub_card .finderData .list04 .cardDtlInfo .grid_info li {margin-right: 4px;}
+
+
+/* MOCAR095400 앱카드 이용 팁 */
+/* slide img style */
+.card_tip .swiper-slide {display: flex; flex-wrap:wrap; align-content: space-between; justify-content: center; background-color: #EBEBEB; min-height: 350px; padding-top: 32px;}
+.card_tip [class^="slide_img"] {display: block; width: 100%; height:210px; text-align: center;}
+.card_tip img {width: initial; height:100%;}
+
+/* tab type03 style */
+.tab_box.type03 a {margin-left: 0; height: 64px}
+.tab_box.type03 a:before {border-top: none; border-left: none; border-right: none; border-radius: 0;}
+.tab_box.type03 a.current:before {border-top: none; border-left: none; border-right: none; border-radius: 0;}
+
+/* tab merchants style */
+#tab_cont_merchants .tab_title_box,
+#tab_cont_merchants .tab_box {padding: 0 24px;}
+#tab_cont_merchants .tab_title_box p {margin-top: 12px;}
+
+/* 브랜드 title style */
+#tab_cont_barcode > h3,
+#tab_cont_nfc > h3 {padding: 0 24px;}
+
+/* 브랜드 img style */
+#tab_cont_merchants h3:not(:first-child) {margin-top: 48px}
+#tab_cont_merchants ul {display: flex; flex-wrap:wrap; margin-top:24px; padding-right:0; margin-left:0;}
+#tab_cont_merchants ul li {display:flex; flex-direction: column; align-items: center; justify-content: center; width:calc(100% / 3); min-height: 84px; }
+#tab_cont_merchants .brand_items .name {display: block;}
+#tab_cont_merchants ul li .img_brand {display: block; width: 80px; height: 43px; background-size: 100%; margin: 0 auto;}
+
+/* bul textBox style */ 
+#tab_cont_merchants .box_item {margin-top: 56px; padding: 0 24px;}
+#tab_cont_merchants .box_item:before {content: ""; display:block; width:100%; height: 1px; background-color:#E0E0E0;}
+#tab_cont_merchants .box_item .h4_b_lt {margin-top:20px;}
+#tab_cont_merchants .box_item .bul_list dd {position:relative; padding-left: 8px;}
+#tab_cont_merchants .box_item .bul_list dd:before {content:''; display:inline-block; position:absolute; top:10px; left:0; width:2px; height:2px; background:#949494; border-radius:100%;}
+#tab_cont_merchants .box_item dl:not(h3 + dl) {margin-top: 32px;}
+#tab_cont_merchants .box_item dl dt + dd {margin-top: 12px;}
+#tab_cont_merchants .box_item dl dd:not(dt + dd) {margin-top: 4px;}
+#tab_cont_merchants .box_item dl dd.mt20 {margin-top: 20px;}
+
+/* FAQS 탭 style */
+#tab_cont_faqs {padding: 0 24px;}
+
+/* 아코디언 style */
+#tab_cont_faqs dl dt a {line-height:26px;}
+#tab_cont_faqs .qna:not(:last-child) dt {border-bottom: 1px solid #ebebeb;}
+#tab_cont_faqs .qna:last-child dt {border-bottom: 1px solid #ebebeb00;}
+#tab_cont_faqs .qna dt.on {border-bottom: 1px solid #F5F5F5;}
+
+
+
+/* MOCAR088501 맴버십 */
+.mt26 {margin-top: 26px;}
+
+/* 스위치 input style */
+.box_content.type1.h56 .input_box{height:56px}
+.box_content.type1.h56 .input_box .switch_btn input + label {height:28px;}
+
+/* 검색 창 alert text style */
+.box_input01 .input_cell_box + .p3_m_lt_1ln.fc_m_alert .block:not(:first-child) {margin-top: 10px;}
+
+.w92 {width:92px;}
+
+
+
+/* MOCAR088000 금융소비자보호법 */
+.sub_card .p1_b_lt + .check_terms.type2 {border: 1px solid #ebebeb;}
+
+
+
+/* MOCAR088900 직장조회 */
+.box_content.h_initial .input_box input + label{height: inherit;}
+
+
+
+/* MOCAR090900 명세서수령지선택>다른방법으로받기 */
+.radio_box li.active > input + label:before {border-color: #000;border-width: 2px; color: #000;}
+
+
+
+/* MOCAR091800 */
+.sub_card .section.layer.sd_s_wht {background: #fff}
+
+
+/* MOCAR090700 */
+.box_con.type_02 {background-color: #f5f5f5}
+.box_con.type_02 .input_box {border: none;}
+.box_con.type_02 .input_box + p {padding: 16px;}
+
+/* MOCAR087400_pop */
+.mt10 {margin-top: 10px;}
+
+
+.useinfo .box_bul .bul_list02.type_01 li,
+.useinfo .box_bul .bul_list02.type_01 li ul li {font-family:'YouandiNewKr'; font-weight: 600;}
+
+/* 카드신청 17단계 - 신청정보 확인 */
+.card_app.radius_none {border-radius: inherit;}
+.txt_break {word-break: break-word;}
+
+/* MOCAR008110 - 카드비교하기 */
+.comp_card_info ul { word-break: break-all; }

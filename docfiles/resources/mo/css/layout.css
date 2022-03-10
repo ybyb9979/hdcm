@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+/*2022-01-11 ios bounce 문제로 fixed형태로 header 변경*/
+header{ height:48px;position:fixed;left:0;top:0;width:100%;z-index:999;}
+.mo_card header{position:relative;}
+#wrap{padding-top:48px;}
+#wrap.mo_card{padding-top:0;}
+#bandBannerCms{margin-top:-48px}
+
+.wrap { min-height:100%; } /* 2021-11-28 Q10071: min-height 추가 */
+/* 2021-08-30 Q10112 : header 추가 */
+.header{position:relative; z-index:999; width:100%; background-color:#fff;}
+.header h1{text-align:center;}
+.header h1:not(.a11y) {padding:0 58px; height:48px;}
+.header h1 .tit{overflow:hidden; display:inline-block; max-width:calc(100vw - 116px); padding:13px 0; text-overflow:ellipsis; white-space:nowrap;}
+.header h1 .tit .date{margin-right:4px;} /* 2021-12-01 Q10112 : 날짜영역 추가 */
+.header h1 .logo{display:block; height:100%; background:url(/docfiles/publish/resources/mo/images/com/logo/logo_black.png) no-repeat 50% 50%; background-size:118px 24px;}
+.header .btn_Menu{position:absolute; top:8px; left:16px; width:32px; height:32px; background-color:#000; background-size:32px 32px; mask-image:url(/docfiles/publish/resources/mo/images/com/icon/w32/ico_menu.svg); -webkit-mask-image:url(/docfiles/publish/resources/mo/images/com/icon/w32/ico_menu.svg);}
+.header .btn_prev{position:absolute; top:8px; left:8px; width:32px; height:32px; background:url(/docfiles/publish/resources/mo/images/com/icon/w32/ico_arrowB_back.png) no-repeat 50% 50%; background-size:32px 32px;}
+.header .btn_close{position:absolute; top:8px; right:8px; width:32px; height:32px; background:url(/docfiles/publish/resources/mo/images/com/icon/w32/ico_x_b.png) no-repeat 50% 50%; background-size:32px 32px;}
+.header .btn_custom{position:absolute; top:8px; right:8px; width:32px; height:32px; background-color:#fff; border:1px solid rgba(0,0,0,0.64); border-radius:100%; overflow:hidden;}
+.header .btn_custom img{width:32px;}
+.fixed .header{position:fixed; top:0; right:0; left:0; border-bottom:1px solid rgba(0,0,0,0.12);} /* Q10048 211001 라인 추가 */
+
+/* progress */
+.header .bar {position:relative;background:#fff;width:100%;height:4px;border-radius:16px;margin:0 auto;}
+.header .navi {position:absolute;display:block;left:0;top:0;background:#000;height:4px;border-radius:16px;}
+.header .bar_container {width:calc(100% - 44px);height:48px;padding:22px 0 22px 44px;}
+
+.sub_container { padding-bottom:64px; min-height:100%; } /* 2021-11-28 Q10071: min-height 추가 */
+.sub_common_certi .content { padding:24px 24px 0;}
+.sub_footer { height:64px; }
+
+/* 주소 검색 */
+.sub_find_address .content { padding:24px 24px 0; }
+.sub_find_address .sch_result { margin-top:24px; }
+.sub_find_address .sch_result [class^="p1_"] + [class^="p2_"] { margin-top:12px; }
+.sub_find_address .detail_wrap { padding-top:18px; padding-bottom:17px; display:flex; display:-webkit-flex; flex-direction:column; border-bottom:1px solid rgba(0, 0, 0, 0.08);}
+.sub_find_address .detail_wrap p + p { margin-top:4px; }
+.sub_find_address .road_name { padding-right:6px; padding-left:6px; border-radius:16px; color:#fff; }
+
+/* popup open */
+.modal-open header[data-header="dropdown"],
+.modal-open header[data-header="cardDtl"],
+.modal-open header.card-detail,
+.modal-open header[data-header="dropdownOpt"] { z-index: 1001 }
+
+/* 전체 메뉴 */
+.menu_pop .home,
+.menu_pop .close {width:32px;height:32px;}
+.menu_pop .home > a,
+.menu_pop .close > a { display:block; width:32px;height:32px;background-color:#000;background-size:100% 100%; }
+.menu_pop .home > a {  mask-image:url(/docfiles/publish/resources/mo/images/com/icon/w32/ico_home.svg); -webkit-mask-image:url(/docfiles/publish/resources/mo/images/com/icon/w32/ico_home.svg); }
+.menu_pop .close > a { mask-image:url(/docfiles/publish/resources/mo/images/com/icon/w32/ico_x.svg); -webkit-mask-image:url(/docfiles/publish/resources/mo/images/com/icon/w32/ico_x.svg); }
+.menu_pop .menu_top{height:64px;position:relative;display:flex;align-items:center;padding:16px;justify-content:space-between;}
+.menu_pop .home img , .menu_pop .close img{display:none}
+.menu_pop{z-index:1005;position:fixed;width:100%;height:100%;top:0;background:#fff;display:none;overflow-y:auto;transform:translateX(-101%);transition:transform .25s}
+.menu_pop.active{transform:translateX(0);transition:transform .25s}
+
+.menu_pop .menu_all,
+.menu_pop .menu_con{overflow-y:auto; position:absolute; z-index:100; top:64px; bottom:0; width:100%; height:100%; padding-bottom:64px; background:#fff;}
+.menu_pop .menu_in{position:relative;padding:11px 24px 20px;}
+.menu_pop .menu_in nav{padding-bottom:48px;border-bottom:1px solid #ebebeb}
+.menu_pop .menu_in nav a{display:block;}
+.menu_pop .menu_in nav a + a{margin-top:44px;}
+.menu_pop .menu_in nav .app{margin-top:16px;}
+.menu_pop .menu_btm{background:rgba(0,0,0,.02);padding:32px 24px;}
+.menu_pop .menu_btm > ul{display:flex;border-bottom:1px solid #ebebeb;padding:24px 0;}
+.menu_pop .menu_btm > ul > li{text-align:center;}
+.menu_pop .menu_btm > ul > li + li{margin-left:34px;}
+.menu_pop .menu_btm > ul > li .img{display:inline-block;width:56px;height:56px;}
+.menu_pop .menu_btm > ul > li .img img{max-width:100%;}
+.menu_pop .other{margin-top:24px;}
+.menu_pop .other a + a{margin-left:16px}
+
+/* 2022-02-04 Q10112 : 메뉴(lnb) 펼쳐졌을때 뒤에 스크롤막기 */
+body.menu-open .menu_pop.active{overflow:hidden;}
+body.menu-open #container{display:none;}
+body.menu-open .menu_pop .menu_top{z-index:100;}
+body.menu-open .menu_pop .lnb_bg{position:absolute; z-index:99; top:0; left:0; width:100%; height:100%;}
+
+.link_customer a{display:block;margin-top:28px;}
+.chat_banner{position:relative;display:block;background:rgba(0,0,0,.08);padding:18px 0 18px 20px;border-radius:8px;margin-top:90px;}
+.chat_banner .textbico_small{background-position:right 95%}
+.chat_box{display:flex;position:absolute;top:15px;right:60px;width:40px;height:24px;background:#fff;border-radius:8px 8px 0 8px;align-items:center;justify-content:center;}
+.chat_box span{display:block;width:4px;height:4px;border-radius:100%;background:#0070f0;margin:0 4px}
+.chat_box:before{content:'';display:block;width:4px;height:4px;border-radius:100%;background:#0070f0;opacity:.3}
+.chat_box:after{content:'';display:block;width:4px;height:4px;border-radius:100%;background:#0070f0;opacity:.6}
+.chat_img{position:absolute;right:0;bottom:0;width:70px;height:80px;}
+.chat_img img{max-width:100%;position:absolute;right:-10px;bottom:0}
+.main_banner .app_in , .menu_in .app_in{display:flex;}
+.main_banner .app_thumb , .menu_in .app_thumb{margin-right:16px;width:48px;height:48px;}
+.menu_in .app_thumb img{width:100%;}
+
+/* APP 3.0 지원 */
+/* .isApp3 .sub_container { padding-top:48px; } 2021-12-16 Q10071: 여백 이슈로 인해 임시 주석처리 */
+/* 2021-12-07 Q10112 : 공통일때 삭제하기 우선 어카운트만 css 재설정함 */
+
+body.modal-open{overflow:hidden;}
+
+/*
+ * Dark Mode
+
+@media (prefers-color-scheme:dark) {
+    .header { background-color:#333; box-shadow:0 16px 20px 0 rgba(0,0,0,0.16); }
+    .header h1 .logo { background-image:url(/docfiles/publish/resources/mo/images/com/logo/logo_white.png)}
+    .header .btn_Menu { background-color:#fff; }
+    .header .btn_prev {background-image:url(/docfiles/publish/resources/mo/images/com/icon/w32/ico_arrowB_back_wht.png) }
+    .header .btn_close { background-image:url(/docfiles/publish/resources/mo/images/com/icon/w32/ico_x_b_wht.png) }
+    .fixed .header{border-bottom-color:rgba(255,255,255,0.12);}
+    .menu_pop,
+    .menu_pop .menu_all, .menu_pop .menu_con { background-color:#333; }
+    .menu_pop .home > a,
+    .menu_pop .close > a { background-color:#fff; }
+    .menu_pop .chat_banner { background-color:rgba(0, 0, 0, 0.16)}
+    .menu_pop .close > a { background-image:url(/docfiles/publish/resources/mo/images/com/icon/w32/ico_x_b_wht.png) }
+}
+*/
