@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>-Icon/32px/Menu</title>
+    <defs>
+        <path d="M25,21.8 C25.6627417,21.8 26.2,22.3372583 26.2,23 C26.2,23.6213203 25.7278003,24.1323525 25.122693,24.1938045 L25,24.2 L7,24.2 C6.3372583,24.2 5.8,23.6627417 5.8,23 C5.8,22.3786797 6.27219968,21.8676475 6.87730697,21.8061955 L7,21.8 L25,21.8 Z M25,14.8 C25.6627417,14.8 26.2,15.3372583 26.2,16 C26.2,16.6213203 25.7278003,17.1323525 25.122693,17.1938045 L25,17.2 L7,17.2 C6.3372583,17.2 5.8,16.6627417 5.8,16 C5.8,15.3786797 6.27219968,14.8676475 6.87730697,14.8061955 L7,14.8 L25,14.8 Z M25,7.8 C25.6627417,7.8 26.2,8.3372583 26.2,9 C26.2,9.62132034 25.7278003,10.1323525 25.122693,10.1938045 L25,10.2 L7,10.2 C6.3372583,10.2 5.8,9.6627417 5.8,9 C5.8,8.37867966 6.27219968,7.86764746 6.87730697,7.80619546 L7,7.8 L25,7.8 Z" id="path-1"></path>
+    </defs>
+    <g id="-Icon/32px/Menu" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="ico_menu" fill-opacity="0" fill="#000000" x="0" y="0" width="32" height="32"></rect>
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Combined-Shape" fill-opacity="0" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+        <g id="Group" mask="url(#mask-2)" fill="#000000">
+            <g id="-Color/Primary/Black">
+                <polygon id="sd_m" points="0 0 17.46875 0 32 0 32 32 0 32"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
