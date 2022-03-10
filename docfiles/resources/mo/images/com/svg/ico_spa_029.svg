@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Space/29_요리</title>
+    <g id="Space/29_요리" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-9" transform="translate(9.133000, 14.125000)">
+            <path d="M3.6356,23.9995 L34.3636,23.9995 L34.3636,21.3635 C34.3636,12.8915 27.4716,5.9995 18.9996,5.9995 C10.5286,5.9995 3.6356,12.8915 3.6356,21.3635 L3.6356,23.9995 Z M35.3636,25.9995 L2.6356,25.9995 C2.0826,25.9995 1.6356,25.5515 1.6356,24.9995 L1.6356,21.3635 C1.6356,11.7895 9.4256,3.9995 18.9996,3.9995 C28.5736,3.9995 36.3636,11.7895 36.3636,21.3635 L36.3636,24.9995 C36.3636,25.5515 35.9156,25.9995 35.3636,25.9995 L35.3636,25.9995 Z" id="Fill-3" fill="#000000"></path>
+            <polygon id="Fill-5" fill="#000000" points="16 2 22 2 22 0 16 0"></polygon>
+            <polygon id="Fill-7" fill="#000000" points="18 5 20 5 20 1 18 1"></polygon>
+            <polygon id="Fill-8" fill="#231916" points="0 26 38 26 38 24 0 24"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>CardProduct/11_특화카드</title>
+    <g id="CardProduct/11_특화카드" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M23,49.612 L41,49.612 L41,18.884 L23,18.884 L23,49.612 Z M42,51.612 L22,51.612 C21.448,51.612 21,51.164 21,50.612 L21,17.884 C21,17.332 21.448,16.884 22,16.884 L42,16.884 C42.552,16.884 43,17.332 43,17.884 L43,50.612 C43,51.164 42.552,51.612 42,51.612 L42,51.612 Z" id="Fill-3" fill="#000000"></path>
+        <polygon id="Fill-5" fill="#000000" points="30.875 25.157 33.125 25.157 33.125 21.521 30.875 21.521"></polygon>
+        <polygon id="Fill-6" fill="#000000" points="31 12.997 33 12.997 33 8 31 8"></polygon>
+        <polygon id="Fill-7" fill="#000000" points="39.707 14.7026 38.293 13.2886 41.826 9.7556 43.24 11.1696"></polygon>
+        <polygon id="Fill-8" fill="#000000" points="24.293 14.7026 20.76 11.1696 22.174 9.7556 25.707 13.2886"></polygon>
+    </g>
+</svg>
